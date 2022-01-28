@@ -1,0 +1,140 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');
+/* not working */
+@import url('/CSS/home.css');
+
+/********** sidebar **************/
+
+.drawer {
+    width: 18vw;
+    overflow: scroll;
+    min-height: inherit;
+    position: absolute;
+    background: white;
+    visibility: hidden;
+    overflow: scroll;
+}
+
+.title {
+    height: 8vh;
+    background: #000;
+    color: white;
+    display: flex;
+}
+
+.drawerHeading {
+    margin: auto;
+    cursor: pointer;
+}
+
+.textDrawer {
+    margin: 0 1rem;
+}
+
+.sideBar {
+    height: 6vh;
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.sideBar:hover {
+    background: var(--primary-color);
+}
+
+a {
+    color: rgb(13, 13, 112);
+    text-decoration: none;
+}
+
+/******** Main body **************/
+
+.badge--container {
+    margin: 10vh 0 0 0;
+}
+
+.each__badge {
+    min-height: 18vh;
+    margin-top: 5rem;
+    font-size: 3rem;
+}
+
+.badge {
+    left: 6.5rem;
+    top: -1.5rem;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    padding: 0.2rem 0.8rem;
+    font-size: 2rem;
+}
+
+
+/*  small text badge  */
+
+.small-text-Badge{
+    position: relative;
+}
+
+.txt-badge {
+    position: absolute;
+}
+
+/*  plain button badge  */
+
+.plain-button-Badge {
+    position: relative;
+}
+
+.plain__btn {
+    font-size: 3rem;
+    padding: 0.5rem;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+.btn-badge {
+    position: absolute;
+}
+
+/*  toggle button badge  */
+
+.toggle-button-Badge  {
+    position: relative;
+}
+
+.toggle__Button {
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color:crimson;
+}
+
+.hideBadge {
+    position: absolute;
+}
+
+/* icon badge */
+
+.icon-Badge {
+    position: relative;
+}
+
+.envelop {
+    position: absolute;
+}
+
+/* common */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}

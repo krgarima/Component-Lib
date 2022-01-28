@@ -48,3 +48,70 @@
     color: rgb(13, 13, 112);
     text-decoration: none;
   }
+
+/******** Main body **************/
+
+/******** Avatar *******/
+
+.avatar--container {
+  margin: 10vh 0 0 0;
+}
+
+/* image */
+.avatar__img {
+    border-radius: 50%;
+}
+.avatar__img--sm {
+    height: 5rem;
+    width: 5rem;
+}
+.avatar__img--md {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+.avatar__img--lg {
+    height: 10rem;
+    width: 10rem;
+}
+
+/* letter */
+.avatar__letter{
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+}
+.avatar__ltr--sm{
+  height: 5rem;
+  width: 5rem;
+  font-size: 4.5rem;
+  background-color: skyblue;
+}
+.avatar__ltr--md{
+  height: 7.5rem;
+  width: 7.5rem;
+  font-size: 7rem;
+  background-color: lightgreen;
+}
+.avatar__ltr--lg{
+  height: 10rem;
+  width: 10rem;
+  font-size: 9rem;
+  background-color: red;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-direction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* 
+iframe {
+  z-index: 0;
+} */
