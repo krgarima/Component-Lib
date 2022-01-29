@@ -71,6 +71,7 @@ a {
     color: white;
     padding: 0.2rem 0.8rem;
     font-size: 2rem;
+    z-index: 0;
 }
 
 
@@ -80,8 +81,11 @@ a {
     position: relative;
 }
 
+.navBar {
+  z-index: 10;
+}
 .txt-badge {
-    position: absolute;
+  position: absolute;
 }
 
 /*  plain button badge  */
@@ -99,6 +103,8 @@ a {
 
 .btn-badge {
     position: absolute;
+  z-index: 0;
+
 }
 
 /*  toggle button badge  */
