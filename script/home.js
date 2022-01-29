@@ -16,4 +16,3 @@ function closeModalDrawerFn() {
 }
 
 hamburgerMenuModal.addEventListener("click", openModalDrawer);
-// closeModalDrawer.addEventListener("mousedown", closeModalDrawerFn);

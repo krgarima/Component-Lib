@@ -1,0 +1,173 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');    /* not working */
+@import url('/CSS/home.css');
+
+/********** sidebar **************/
+
+.drawer {
+    width: 18vw;
+    overflow: scroll;
+    min-height: inherit;
+    position: fixed;
+    background: white;
+    visibility: hidden;
+    overflow: scroll;
+  }
+  
+  .title {
+    height: 8vh;
+    background: #000;
+    color: white;
+    display: flex;
+  }
+  
+  .drawerHeading {
+    margin: auto;
+    cursor: pointer;
+  }
+  
+  .textDrawer {
+    margin: 0 1rem;
+  }
+  
+  .sideBar {
+    height: 6vh;
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+  }
+  
+  .sideBar:hover {
+    background: var(--primary-color);
+  }
+  
+  a {
+    color: rgb(13, 13, 112);
+    text-decoration: none;
+  }
+
+/******** Main body **************/
+
+/******** Avatar *******/
+
+.avatar--container {
+  margin: 10vh;
+  width: 70vw;
+}
+
+/* image */
+.avatar__img {
+    border-radius: 50%;
+}
+.avatar__img--sm {
+    height: 5rem;
+    width: 5rem;
+}
+.avatar__img--md {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+.avatar__img--lg {
+    height: 10rem;
+    width: 10rem;
+}
+
+/* letter */
+.avatar__letter{
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+}
+.avatar__ltr--sm{
+  height: 5rem;
+  width: 5rem;
+  font-size: 4.5rem;
+  background-color: skyblue;
+}
+.avatar__ltr--md{
+  height: 7.5rem;
+  width: 7.5rem;
+  font-size: 7rem;
+  background-color: lightgreen;
+}
+.avatar__ltr--lg{
+  height: 10rem;
+  width: 10rem;
+  font-size: 9rem;
+  background-color: red;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-direction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* footer */
+
+.nav_btn {
+  background: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+/* common */
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.h-4 {
+  font-size: 4rem;
+}
+.h-2 {
+  font-size: 2rem;
+}
+.h-1h {
+  font-size: 1.5rem;
+}
+
+.b-2 {
+  border: 2px solid gray;
+}
+
+.m-a{
+  margin: auto;
+}
+.mt2-mb6 {
+  margin: 3vh 0 6vh 0;
+}
+.mv-4 {
+  margin: 4vh 0;
+}
+.m-4 {
+  margin: 4vh;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.fw-1 {
+  font-weight:bolder;
+}
+
+.gray {
+  color: gray;
+}
+
