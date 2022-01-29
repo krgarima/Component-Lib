@@ -9,7 +9,7 @@
     width: 18vw;
     overflow: scroll;
     min-height: inherit;
-    position: absolute;
+    position: fixed;
     background: white;
     visibility: hidden;
     overflow: scroll;
@@ -53,7 +53,8 @@ a {
 /******** Main body **************/
 
 .badge--container {
-    margin: 10vh 0 0 0;
+    margin: 10vh;
+    width: 70vw;
 }
 
 .each__badge {
@@ -123,9 +124,19 @@ a {
     position: relative;
 }
 
-.envelop {
-    position: absolute;
+.btn-badge {
+  position: absolute;
+  left: 5.8rem;
+  top: -1.5rem;
 }
+
+/* footer */
+
+.nav_btn {
+    background: whitesmoke;
+    border: none;
+    cursor: pointer;
+  }
 
 /* common */
 
@@ -138,3 +149,44 @@ a {
 button {
     cursor: pointer;
 }
+
+.h-4 {
+    font-size: 4rem;
+  }
+  .h-2 {
+    font-size: 2rem;
+  }
+  .h-1h {
+    font-size: 1.5rem;
+  }
+  
+  .b-2 {
+    border: 2px dotted gray;
+  }
+  
+  .mt2-mb6 {
+    margin: 3vh 0 6vh 0;
+  }
+  .mv-4 {
+    margin: 4vh 0;
+  }
+  .m-4 {
+    margin: 4vh;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .br-5 {
+    border-radius: 5px;
+  }
+  
+  .fw-1 {
+    font-weight:bolder;
+  }
+  
+  .gray {
+    color: gray;
+  }
+  
