@@ -11,11 +11,10 @@
     <title>Avatar page</title>
 </head>
 
-<body>
-    <header></header>
-    <main>
+<body>    
         <div class="Container parentContainer" id="modalDrawerMainBody">
 
+            <header>
             <div class="navBar space-between">
                 <div class="nav-left space-evenly">
                     <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
@@ -26,10 +25,13 @@
                     <h3 class="m-r-4"><a href="/home.html">Documentation</a></h3>
                 </div>
             </div>
+        </header>
 
+        <main>
             <div class="drawer" id="modalDrawer">
                 <div class="title">
                     <h2 class="drawerHeading">Menu</h2>
+                    <i class="fas fa-times close" id="close"></i>
                 </div>
                 <div class="sideBar">
                     <a href="/Components/Alert/alert.html">Alert</a>
@@ -125,10 +127,10 @@
                     </iframe>
                 </div>
             </div>
-            
+        </main>    
             
         </div>
-    </main>
+    
     <footer class="space-between">
         <button class="nav_btn prev_page fw-1 m-4 p-1"><a href="/Components/Alert/alert.html">&lt; Alert</a></button>
         <button class="nav_btn next_page fw-1 m-4 p-1"><a href="/Components/Badge/badge.html">Badge &gt;</a></button>
