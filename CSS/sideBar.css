@@ -1,8 +1,8 @@
 .drawer {
     width: 18vw;
     overflow: scroll;
-    min-height: inherit;
-    position: absolute;
+    min-height: 100vh;
+    position: fixed;
     background: white;
     visibility: hidden;
     overflow: scroll;

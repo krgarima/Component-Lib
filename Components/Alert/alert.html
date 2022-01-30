@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Components/Alert/alert.css">
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+
+    <title>Alert page</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="Container parentContainer" id="modalDrawerMainBody">
+
+            <div class="navBar space-between">
+                <div class="nav-left space-evenly">
+                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+                    <h3 class="m-r-4">Modal Drawer</h3>
+                </div>
+                <div class="nav-right space-evenly">
+                    <h3 class="m-r-4"><a href="/index.html">Get Started</a></h3>
+                    <h3 class="m-r-4"><a href="/home.html">Documentation</a></h3>
+                </div>
+            </div>
+
+            <div class="drawer" id="modalDrawer">
+                <div class="title">
+                    <h2 class="drawerHeading">Menu</h2>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Alert/alert.html">Alert</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Avatar/avatar.html">Avatar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Badge/badge.html">Badge</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Button/button.html">Button</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Grid/grid.html">Grids</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Image/image.html">Images</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Input/input.html">Input</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Lists/lists.html">Lists</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Modal/modal.html">Modal</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Navigation/navigation.html">Navigation</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Rating/rating.html">Rating</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Slider/slider.html">Slider</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
+                </div>
+            </div>
+
+            <div class="alert--container ">
+                <h1 class="h-4">Alert</h1>
+                <p class="h-1h gray">An alert displays a short, important message in a way that attracts the user's
+                    attention without interrupting the user's task. </p>
+
+                <h2 class="h-2 mv-4">1) Simple Alert</h2>
+                <p class="h-1h gray">Simple Alerts can be created using alert class, followed by the variant name. </p>
+
+                <div class="alerts simple--alerts mv-8">
+                    <div class="alert simple--primary h-1h mv-2 br-5">
+                        <strong class="p-1">Primary!</strong> This is a Primary Alert - Check it now!
+                    </div>
+
+                    <div class="alert simple--error h-1h mv-2 br-5">
+                        <strong class="p-1">Error!</strong> This is an Error Alert - Check it now!
+                    </div>
+
+                    <div class="alert simple--success h-1h mv-2 br-5">
+                        <strong class="p-1">Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+
+                    <div class="alert simple--warning h-1h mv-2 br-5">
+                        <strong class="p-1">Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+
+                <iframe class="mt2-mb6"
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520simple--primary%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520simple--error%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520simple--success%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520simple--warning%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                    style="width: 846px; height: 482px; border:0; overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">2) Outlined Alert</h2>
+                <p class="h-1h gray">Simple Alerts can be created using alert class, followed by the variant name. </p>
+
+                <div class="alerts outlined--alerts mv-8">
+                    <div class="alert outlined--primary h-1h mv-2 br-5">
+                        <strong class="p-1">Primary!</strong> This is a Primary Alert - Check it now!
+                    </div>
+
+                    <div class="alert outlined--error h-1h mv-2 br-5">
+                        <strong class="p-1">Error!</strong> This is an Error Alert - Check it now!
+                    </div>
+
+                    <div class="alert outlined--success h-1h mv-2 br-5">
+                        <strong class="p-1">Success!</strong> This is a Success Alert - Check it now!
+                    </div>
+
+                    <div class="alert outlined--warning h-1h mv-2 br-5">
+                        <strong class="p-1">Warning!</strong> This is a Warning Alert - Check it now!
+                    </div>
+                </div>
+
+                <iframe class="mt2-mb6"
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outlined--primary%2522%253E%250A%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outlined--error%2522%253E%250A%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outlined--success%2522%253E%250A%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outlined--warning%2522%253E%250A%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
+                    style="width: 737px; height: 482px; border:0; overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">3) Actions</h2>
+                <p class="h-1h gray">An alert can have an action, such as a close or undo button. It is rendered after
+                    the message, at the end of the alert. </p>
+
+                <div class="alerts action--alerts mv-8">
+                    <div class="alert action action--close space-between h-1h mv-2 br-5">
+                        <div><i class="far fa-check-circle p-1"></i>This is a success alert — check it out!</div>
+                        <div><i class="fas fa-times mr-1 p-1"></i></div>
+                    </div>
+
+                    <div class="alert action action--undo space-between h-1h mv-2 br-5">
+                        <div><i class="far fa-check-circle p-1"></i>This is a success alert — check it out! </div>
+                        <div><button class="undo mr-1 p-1">UNDO</button></div>
+                    </div>
+                </div>
+
+                <iframe class="mt2-mb6"
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520action%2520action--close%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520action%2520action--undo%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%2520%253Cbutton%2520class%253D%2522undo%2522%253EUNDO%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 1024px; height: 362px; border:0; overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+
+                <h2 class="h-2 mv-4">4) Transition</h2>
+                <p class="h-1h gray">You can use a transition component such as Collapse to transition the appearance of
+                    the alert. </p>
+
+                <div class="alerts transition--alerts mv-6">
+                    <div class="alert action action--close space-between h-1h mv-2 br-5" id="closeMe">
+                        <div><i class="far fa-check-circle p-1"></i>Close me!</div>
+                        <div><i class="fas fa-times mr-1 p-1"></i></div>
+                    </div>
+                    <button class="closeBtn p-1 br-5">RE-OPEN</button>
+                </div>
+
+                <iframe class="mt2-mb6"
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520action%2520action--close%2520space-between%2520h-1h%2520mv-2%2520br-5%2522%2520id%253D%2522closeMe%2522%253E%250A%253Cdiv%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2520p-1%2522%253E%253C%252Fi%253EClose%2520me%21%253C%252Fdiv%253E%250A%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520mr-1%2520p-1%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522closeBtn%2520p-1%2520br-5%2522%253ERE-OPEN%253C%252Fbutton%253E"
+                    style="width: 890px; height: 282px; border:0; overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>                
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="space-between">
+        <button class="nav_btn prev_page fw-1 m-4 p-1"><a href="/home.html">&lt; Home</a></button>
+        <button class="nav_btn next_page fw-1 m-4 p-1"><a href="/Components/Avatar/avatar.html">Avatar &gt;</a></button>
+    </footer>
+    <script src="/script/home.js"></script>
+</body>
+
+</html>
