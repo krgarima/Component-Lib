@@ -15,7 +15,7 @@
 
 .alert {
     height: 8vh;
-    width: 50vw;
+    width: 55vw;
     display: flex;
     align-items: center;
     /* border: 1px solid white; */
@@ -110,6 +110,7 @@
 .center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 

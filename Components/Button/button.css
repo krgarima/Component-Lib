@@ -1,0 +1,185 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css'); /* not working */
+@import url('/CSS/home.css');
+
+/*********** BUTTON ************/
+
+.button__container {
+    margin: 10vh;
+    width: 70vw;
+    margin-top: 15vh;
+}
+
+/* button */
+
+.button__box {
+    min-height: 8vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+}
+
+/* solid button */
+
+.btn__solid {
+    color: white;
+    border: none;
+}
+
+.btn__solid--primary {
+    background: orange;
+}
+
+.btn__solid--secondary {
+    background: lightgreen;
+}
+
+.btn__solid--danger {
+    background: red;
+}
+
+/* outlined buttons */
+
+.btn__outline {
+    background-color: white;
+}
+
+.btn__outline--primary {
+    color: orange;
+    border: 1px solid orange;
+}
+
+.btn__outline--secondary {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.btn__outline--danger {
+    color: red;
+    border: 1px solid red;
+}
+
+
+/* icon button */
+
+.btn__icon {
+    color: white;
+    border: none;
+}
+
+.btn__icon--primary {
+    background: orange;
+}
+
+.btn__icon--secondary {
+    background: lightgreen;
+}
+
+.btn__icon--danger {
+    background: red;
+}
+
+
+/* link button */
+
+.btn__link {
+    border: none;
+    background-color: red;
+}
+.btn__link:hover {
+    text-decoration: underline;
+}
+
+/* footer */
+
+.nav_btn {
+    background: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 500px) {
+    .drawer {
+        width: 60vw;
+    }
+}
+
+/* common */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.h-4 {
+    font-size: 4rem;
+}
+
+.h-2 {
+    font-size: 2rem;
+}
+
+.h-1h {
+    font-size: 1.5rem;
+}
+
+.b-2 {
+    border: 2px solid gray;
+}
+
+.m-a {
+    margin: auto;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+
+}
+.mv-2 {
+    margin: 2vh 0;
+}
+
+.mt2-mb6 {
+    margin: 3vh 0 6vh 0;
+}
+
+.mv-4 {
+    margin: 4vh 0;
+}
+.mv-6 {
+    margin: 6vh 0;
+}
+.mv-8 {
+    margin: 8vh;
+}
+
+.m-4 {
+    margin: 4vh;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+.p24 {
+    padding: 2rem 4rem;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.fw-1 {
+    font-weight: bolder;
+}
+
+.gray {
+    color: gray;
+}
