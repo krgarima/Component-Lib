@@ -15,6 +15,7 @@
 /* image */
 .avatar__img {
     border-radius: 50%;
+    object-fit: cover;
 }
 .avatar__img--sm {
     height: 5rem;
