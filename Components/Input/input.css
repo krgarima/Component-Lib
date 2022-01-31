@@ -41,7 +41,7 @@
 
 /****** mobile version  *****/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
     .drawer {
         width: 60vw;
     }
