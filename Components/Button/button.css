@@ -90,6 +90,21 @@
     text-decoration: underline;
 }
 
+
+/* link button */
+
+.btn__float {
+    border: none;
+    background-color: blue;
+    border-radius: 50%;
+    height: 13vh;
+    color: white;
+    box-shadow:  0 6px 6px 0 gray;
+}
+.btn__float:hover {
+    text-decoration: underline;
+}
+
 /* footer */
 
 .nav_btn {
