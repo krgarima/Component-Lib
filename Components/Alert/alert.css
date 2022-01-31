@@ -1,0 +1,181 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');
+/* not working */
+@import url('/CSS/home.css');
+
+/*********** alert ************/
+
+.alert--container {
+    margin: 10vh;
+    width: 70vw;
+    margin-top: 15vh;
+}
+
+/* alerts */
+
+.alert {
+    height: 8vh;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+
+/* simple alert */
+
+.simple--alerts {
+    color: white;
+}
+
+.simple--primary {
+    background: blue;
+}
+
+.simple--error {
+    background: red;
+}
+
+.simple--success {
+    background: lightgreen;
+}
+
+.simple--warning {
+    background: orange;
+}
+
+/* outlined alert */
+
+.outlined--alerts {
+    color: white;
+}
+
+.outlined--primary {
+    color: blue;
+    border: 1px solid blue;
+}
+
+.outlined--error {
+    color: red;
+    border: 1px solid red;
+}
+
+.outlined--success {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+}
+
+.outlined--warning {
+    color: orange;
+    border: 1px solid orange;
+}
+
+/* action alerts */
+
+.action {
+    border: 1px solid black;
+    background-color: rgb(227, 252, 227);
+}
+.undo {
+    border: none;
+    background-color: rgb(227, 252, 227);
+}
+
+/* transition */
+
+.closeBtn {
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.nav_btn {
+    background: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 500px) {
+    .drawer {
+        width: 60vw;
+    }
+}
+
+/* common */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.h-4 {
+    font-size: 4rem;
+}
+
+.h-2 {
+    font-size: 2rem;
+}
+
+.h-1h {
+    font-size: 1.5rem;
+}
+
+.b-2 {
+    border: 2px solid gray;
+}
+
+.m-a {
+    margin: auto;
+}
+
+.mr-1 {
+    margin-right: 1rem;
+
+}
+.mv-2 {
+    margin: 2vh 0;
+}
+
+.mt2-mb6 {
+    margin: 3vh 0 6vh 0;
+}
+
+.mv-4 {
+    margin: 4vh 0;
+}
+.mv-6 {
+    margin: 6vh 0;
+}
+.mv-8 {
+    margin: 8vh;
+}
+
+.m-4 {
+    margin: 4vh;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.fw-1 {
+    font-weight: bolder;
+}
+
+.gray {
+    color: gray;
+}

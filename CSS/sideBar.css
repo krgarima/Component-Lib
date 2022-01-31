@@ -2,7 +2,7 @@
     width: 18vw;
     overflow: scroll;
     min-height: 100vh;
-    position: absolute;
+    position: fixed;
     background: white;
     visibility: hidden;
     overflow: scroll;
