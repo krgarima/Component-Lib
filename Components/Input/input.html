@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Components/Input/input.css">
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+
+    <title>Input page</title>
+</head>
+
+<body>
+
+    <div class="Container parentContainer" id="modalDrawerMainBody">
+
+        <header>
+            <div class="navBar space-between">
+                <div class="nav-left space-evenly">
+                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+                    <h3 class="m-r-4">Modal Drawer</h3>
+                </div>
+                <div class="nav-right space-evenly">
+                    <h3 class="m-r-4"><a href="/index.html">Get Started</a></h3>
+                    <h3 class="m-r-4"><a href="/home.html">Documentation</a></h3>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="drawer" id="modalDrawer">
+                <div class="title">
+                    <h2 class="drawerHeading">Menu</h2>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Alert/alert.html">Alert</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Avatar/avatar.html">Avatar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Badge/badge.html">Badge</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Button/button.html">Button</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Card/card.html">Card</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Grid/grid.html">Grids</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Image/image.html">Images</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Input/input.html">Input</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Lists/lists.html">Lists</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Modal/modal.html">Modal</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Navigation/navigation.html">Navigation</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Rating/rating.html">Rating</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Slider/slider.html">Slider</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
+                </div>
+            </div>
+
+            <div class="input--container">
+
+                <h1 class="h-4">Input</h1>
+                <p class="h-1h gray">Inputs are necessary for user interaction with the website. Inputs are used to take
+                    information from the user, and then save the data to the server, accordingly. </p>
+
+                <h2 class="h-2 mv-4">1)Label Inputs </h2>
+                <p class="h-1h gray">Label Input has a label present at the top of the input field. They can be
+                    customized to show error error-message, and change color accordingly. </p>
+
+                <div class="input label--inputs mv-8">
+                    <div class="input--group h-1h mv-2">
+                        <label for="input__username">*Username : </label>
+                        <input type="text" id="input__username">
+                    </div>
+
+                    <div class="input--group error h-1h mv-2">
+                        <label for="input__password">*Password : </label>
+                        <input type="text" id="input__password">
+                        <div class="error--msg">
+                            Wrong Password. Try again!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input__iFrame center">
+                    <iframe class="mt2-mb6"
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520label--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input--group%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522input__username%2522%253EUsername%2520*%253C%252Flabel%253E%2509%2509%2509%2509%2509%2509%250A%2509%2509%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522input__username%2522%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input--group%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522input__password%2522%253EPassword%2520*%253C%252Flabel%253E%2509%2509%2509%2509%2509%2509%250A%2509%2509%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522input__password%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522error-msg%2522%253E%250A%2509%2509%2509%2509Wrong%2520Password.%2520Try%2520again.%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 837px; height: 462px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <h2 class="h-2 mv-4">2) Radio </h2>
+                <p class="h-1h gray">Radio buttons allow the user to select one option from a set. </p>
+
+                <div class="input radio--inputs mv-8">
+                    <div class="radio h-1h mv-2">
+                        <label for="radio-1">
+                            <input id="radio-1" name="radio" type="radio" checked>
+                            Checked
+                        </label>
+                    </div>
+
+                    <div class="radio h-1h mv-2">
+                        <label for="radio-2">
+                            <input id="radio-2" name="radio" type="radio">
+                            Unchecked
+                        </label>
+                    </div>
+
+                    <div class="radio disabled h-1h mv-2">
+                        <label for="radio-3">
+                            <input id="radio-3" name="radio" type="radio" disabled>
+                            Disabled
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="input__iFrame center">
+                    <iframe class="mt2-mb6"
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520radio--inputs%2520mv-8%2522%253E%250A%2509%253Cdiv%2520class%253D%2522radio%2520h-1h%2520mv-2%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2509%2509%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%253E%250A%2509%2509%2509Checked%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522radio%2520h-1h%2520mv-2%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522radio-2%2522%253E%250A%2509%2509%253Cinput%2520id%253D%2522radio-2%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%253E%250A%2509%2509%2509Unchecked%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522radio%2520disabled%2520h-1h%2520mv-2%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522radio-3%2522%253E%250A%2509%2509%253Cinput%2520id%253D%2522radio-3%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520disabled%253E%250A%2509%2509%2509Disabled%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 719px; height: 621px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
+                <h2 class="h-2 mv-4">3) Checkbox</h2>
+                <p class="h-1h gray">Checkboxes allow the user to select one or more items from a set. Checkboxes can be
+                    used to turn an option on or off. </p>
+
+                <div class="input checkbox--inputs mv-8">
+                    <div class="checkbox h-1h mv-2">
+                        <label for="checkbox-1">
+                            <input id="checkbox-1" name="checkbox" type="checkbox" checked>
+                            Checked
+                        </label>
+                    </div>
+
+                    <div class="checkbox h-1h mv-2">
+                        <label for="checkbox-2">
+                            <input id="checkbox-2" name="checkbox" type="checkbox">
+                            Unchecked
+                        </label>
+                    </div>
+
+                    <div class="checkbox disabled h-1h mv-2">
+                        <label for="checkbox-3">
+                            <input id="checkbox-3" name="checkbox" type="checkbox" disabled>
+                            Disabled
+                        </label>
+                    </div>
+                </div>
+
+                <div class="input__iFrame center">
+                    <iframe class="mt2-mb6"
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520checkbox--inputs%2520mv-8%2522%253E%250A%2509%253Cdiv%2520class%253D%2522checkbox%2520h-1h%2520mv-2%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522checkbox-1%2522%253E%250A%2509%2509%253Cinput%2520id%253D%2522checkbox-1%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2509%2509%2509Checked%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522checkbox%2520h-1h%2520mv-2%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522checkbox-2%2522%253E%250A%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%253E%250A%2509%2509%2509%2509Unchecked%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522checkbox%2520disabled%2520h-1h%2520mv-2%2522%253E%250A%2509%2509%253Clabel%2520for%253D%2522checkbox-3%2522%253E%250A%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-3%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2509%2509%2509%2509Disabled%250A%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 837px; height: 621px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <footer class="space-between">
+        <button class="nav_btn prev_page fw-1 m-4 p-1"><a href="/home.html">&lt; Home</a></button>
+        <button class="nav_btn next_page fw-1 m-4 p-1"><a href="/Components/Avatar/avatar.html">Avatar &gt;</a></button>
+    </footer>
+    <script src="/script/home.js"></script>
+</body>
+
+</html>

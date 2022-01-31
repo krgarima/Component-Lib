@@ -1,0 +1,113 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');  
+@import url('/CSS/home.css');
+@import url('/CSS/reset.css');
+
+/******** Main body **************/
+
+/******** Images *******/
+
+.image--container {
+  margin: 10vh;
+  width: 70vw;
+}
+
+/* Square image */
+.square__img {
+    margin: 1rem;
+}
+.square__img--sm {
+    height: 5rem;
+    width: 5rem;
+}
+.square__img--md {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+.square__img--lg {
+    height: 10rem;
+    width: 10rem;
+}
+
+
+/* Round image */
+.round__img {
+    border-radius: 50%;
+    margin: 1rem;
+}
+.round__img--sm {
+    height: 5rem;
+    width: 5rem;
+}
+.round__img--md {
+    height: 7.5rem;
+    width: 7.5rem;
+}
+.round__img--lg {
+    height: 10rem;
+    width: 10rem;
+}
+
+/* Responsive image */
+.responsive__img {
+    margin: 1rem;
+    height: 50vh;
+    width: 50vw;
+}
+
+
+/* common */
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+  }
+  
+  .h-4 {
+    font-size: 4rem;
+  }
+  .h-2 {
+    font-size: 2rem;
+  }
+  .h-1h {
+    font-size: 1.5rem;
+  }
+  
+  .b-2 {
+    border: 2px solid gray;
+  }
+  
+  .m-a{
+    margin: auto;
+  }
+  .mt2-mb6 {
+    margin: 3vh 0 6vh 0;
+  }
+  .mv-4 {
+    margin: 4vh 0;
+  }
+  .m-4 {
+    margin: 4vh;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .br-5 {
+    border-radius: 5px;
+  }
+  
+  .fw-1 {
+    font-weight:bolder;
+  }
+  
+  .gray {
+    color: gray;
+  }
+  
+  
