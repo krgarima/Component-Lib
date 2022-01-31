@@ -10,6 +10,7 @@
 .image--container {
   margin: 10vh;
   width: 70vw;
+  margin-top: 15vh;
 }
 
 /* Square image */
@@ -109,5 +110,17 @@
   .gray {
     color: gray;
   }
+
+  /* mobile mode */
   
-  
+  @media only screen and (max-width: 500px) {
+    .drawer {
+        width: 60vw;
+    }
+    html {
+        font-size: 0.5rem;
+    }
+    .input--container {
+        margin: 10vh 7vh;
+    }
+}
