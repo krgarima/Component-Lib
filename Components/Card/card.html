@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Components/Card/card.css">
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+
+    <title>card page</title>
+</head>
+
+<body>
+    <div class="Container parentContainer" id="modalDrawerMainBody">
+
+        <header>
+            <div class="navBar space-between">
+                <div class="nav-left space-evenly">
+                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+                    <h3 class="m-r-4">Modal Drawer</h3>
+                </div>
+                <div class="nav-right space-evenly">
+                    <h3 class="m-r-4"><a href="/index.html">Get Started</a></h3>
+                    <h3 class="m-r-4"><a href="/home.html">Documentation</a></h3>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="drawer" id="modalDrawer">
+                <div class="title">
+                    <h2 class="drawerHeading">Menu</h2>
+                    <i class="fas fa-times close" id="close"></i>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Alert/alert.html">Alert</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Avatar/avatar.html">Avatar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Badge/badge.html">Badge</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Button/button.html">Button</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Card/card.html">Card</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Grid/grid.html">Grids</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Image/image.html">Images</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Input/input.html">Input</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Lists/lists.html">Lists</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Modal/modal.html">Modal</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Navigation/navigation.html">Navigation</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Rating/rating.html">Rating</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Slider/slider.html">Slider</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
+                </div>
+            </div>
+
+
+            <div class="card--container wrap">
+                <h1 class="h-4">Card</h1>
+                <p class="h-1h gray">Cards contain content and actions about a single subject. Cards are surfaces that
+                    display content and actions on a single topic. They should be easy to scan for relevant and
+                    actionable information. Elements, like text and images, should be placed on them in a way that
+                    clearly indicates hierarchy. </p>
+
+
+                <h2 class="h-2 mv-4">1) Vertical card</h2>
+                <section class="vertical-Card">
+                    <div class="card">
+
+                        <div class="heading">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                maiores voluptatibus a corporis mollitia assumenda harum.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522vertical-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 936px; height: 761px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">2) Card with Badge</h2>
+                <section class="badge-Card">
+                    <div class="card">
+                        <div class="badge-on-Card">New</div>
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="heading">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                maiores voluptatibus a corporis mollitia assumenda harum.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522badge-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522badge-on-Card%2522%253ENew%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 936px; height: 761px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">3) Dismissible card</h2>
+                <section class="dismiss-Card">
+                    <div class="card" id="removeDismissibleCard">
+                        <i class="fas fa-times fa-2x dismiss-icon" id="dismissIcon"></i>
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="heading">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                maiores voluptatibus a corporis mollitia assumenda harum.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522dismiss-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%2520id%253D%2522removeDismissibleCard%2522%253E%250A%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-2x%2520dismiss-icon%2522%2520id%253D%2522dismissIcon%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 936px; height: 761px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">5) Text Overlay card</h2>
+                <section class="text-Over-Media-Card">
+                    <div class="card">
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="heading-On-Top">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                maiores voluptatibus a corporis mollitia assumenda harum.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522text-Over-Media-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading-On-Top%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 936px; height: 741px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">4) Text only card</h2>
+                <section class="text-only-Card">
+                    <div class="card">
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="heading">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi animi minus, delectus
+                                architecto illum labore atque aliquid autem optio ex ea perferendis ullam quaerat
+                                similique accusamus aliquam iure hic exercitationem a quis facilis expedita consequatur!
+                                Cum earum, amet sapiente unde iure deleniti incidunt voluptas aut qui ipsam distinctio
+                                dignissimos ducimus.
+                            </p>
+                        </div>
+                        <div class="footer" id="four">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522text-only-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Quasi%2520animi%2520%2509%2509%2509%2509%2509%2509%2509minus%252C%2520delectus%2520architecto%2520illum%2520labore%2520atque%2520aliquid%2520autem%2520optio%2520ex%2520ea%2520%2509%2509%2509%2509%2509%2509perferendis%2520ullam%2520quaerat%2520similique%2520accusamus%2520aliquam%2520iure%2520hic%2520%2509%2509%2509%2509%2509%2509%2509%2509%2509exercitationem%2520a%2520quis%2520facilis%2520expedita%2520consequatur%21%2520Cum%2520earum%252C%2520amet%2520%2509%2509%2509%2509%2509%2509%2509sapiente%2520unde%2520iure%2520deleniti%2520incidunt%2520voluptas%2520aut%2520qui%2520ipsam%2520distinctio%2520dignissimos%2520ducimus.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%2520id%253D%2522four%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 1024px; height: 821px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">6) Only buttons card</h2>
+                <section class="only-Buttons-Card">
+                    <div class="card">
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="heading">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                maiores voluptatibus a corporis mollitia assumenda harum.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons only-Buttons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522only-Buttons-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2520only-Buttons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 936px; height: 741px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">7) Only icons card</h2>
+                <section class="only-Icons-Card">
+                    <div class="card">
+                        <div class="background-Image">
+                            <img src="/images/card_nature.jpg" alt="photo" />
+                        </div>
+                        <div class="heading">
+                            <h2>Our Changing Planet</h2>
+                            <p>by Garima</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                maiores voluptatibus a corporis mollitia assumenda harum.
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <div class="openMark only-Icons">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522only-Icons-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%253Cimg%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522description%2522%253E%250A%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2520only-Icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 936px; height: 741px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+                <h2 class="h-2 mv-4">8) Horizontal Image and text card</h2>
+                <section class="horizontal-Image-Text-Card">
+                    <div class="card">
+                        <div class="container">
+                            <div class="background-Image">
+                                <img class="side-Image" src="/images/card_nature.jpg" alt="photo" />
+                            </div>
+                            <div class="heading">
+                                <h2>Our Changing Planet</h2>
+                                <p>by Garima</p>
+                            </div>
+                            <div class="horizontal-Image-Text-Description">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+                                    maiores voluptatibus a corporis mollitia assumenda harum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="footer">
+                            <div class="openMark">
+                                <span>READ</span>
+                                <span>BOOKMARK</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522horizontal-Image-Text-Card%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522container%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522background-Image%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cimg%2520class%253D%2522side-Image%2522%2520src%253D%2522%252Fimages%252Fcard_nature.jpg%2522%2520alt%253D%2522photo%2522%2520%252F%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522heading%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ch2%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cp%253Eby%2520Garima%253C%252Fp%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522horizontal-Image-Text-Description%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cp%253E%250A%2509%2509%2509%2509%2509%2509%2509%2509Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%252C%2520adipisicing%2520elit.%2520Dolor%250A%2509%2509%2509%2509%2509%2509%2509%2509maiores%2520voluptatibus%2520a%2520corporis%2520mollitia%2520assumenda%2520harum.%250A%2509%2509%2509%2509%2509%2509%2509%253C%252Fp%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%250A%2509%2509%2509%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522openMark%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EREAD%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Cspan%253EBOOKMARK%253C%252Fspan%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522icons%2522%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%2509%2509%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 1017px; height: 801px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="space-between">
+        <button class="nav_btn prev_page fw-1 m-4 p-1"><a href="/Components/Alert/alert.html">&lt; Alert</a></button>
+        <button class="nav_btn next_page fw-1 m-4 p-1"><a href="/Components/Badge/badge.html">Badge &gt;</a></button>
+    </footer>
+    <script src="/script/home.js"></script>
+    <script src="/Components/Card/card.js"></script>
+
+</body>
+
+</html>
