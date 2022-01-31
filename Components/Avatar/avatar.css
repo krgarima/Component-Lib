@@ -1,53 +1,6 @@
 @import url('/CSS/styleGuide.css');
-@import url('/CSS/sideBar.css');    /* not working */
+@import url('/CSS/sideBar.css');  
 @import url('/CSS/home.css');
-
-/********** sidebar **************/
-
-.drawer {
-    width: 18vw;
-    overflow: scroll;
-    min-height: 100vh;
-    position: fixed;
-    background: white;
-    visibility: hidden;
-    overflow: scroll;
-  }
-  
-  .title {
-    height: 8vh;
-    background: #000;
-    color: white;
-    display: flex;
-  }
-  
-  .drawerHeading {
-    margin: auto;
-    cursor: pointer;
-  }
-  
-  .textDrawer {
-    margin: 0 1rem;
-  }
-  
-  .sideBar {
-    height: 6vh;
-    border: 1px solid white;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-  }
-  
-  .sideBar:hover {
-    background: var(--primary-color);
-  }
-  
-  a {
-    color: rgb(13, 13, 112);
-    text-decoration: none;
-  }
 
 /******** Main body **************/
 
