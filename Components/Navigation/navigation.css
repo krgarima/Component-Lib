@@ -232,8 +232,8 @@ span i {
     margin: auto;
 }
 
-.mv-8 {
-    margin: 8vh 0;
+.sp-12 {
+    margin: 12vh 0 20vh 0;
 }
 
 .mt2-mb6 {
@@ -243,7 +243,9 @@ span i {
 .mv-4 {
     margin: 4vh 0;
 }
-
+.mv-8 {
+    margin: 2vh 0 6vh 0;
+}
 .m-4 {
     margin: 4vh;
 }
