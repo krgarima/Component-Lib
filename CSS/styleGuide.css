@@ -20,6 +20,7 @@ h2 {
 :root {
   --primary-color: rgb(0, 212, 202);
   --secondary-color: black;
+  --background-color: rgb(248, 244, 221);
   /* --highlight-color: rgb(0, 212, 202); */
 }
 

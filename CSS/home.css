@@ -4,6 +4,10 @@
 
 /******  main body ************/
 
+body {
+  background-color: var(--background-color);
+}
+
 .navBar {
   height: 8vh;
   width: 100vw;
@@ -18,11 +22,11 @@
 
 .fa-bars {
   margin: 0 2rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .fa-bars:hover {
-  background: var(--primary-color);
+  background: gray;
 }
 
 h3 a{
@@ -32,6 +36,19 @@ h3 a{
 
 h3 a:hover{
   color: var(--primary-color);
+}
+
+
+/* footer */
+
+.nav_btn {
+  background: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+.nav_btn:hover {
+  text-decoration: underline;
 }
 
 /* main page */

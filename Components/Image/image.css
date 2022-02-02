@@ -59,6 +59,14 @@
 }
 
 
+/* footer */
+
+.nav_btn {
+  background: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
 /* common */
 
 .center {

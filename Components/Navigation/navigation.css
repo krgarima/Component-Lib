@@ -13,36 +13,6 @@
     margin-top: 15vh;
 }
 
-/* Square image */
-.square__img {
-    margin: 1rem;
-    object-fit: cover;
-}
-
-.square__img--sm {
-    height: 5rem;
-    width: 5rem;
-}
-
-.square__img--md {
-    height: 7.5rem;
-    width: 7.5rem;
-}
-
-.square__img--lg {
-    height: 10rem;
-    width: 10rem;
-}
-
-
-/* Responsive image */
-.responsive__img {
-    margin: 1rem;
-    height: 50vh;
-    width: 50vw;
-}
-
-
 /********************************************* NAVIGATION *******************************/
 
 /*****  container *******/
