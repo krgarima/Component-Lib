@@ -62,6 +62,7 @@
     color: blueviolet;
     border: none;
     cursor: pointer;
+    padding: 1rem;
   }
   
   .action-button:hover {
@@ -72,6 +73,7 @@
   .cancel {
     border-radius: 50%;
     cursor: pointer;
+    padding: 0.2rem;
   }
   
   .cancel:hover {
