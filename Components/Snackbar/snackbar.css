@@ -90,18 +90,21 @@
 
 .baseline-snackbar {
     visibility: hidden;
+    top: 80vh;
   }
   
   /*********  Loading snackbar *********/
   
   .loading-snackbar {
     visibility: hidden;
+    top: 165vh;
   }
   
   /*********  Stacked snackbar *********/
   
   .stacked-snackbar {
     visibility: hidden;
+    top: 250vh;
   }
 
 .center {
