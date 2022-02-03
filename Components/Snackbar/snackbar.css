@@ -1,0 +1,188 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');  
+@import url('/CSS/home.css');
+@import url('/CSS/reset.css');
+
+/******** Main body **************/
+
+/******** Snackbar *******/
+
+.snackbar--container {
+  margin: 10vh;
+  width: 70vw;
+  min-height: 100vh;
+}
+
+/* Snackbar btn*/
+
+.btn-container {
+    height: 20vh;
+}
+
+.snackbar-button {
+    height: 6vh;
+    width: 22rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+}
+  
+.snackbar-button:hover {
+    background: lightgray;
+}
+
+/* Snackbar */
+
+.snackbar {
+    max-width: 33vw;
+    min-height: 6vh;
+    background: #000;
+    color: lightgray;
+    margin: 8vh 0;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px rgb(65, 63, 63);
+    position: absolute;
+    z-index: 2;
+    left: 2%;
+  }
+
+  .snackbar-button:hover {
+    background: lightgray;
+  }
+  
+  .space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .action-button {
+    background: #000;
+    color: blueviolet;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background: #000;
+    background: rgb(48, 45, 45);
+  }
+  
+  .cancel {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .cancel:hover {
+    padding: 1rem;
+    background: rgb(48, 45, 45);
+  }
+  
+  .snackbar-container {
+    width: 100%;
+  }
+  
+  p {
+    padding: 1rem;
+  }
+
+/*********  Baseline snackbar *********/
+
+.baseline-snackbar {
+    visibility: hidden;
+  }
+  
+  /*********  Loading snackbar *********/
+  
+  .loading-snackbar {
+    visibility: hidden;
+  }
+  
+  /*********  Stacked snackbar *********/
+  
+  .stacked-snackbar {
+    visibility: hidden;
+  }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-direction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+/* footer */
+
+.nav_btn {
+  background: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 800px) {
+  .drawer {
+    width: 60vw;
+  }
+  .snackbar {
+    max-width: 80vw;
+}
+}
+
+/* common */
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.h-4 {
+  font-size: 4rem;
+}
+.h-2 {
+  font-size: 2rem;
+}
+.h-1h {
+  font-size: 1.5rem;
+}
+
+.b-2 {
+  border: 2px solid gray;
+}
+
+.m-a{
+  margin: auto;
+}
+.mt2-mb6 {
+  margin: 3vh 0 6vh 0;
+}
+.mv-4 {
+  margin: 4vh 0;
+}
+.m-4 {
+  margin: 4vh;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.fw-1 {
+  font-weight:bolder;
+}
+
+.gray {
+  color: gray;
+}
+
