@@ -1,0 +1,129 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');  
+@import url('/CSS/home.css');
+@import url('/CSS/reset.css');
+
+/******** Main body **************/
+
+/******** Avatar *******/
+
+.grid--container {
+  margin: 10vh;
+  width: 70vw;
+}
+
+.grid-container-two {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 20px;
+  }
+  
+  .grid-container-three {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: auto auto auto;
+    background-color: #aaf321;
+    padding: 20px;
+    height: 18vh;
+  }
+
+  .grid-container-multiple {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: #f5803c;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid__frame {
+      margin: 8vh 20vw;
+  }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-direction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* footer */
+
+.nav_btn {
+  background: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 800px) {
+  .drawer {
+    width: 60vw;
+  }
+}
+
+/* common */
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.h-4 {
+  font-size: 4rem;
+}
+.h-2 {
+  font-size: 2rem;
+}
+.h-1h {
+  font-size: 1.5rem;
+}
+
+.b-2 {
+  border: 2px solid gray;
+}
+
+.m-a{
+  margin: auto;
+}
+.mt2-mb6 {
+  margin: 3vh 0 6vh 0;
+}
+.mv-4 {
+  margin: 4vh 0;
+}
+.m-4 {
+  margin: 4vh;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.fw-1 {
+  font-weight:bolder;
+}
+
+.gray {
+  color: gray;
+}
+
+
