@@ -1,0 +1,30 @@
+.navBar {
+    height: 8vh;
+    width: 100vw;
+    background: var(--secondary-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    font-size: 1.3rem;
+    z-index: 10;
+  }
+  
+  .fa-bars {
+    margin: 0 2rem;
+    padding: 0.5rem;
+  }
+  
+  .fa-bars:hover {
+    background: gray;
+  }
+  
+  h3 a{
+    text-decoration: none;
+    color:white;
+  }
+  
+  h3 a:hover{
+    color: var(--primary-color);
+  }
+  

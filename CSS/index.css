@@ -1,0 +1,152 @@
+@import url('/CSS/styleGuide.css');
+@import url('/CSS/sideBar.css');
+@import url('/CSS/home.css');
+@import url('/CSS/reset.css');
+
+.logo{
+    font-size: 2.7vh;
+    margin-left: 1.5rem;
+    -webkit-text-stroke: 1px var(--primary-color);
+}
+
+  .bg-image {
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/images/bg9.jpg');
+    background-repeat: no-repeat;
+    image-orientation: 0grad;
+    opacity: 0.95;
+  }
+
+  .content {
+    position: absolute;
+    z-index: 1;
+  }
+
+
+  .main__body{
+      margin-top: 5vh;
+      min-height: 87vh;
+  }
+
+/********* start **************/
+
+  .start{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 40vh;
+  }
+
+  .start--heading{
+    font-size: 5vh;
+    font-weight: 500;
+    -webkit-text-stroke: 1px black;
+  }
+
+  .start--paragraph{
+    font-size: 1.8rem;
+    color: rgb(112, 103, 103);
+    margin: 3vh 0;
+  }
+
+  .start--btn{
+    padding: 8px;
+    font-size: 1.1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
+  }
+
+  .start--btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  /********* features *********/
+
+  .features-heading{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 2.5vh;
+      font-weight: 600;
+  }
+
+  .features {
+      height: 40vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .feature-items {
+      background-color: rgb(247, 255, 254);
+      box-shadow: 8px 8px black;
+      width: 18vw;
+      margin: 4vh 2vw;
+      border-radius: 4px;
+      min-height: 18vh;
+  }
+
+  .features-sub-heading {
+      font-size: 1.3rem;
+      margin: 2vh;
+      font-weight: 550;
+  }
+
+  .features-paragraph {
+    margin: 2vh;
+    padding: 1.5rem;
+    height: 18vh;
+    background-color: rgb(225, 228, 226);
+  }
+
+  /****** footer *****/
+
+  .contact {
+      height: 8vh;
+      width: 100vw;
+      color: white;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+
+  .footer--icons i {
+    color: white;
+    padding: 2px;
+    margin: 3px 0;
+  }
+
+  /* mobile mode */
+
+  @media only screen and (max-width: 800px) {
+    .feature-items {
+     width: 55vw;
+      margin: 1vh 2vw;
+      height: 17vh;
+    }
+    html {
+        font-size: 0.6rem;
+    }
+    .bg-image {
+        background-repeat: repeat-y;
+    }
+    .start{ 
+        height: 20vh;
+        margin-top: 8vh;
+    }
+    .features-paragraph {
+        height: 10vh;
+      }
+}

@@ -15,6 +15,13 @@ html {
 h2 {
   font-size: 1.6rem;
 }
+
+.logo{
+  font-size: 2.7vh;
+  margin-left: 1.5rem;
+  -webkit-text-stroke: 1px var(--primary-color);
+}
+
 /********** Color ***********/
 
 :root {

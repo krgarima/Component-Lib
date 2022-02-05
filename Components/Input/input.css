@@ -1,7 +1,4 @@
-@import url('/CSS/styleGuide.css');
-@import url('/CSS/sideBar.css');
-@import url('/CSS/home.css');
-@import url('/CSS/reset.css');
+@import url('/CSS/components.css');
 
 /*********** input ************/
 
@@ -30,14 +27,6 @@
     margin: 1rem 0;
 }
 
-
-/* footer */
-
-.nav_btn {
-    background: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
 
 /****** mobile version  *****/
 

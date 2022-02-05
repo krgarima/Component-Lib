@@ -1,7 +1,4 @@
-@import url('/CSS/styleGuide.css');
-@import url('/CSS/sideBar.css');
-@import url('/CSS/home.css');
-@import url('/CSS/reset.css');
+@import url('/CSS/components.css');
 
 /*********** alert ************/
 
@@ -18,55 +15,128 @@
     width: 55vw;
     display: flex;
     align-items: center;
-    /* border: 1px solid white; */
 }
 
 /* simple alert */
 
+.btn__simple--primary,  .btn__outlined--primary{
+    padding: 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn__simple--error, .btn__outlined--error {
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn__simple--success, .btn__outlined--success {
+    padding: 1rem;
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn__simple--warning, .btn__outlined--warning {
+    padding: 1rem;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.btn__simple--primary:hover, .btn__outlined--primary:hover {
+    background: darkblue;
+}
+.btn__simple--error:hover, .btn__outlined--error:hover {
+    background: darkred;
+}
+.btn__simple--success:hover, .btn__outlined--success:hover {
+    background: green;
+}
+.btn__simple--warning:hover, .btn__outlined--warning:hover {
+    background: darkorange;
+}
+
 .simple--alerts {
     color: white;
+    position: relative;
 }
 
 .simple--primary {
     background: blue;
+    position: absolute;
+    top: 5rem;
+    visibility: hidden;
 }
 
 .simple--error {
+    position: absolute;
+    top: 5rem;
+    visibility: hidden;
     background: red;
 }
 
 .simple--success {
+    top: 5rem;
+    position: absolute;
+    visibility: hidden;
     background: lightgreen;
 }
 
 .simple--warning {
+    top: 5rem;
+    position: absolute;
+    visibility: hidden;
     background: orange;
 }
+
+
 
 /* outlined alert */
 
 .outlined--alerts {
     color: white;
+    position: relative;
 }
 
 .outlined--primary {
     color: blue;
-    border: 1px solid blue;
+    border: 1px solid rgb(187, 187, 214);
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    visibility: hidden;
 }
 
 .outlined--error {
     color: red;
+    background-color: white;
     border: 1px solid red;
+    position: absolute;
+    top: 5rem;
+    visibility: hidden;
 }
 
 .outlined--success {
     color: lightgreen;
-    border: 1px solid lightgreen;
+    background-color: white;
+    border: 1px solid rgb(0, 75, 0);
+    position: absolute;
+    top: 5rem;
+    visibility: hidden;
 }
 
 .outlined--warning {
     color: orange;
-    border: 1px solid orange;
+    background-color: white;
+    border: 1px solid rgb(233, 128, 0);
+    position: absolute;
+    top: 5rem;
+    visibility: hidden;
 }
 
 /* action alerts */
@@ -79,23 +149,21 @@
     border: none;
     background-color: rgb(227, 252, 227);
 }
+.undo:hover {
+    background-color: rgb(207, 253, 207);
+}
 
 /* transition */
 
-.closeBtn {
+.reOpen-Btn {
     background-color: white;
     color: gray;
     cursor: pointer;
 }
-
-
-/* footer */
-
-.nav_btn {
-    background: whitesmoke;
-    border: none;
-    cursor: pointer;
+.reOpen-Btn:hover {
+    color: black;
 }
+
 
 /****** mobile version  *****/
 

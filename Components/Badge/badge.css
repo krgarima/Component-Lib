@@ -1,7 +1,4 @@
-@import url('/CSS/styleGuide.css');
-@import url('/CSS/sideBar.css');
-@import url('/CSS/home.css');
-@import url('/CSS/reset.css');
+@import url('/CSS/components.css');
 
 
 /******** Main body **************/
@@ -90,13 +87,18 @@
   top: -1.5rem;
 }
 
-/* footer */
+/* avatar badge */
 
-.nav_btn {
-    background: whitesmoke;
-    border: none;
-    cursor: pointer;
-  }
+.avatar__icon--badge {
+  position: relative;
+}
+.avatar-badge {
+  height: 2.6rem;
+  width: 2.5rem;
+  position: absolute;
+  top: 19rem;
+  left: 14.2rem
+}
 
 /****** mobile version  *****/
 

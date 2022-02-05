@@ -1,3 +1,18 @@
+@import url('/CSS/components.css');
+
+/******** Main body **************/
+
+/******** home *******/
+
+.home--container {
+  margin: 10vh;
+  width: 70vw;
+}
+
+.code-appear {
+  color: red;
+}
+
 .parentContainer {
   position: relative;
 }
@@ -8,7 +23,7 @@ body {
   background-color: var(--background-color);
 }
 
-.navBar {
+/* .navBar {
   height: 8vh;
   width: 100vw;
   background: var(--secondary-color);
@@ -36,7 +51,7 @@ h3 a{
 
 h3 a:hover{
   color: var(--primary-color);
-}
+} */
 
 
 /* footer */
@@ -61,8 +76,59 @@ h3 a:hover{
 
 /****** mobile version  *****/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .drawer {
     width: 60vw;
   }
 }
+
+
+/* common */
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.h-4 {
+  font-size: 4rem;
+}
+.h-2 {
+  font-size: 2rem;
+}
+.h-1h {
+  font-size: 1.5rem;
+}
+
+.b-2 {
+  border: 2px solid gray;
+}
+
+.m-a{
+  margin: auto;
+}
+.mt2-mb6 {
+  margin: 3vh 0 6vh 0;
+}
+.mv-4 {
+  margin: 4vh 0;
+}
+.m-4 {
+  margin: 4vh;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.fw-1 {
+  font-weight:bolder;
+}
+
+.gray {
+  color: gray;
+}
+

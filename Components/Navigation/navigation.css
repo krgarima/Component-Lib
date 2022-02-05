@@ -1,7 +1,4 @@
-@import url('/CSS/styleGuide.css');
-@import url('/CSS/sideBar.css');
-@import url('/CSS/home.css');
-@import url('/CSS/reset.css');
+@import url('/CSS/components.css');
 
 /******** Main body **************/
 
@@ -76,6 +73,10 @@
 
 
 /******  main body ************/
+
+.navIcons i {
+    color: white;
+}
 
 .body__heading {
     height: 8.5vh;

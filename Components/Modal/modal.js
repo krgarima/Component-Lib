@@ -5,12 +5,12 @@ const noAlertBox = document.querySelector("#alertYes");
 const closeAlert = document.querySelector("#alertClose");
 
 
-function displayAlertBox() {
+const  displayAlertBox = () => {
   openAlertBoxBtn.style.opacity = "0";
   alertBox.style.opacity = "1";
 }
 
-function hideAlertBox() {
+const hideAlertBox = () => {
   openAlertBoxBtn.style.opacity = "1";
   alertBox.style.opacity = "0";
 }

@@ -91,19 +91,23 @@
                 <p class="h-1h gray">Simple Alerts can be created using alert class, followed by the variant name. </p>
 
                 <div class="alerts simple--alerts mv-8">
-                    <div class="alert simple--primary h-1h mv-2 br-5">
+                    <button class="btn__simple--primary" id="btnSimplePrimary">Simple alert Primary</button>
+                    <div class="alert simple--primary h-1h mv-2 br-5" id="alertSimplePrimary">
                         <strong class="p-1">Primary!</strong> This is a Primary Alert - Check it now!
                     </div>
 
-                    <div class="alert simple--error h-1h mv-2 br-5">
+                    <button class="btn__simple--error" id="btnSimpleError">Simple alert Error</button>
+                    <div class="alert simple--error h-1h mv-2 br-5" id="alertSimpleError">
                         <strong class="p-1">Error!</strong> This is an Error Alert - Check it now!
                     </div>
 
-                    <div class="alert simple--success h-1h mv-2 br-5">
+                    <button class="btn__simple--success" id="btnSimpleSuccess">Simple alert Success</button>
+                    <div class="alert simple--success h-1h mv-2 br-5" id="alertSimpleSuccess">
                         <strong class="p-1">Success!</strong> This is a Success Alert - Check it now!
                     </div>
 
-                    <div class="alert simple--warning h-1h mv-2 br-5">
+                    <button class="btn__simple--warning" id="btnSimpleWarning">Simple alert Warning</button>
+                    <div class="alert simple--warning h-1h mv-2 br-5" id="alertSimpleWarning">
                         <strong class="p-1">Warning!</strong> This is a Warning Alert - Check it now!
                     </div>
                 </div>
@@ -121,19 +125,24 @@
                 <p class="h-1h gray">Simple Alerts can be created using alert class, followed by the variant name. </p>
 
                 <div class="alerts outlined--alerts mv-8">
-                    <div class="alert outlined--primary h-1h mv-2 br-5">
+
+                    <button class="btn__outlined--primary" id="btnOutlinedPrimary">Outlined alert Primary</button>
+                    <div class="alert outlined--primary h-1h mv-2 br-5" id="alertOutlinedPrimary">
                         <strong class="p-1">Primary!</strong> This is a Primary Alert - Check it now!
                     </div>
 
-                    <div class="alert outlined--error h-1h mv-2 br-5">
+                    <button class="btn__outlined--error" id="btnOutlinedError">Outlined alert Error</button>
+                    <div class="alert outlined--error h-1h mv-2 br-5" id="alertOutlinedError">
                         <strong class="p-1">Error!</strong> This is an Error Alert - Check it now!
                     </div>
 
-                    <div class="alert outlined--success h-1h mv-2 br-5">
+                    <button class="btn__outlined--success" id="btnOutlinedSuccess">Outlined alert Success</button>
+                    <div class="alert outlined--success h-1h mv-2 br-5" id="alertOutlinedSuccess">
                         <strong class="p-1">Success!</strong> This is a Success Alert - Check it now!
                     </div>
 
-                    <div class="alert outlined--warning h-1h mv-2 br-5">
+                    <button class="btn__outlined--warning" id="btnOutlinedWarning">Outlined alert Warning</button>
+                    <div class="alert outlined--warning h-1h mv-2 br-5" id="alertOutlinedWarning">
                         <strong class="p-1">Warning!</strong> This is a Warning Alert - Check it now!
                     </div>
                 </div>
@@ -152,9 +161,9 @@
                     the message, at the end of the alert. </p>
 
                 <div class="alerts action--alerts mv-8">
-                    <div class="alert action action--close space-between h-1h mv-2 br-5">
+                    <div class="alert action action--close space-between h-1h mv-2 br-5" id="actionAlert">
                         <div><i class="far fa-check-circle p-1"></i>This is a success alert — check it out!</div>
-                        <div><i class="fas fa-times mr-1 p-1"></i></div>
+                        <div><i class="fas fa-times mr-1 p-1" id="alertCancel"></i></div>
                     </div>
 
                     <div class="alert action action--undo space-between h-1h mv-2 br-5">
@@ -181,7 +190,7 @@
                         <div><i class="far fa-check-circle p-1"></i>Close me!</div>
                         <div><i class="fas fa-times mr-1 p-1"></i></div>
                     </div>
-                    <button class="closeBtn p-1 br-5">RE-OPEN</button>
+                    <button class="reOpen-Btn p-1 br-5">RE-OPEN</button>
                 </div>
 
                 <div class="avatar__img__frame center">
@@ -201,6 +210,7 @@
         <button class="nav_btn next_page fw-1 m-4 p-1"><a href="/Components/Avatar/avatar.html">Avatar &gt;</a></button>
     </footer>
     <script src="/script/home.js"></script>
+    <script src="/Components/Alert/alert.js"></script>
 </body>
 
 </html>

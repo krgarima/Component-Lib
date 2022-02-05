@@ -12,23 +12,23 @@ const cancelStackedSnackbar = document.querySelector(
   ".cancel-stacked-snackbar"
 );
 
-function snackBarBaseline() {
+const snackBarBaseline = () => {
   baselineSnackbar.style.visibility = "visible";
 }
-function snackBarLoading() {
+const snackBarLoading = () => {
   loadingSnackbar.style.visibility = "visible";
 }
-function snackBarStacked() {
+const snackBarStacked = () => {
   stackedSnackbar.style.visibility = "visible";
 }
 
-function closeBaselineSnackbar() {
+const closeBaselineSnackbar = () => {
   baselineSnackbar.style.visibility = "hidden";
 }
-function closeLoadingSnackbar() {
+const closeLoadingSnackbar = () => {
   loadingSnackbar.style.visibility = "hidden";
 }
-function closeStackedSnackbar() {
+const closeStackedSnackbar = () => {
   stackedSnackbar.style.visibility = "hidden";
 }
 
