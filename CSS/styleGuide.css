@@ -27,7 +27,7 @@ html {
 :root {
   --primary-color: rgb(0, 212, 202);
   --secondary-color: black;
-  --background-color: rgb(248, 244, 221);
+  --background-color: rgb(240 240 240);
   --white-color: white;
   --greenishWhite: rgb(225, 228, 226);
   --black-color: black;
@@ -55,13 +55,14 @@ html {
   --orange-color: orange;
   --gray-color:rgb(187, 187, 214);
   --lightgray-color:lightgray;
+  --superlightGray-color:rgb(223, 219, 219);
   --darkGray-color:gray;
   --superdarkGray-color:gray;
   --redishGray-color: rgb(112, 103, 103);
   --purple-color: purple;
   --blueviolet-color: blueviolet;
   --seagreenishWhite:rgb(247, 255, 254);
-  --boxShadow-color: rgb(109, 109, 109);
+  --boxShadow-color: #aaaaaa;
   --description-backgroundColor: rgb(252, 246, 246);
   --description-onhoverColor: rgb(252, 246, 246);
 

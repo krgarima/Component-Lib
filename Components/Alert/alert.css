@@ -22,6 +22,11 @@
     border-radius: 5px;
     display: flex;
     align-items: center;
+    box-shadow: 10px 10px 5px var(--boxShadow-color);
+}
+
+.alert--container button {
+    box-shadow: 4px 4px 2px var(--boxShadow-color);
 }
 
 .bold {
@@ -162,6 +167,10 @@
 }
 .undo:hover {
     background-color: var(--lightgreen-color);
+}
+
+.alert .fa-times{
+cursor: pointer;
 }
 
 .undo {

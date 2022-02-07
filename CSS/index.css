@@ -2,9 +2,10 @@
 @import url('/CSS/sideBar.css');
 @import url('/CSS/home.css');
 @import url('/CSS/reset.css');
+@import url('/CSS/navbar.css');
 
 .logo{
-    font-size: 2.7vh;
+    /* font-size: 2.7vh; */
     margin-left: 1.5rem;
     -webkit-text-stroke: 1px var(--primary-color);
 }

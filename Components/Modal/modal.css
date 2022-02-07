@@ -13,23 +13,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: var(--lightgray-color);
+  background-color: var(--superlightGray-color);
   min-height: 50vh;
   width: 50vw;
   border: 4px solid var(--black-color);
+  margin: 8vh;
 }
 
 .open-alert-box-btn {
-  background-color: var(--red-color);
+  background-color: var(--blue-color);
   padding: 1rem;
   left: 35%;
   top: 19rem;
   opacity: 1;
   z-index: 2;
   cursor: pointer;
+  border-radius: 5px;
+  color: var(--white-color)
 }
 .open-alert-box-btn:hover {
-  background-color: var(--crimson-color);
+  background-color: var(--black-color);
 }
 
 /* alert */

@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG">
     <link rel="stylesheet" href="/Components/Alert/alert.css">
     <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
 
-    <title>Alert page</title>
+    <title>Aesthetic | Alert page</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
             <div class="navBar space-between">
                 <div class="nav-left space-evenly">
                     <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
-                    <h3 class="third-heading logo">Aestheic-UI</h3>
+                    <h3 class="third-heading logo"><a href="/index.html">Aesthetic-UI</a></h3>
                 </div>
                 <div class="nav-right space-evenly">
                     <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
@@ -88,9 +89,9 @@
                     attention without interrupting the user's task. </p>
 
                 <h2 class="second-heading">1) Simple Alert</h2>
-                <p class="second-para">Simple Alerts can be created using alert class, followed by the variant name. </p>
+                <p class="second-para">Simple Alerts can be created using alerts class, followed by the variant name. </p>
 
-                <div class="alerts simple--alerts">
+                <section class="alerts simple--alerts wrap space-evenly">
                     <button class="btn__simple--primary" id="btnSimplePrimary">Simple alert Primary</button>
                     <div class="alert simple--primary" id="alertSimplePrimary">
                         <strong class="bold">Primary!</strong> This is a Primary Alert - Check it now!
@@ -110,22 +111,21 @@
                     <div class="alert simple--warning" id="alertSimpleWarning">
                         <strong class="padding: 1rem;">Warning!</strong> This is a Warning Alert - Check it now!
                     </div>
-                </div>
+                </section>
 
                 <div class="alert__iFrame center">
                     <iframe class="iFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520simple--primary%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520simple--error%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520simple--success%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520simple--warning%2522%253E%250A%253Cstrong%2520class%253D%2522p-1%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
-                        style="width: 846px; height: 482px; border:0; overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522alerts%2520simple--alerts%2520wrap%2520space-evenly%2522%253E%250A%2509%253Cbutton%2520class%253D%2522btn__simple--primary%2522%2520id%253D%2522btnSimplePrimary%2522%253ESimple%2520alert%2520Primary%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520simple--primary%2522%2520id%253D%2522alertSimplePrimary%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cbutton%2520class%253D%2522btn__simple--error%2522%2520id%253D%2522btnSimpleError%2522%253ESimple%2520alert%2520Error%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520simple--error%2522%2520id%253D%2522alertSimpleError%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cbutton%2520class%253D%2522btn__simple--success%2522%2520id%253D%2522btnSimpleSuccess%2522%253ESimple%2520alert%2520Success%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520simple--success%2522%2520id%253D%2522alertSimpleSuccess%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cbutton%2520class%253D%2522btn__simple--warning%2522%2520id%253D%2522btnSimpleWarning%2522%253ESimple%2520alert%2520Warning%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520simple--warning%2522%2520id%253D%2522alertSimpleWarning%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522padding%253A%25201rem%253B%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+  style="width: 942px; height: 489px; border:0; transform: scale(1); overflow:scroll;"
+  sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 
 
                 <h2 class="second-heading">2) Outlined Alert</h2>
-                <p class="second-para">Simple Alerts can be created using alert class, followed by the variant name. </p>
+                <p class="second-para">Oulined Alerts can be created using alerts class, followed by the variant name. </p>
 
-                <div class="alerts outlined--alerts">
-
+                <section class="alerts outlined--alerts wrap space-evenly">
                     <button class="btn__outlined--primary" id="btnOutlinedPrimary">Outlined alert Primary</button>
                     <div class="alert outlined--primary" id="alertOutlinedPrimary">
                         <strong class="bold">Primary!</strong> This is a Primary Alert - Check it now!
@@ -145,13 +145,13 @@
                     <div class="alert outlined--warning" id="alertOutlinedWarning">
                         <strong class="bold">Warning!</strong> This is a Warning Alert - Check it now!
                     </div>
-                </div>
+                </section>
 
                 <div class="alert__iFrame center">
                     <iframe class="iFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outlined--primary%2522%253E%250A%253Cstrong%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outlined--error%2522%253E%250A%253Cstrong%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outlined--success%2522%253E%250A%253Cstrong%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520outlined--warning%2522%253E%250A%253Cstrong%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%253C%252Fdiv%253E"
-                        style="width: 737px; height: 482px; border:0; overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
+                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522alerts%2520outlined--alerts%2520wrap%2520space-evenly%2522%253E%250A%2509%253Cbutton%2520class%253D%2522btn__outlined--primary%2522%2520id%253D%2522btnOutlinedPrimary%2522%253EOutlined%2520alert%2520Primary%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520outlined--primary%2522%2520id%253D%2522alertOutlinedPrimary%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253EPrimary%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cbutton%2520class%253D%2522btn__outlined--error%2522%2520id%253D%2522btnOutlinedError%2522%253EOutlined%2520alert%2520Error%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520outlined--error%2522%2520id%253D%2522alertOutlinedError%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253EError%21%253C%252Fstrong%253E%2520This%2520is%2520an%2520Error%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cbutton%2520class%253D%2522btn__outlined--success%2522%2520id%253D%2522btnOutlinedSuccess%2522%253EOutlined%2520alert%2520Success%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520outlined--success%2522%2520id%253D%2522alertOutlinedSuccess%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253ESuccess%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cbutton%2520class%253D%2522btn__outlined--warning%2522%2520id%253D%2522btnOutlinedWarning%2522%253EOutlined%2520alert%2520Warning%253C%252Fbutton%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520outlined--warning%2522%2520id%253D%2522alertOutlinedWarning%2522%253E%250A%2509%2509%2509%253Cstrong%2520class%253D%2522bold%2522%253EWarning%21%253C%252Fstrong%253E%2520This%2520is%2520a%2520Warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+  style="width: 923px; height: 489px; border:0; transform: scale(1); overflow:scroll;"
+  sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 
@@ -160,7 +160,7 @@
                 <p class="second-para">An alert can have an action, such as a close or undo button. It is rendered after
                     the message, at the end of the alert. </p>
 
-                <div class="alerts action--alerts">
+                <section class="alerts action--alerts">
                     <div class="alert action action--close space-between" id="actionAlert">
                         <div><i class="far fa-check-circle bold"></i>This is a success alert — check it out!</div>
                         <div><i class="fas fa-times bold" id="alertCancel"></i></div>
@@ -170,13 +170,13 @@
                         <div><i class="far fa-check-circle bold"></i>This is a success alert — check it out! </div>
                         <div><button class="undo bold">UNDO</button></div>
                     </div>
-                </div>
+                </section>
 
                 <div class="avatar__img__frame center">
                     <iframe class="iFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520action%2520action--close%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert%2520action%2520action--undo%2522%253E%250A%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%2520%253Cbutton%2520class%253D%2522undo%2522%253EUNDO%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                        style="width: 1024px; height: 362px; border:0; overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522alerts%2520action--alerts%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520action%2520action--close%2520space-between%2522%2520id%253D%2522actionAlert%2522%253E%250A%2509%2509%2509%253Cdiv%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2520bold%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520bold%2522%2520id%253D%2522alertCancel%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522alert%2520action%2520action--undo%2520space-between%2522%253E%250A%2509%2509%2509%253Cdiv%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2520bold%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520success%2520alert%2520%25E2%2580%2594%2520check%2520it%2520out%21%2520%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%253E%253Cbutton%2520class%253D%2522undo%2520bold%2522%253EUNDO%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+                    style="width: 969px; height: 290px; border:0; transform: scale(1); overflow:scroll;"
+                    sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 
@@ -185,19 +185,19 @@
                 <p class="second-para">You can use a transition component such as Collapse to transition the appearance of
                     the alert. </p>
 
-                <div class="alerts transition--alerts">
+                <section class="alerts transition--alerts">
                     <div class="alert action action--close space-between" id="closeMe">
                         <div><i class="far fa-check-circle bold"></i>Close me!</div>
                         <div><i class="fas fa-times bold"></i></div>
                     </div>
                     <button class="reOpen-Btn">RE-OPEN</button>
-                </div>
+                </section>
 
                 <div class="avatar__img__frame center">
                     <iframe class="mt2-mb6"
-                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520action%2520action--close%2520space-between%2520h-1h%2520mv-2%2520br-5%2522%2520id%253D%2522closeMe%2522%253E%250A%253Cdiv%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2520p-1%2522%253E%253C%252Fi%253EClose%2520me%21%253C%252Fdiv%253E%250A%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520mr-1%2520p-1%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cbutton%2520class%253D%2522closeBtn%2520p-1%2520br-5%2522%253ERE-OPEN%253C%252Fbutton%253E"
-                        style="width: 890px; height: 282px; border:0; overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
+                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csection%2520class%253D%2522alerts%2520transition--alerts%2522%253E%250A%2509%253Cdiv%2520class%253D%2522alert%2520action%2520action--close%2520space-between%2522%2520id%253D%2522closeMe%2522%253E%250A%2509%2509%2509%253Cdiv%253E%253Ci%2520class%253D%2522far%2520fa-check-circle%2520bold%2522%253E%253C%252Fi%253EClose%2520me%21%253C%252Fdiv%253E%250A%2509%2509%2509%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520bold%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%2509%253Cbutton%2520class%253D%2522reOpen-Btn%2522%253ERE-OPEN%253C%252Fbutton%253E%250A%253C%252Fsection%253E"
+                    style="width: 688px; height: 210px; border:0; transform: scale(1); overflow:scroll;"
+                    sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 

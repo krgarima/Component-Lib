@@ -162,12 +162,13 @@ h3 {
 }
 
 /**** icons  ****/
-
+/* 
 span {
     margin: 0 2rem 0 0;
-}
+} */
 
 span i {
+    margin: 0 2rem 0 0;
     cursor: pointer;
 }
 

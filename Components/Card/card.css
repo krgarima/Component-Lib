@@ -17,29 +17,34 @@
     display: flex;
     justify-content: center;
     margin-bottom: 3vh;
+    border-radius: 10px;
+    background-color: var(--superlightGray-color);
 }
 
 .card {
-    min-height: 19vh;
-    width: 18.2vw;
+    min-height: 20vh;
+    width: 16vw;
     border: 4px solid var(--black-color);
     background: white;
     border-radius: 10px;
     margin: auto;
-    box-shadow: 4px 5px var(--boxShadow-color);
+    box-shadow: 10px 10px 5px var(--boxShadow-color);
     margin: 10rem;
+    font-size: 1.2rem;
+    object-fit: cover;
 }
 
 .heading {
     margin: 0.5rem;
 }
 
-.background-Image {
-    width: 50rem;
+.card-img {
+    width: 15.48vw;
+    height: 20vh;
 }
 
 .description {
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: var(--description-backgroundColor);
     display: flex;
     flex-wrap: wrap;
@@ -49,20 +54,30 @@
     background-color: var(--description-onhoverColor);
 }
 
-.footer {
-    margin: 1rem 0.5rem;
+.card-footer {
+    margin: 0.5rem 0.5rem;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-btns {
-    padding: 0.5rem;
+    padding: 0.5rem 0.3rem;
     color: var(--blue-color);
     cursor: pointer;
+    display: flex;
 }
 
-i {
-    margin: 0 0.6rem;
+.card-icons {
+    display: flex;
+}
+
+.footer-btns:hover {
+background-color: var(--blue-color);
+color: var(--white-color);
+}
+
+.card-icons i {
+    padding: 0 0.8rem;
     cursor: pointer;
 }
 
@@ -86,15 +101,16 @@ i {
 
 /******** Dismiss Card *******/
 
-.dismiss-Card .card {
+.dismiss-Card {
     position: relative;
 }
 
-.dismiss-Card .card .dismiss-icon {
+.dismiss-Card .dismiss-icon {
     color: var(--white-color);
     position: absolute;
     top: 0.5rem;
-    left: 24.5rem;
+    left: 14.2vw;
+    cursor: pointer;
 }
 
 /********  Text only Card *******/
@@ -145,9 +161,9 @@ i {
 /*  Horizontal Image Text Card */
 
 .side-Image {
-    height: 15vh;
-    width: 12vw;
-    border-bottom-right-radius: 1rem;
+    height: 14vh;
+    width: 11vw;
+    border-bottom-right-radius: 0.8rem;
 }
 
 .horizontal-Image-Text-Description {
@@ -163,12 +179,16 @@ i {
         margin: auto;
     }
 
-    .card-section {
-        min-width: 100vw;
-    }
-
     .card {
         width: 78vw;
+    }
+
+    .card-img {
+        width: 77vw;
+    }
+
+    .dismiss-Card .dismiss-icon {
+        left: 72vw;
     }
 
     .side-Image {

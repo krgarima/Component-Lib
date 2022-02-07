@@ -9,7 +9,7 @@
   width: 70vw;
 }
 
-.grid-container-two {
+.grid-twoItems {
     display: grid;
     grid-column-gap: 30px;
     grid-template-columns: auto auto;
@@ -17,7 +17,7 @@
     padding: 20px;
   }
   
-  .grid-container-three {
+  .grid-threeItems {
     display: grid;
     grid-column-gap: 30px;
     grid-template-columns: auto auto auto;
@@ -26,7 +26,7 @@
     height: 18vh;
   }
 
-  .grid-container-multiple {
+  .grid-multipleItems {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto auto;

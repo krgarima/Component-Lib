@@ -17,6 +17,12 @@
   position: relative;
 }
 
+.highlight {
+  color: var(--red-color);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
 /******  main body ************/
 
 body {

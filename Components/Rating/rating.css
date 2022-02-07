@@ -15,8 +15,8 @@
     flex-direction: column;
     background-color: var(--white-color);
     border: 2px solid var(--darkGray-color);
-    margin: 4vh 0;
-    border-radius: 5px;
+    margin: 10vh 0;
+    border-radius: 10px;
 }
 
 .heart__ratings {
