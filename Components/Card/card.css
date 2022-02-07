@@ -11,7 +11,7 @@
 
 /* each card */
 
-section {
+.card-section {
     min-width: 20vw;
     min-height: 19vh;
     display: flex;
@@ -22,11 +22,11 @@ section {
 .card {
     min-height: 19vh;
     width: 18.2vw;
-    border: 4px solid black;
+    border: 4px solid var(--black-color);
     background: white;
     border-radius: 10px;
     margin: auto;
-    box-shadow: 4px 5px rgb(109, 109, 109);
+    box-shadow: 4px 5px var(--boxShadow-color);
     margin: 10rem;
 }
 
@@ -40,13 +40,13 @@ section {
 
 .description {
     padding: 0.5rem;
-    background-color: rgb(252, 246, 246);
+    background-color: var(--description-backgroundColor);
     display: flex;
     flex-wrap: wrap;
 }
 
 .description:hover {
-    background-color: rgb(243, 237, 237);
+    background-color: var(--description-onhoverColor);
 }
 
 .footer {
@@ -55,9 +55,9 @@ section {
     justify-content: space-between;
 }
 
-span {
+.footer-btns {
     padding: 0.5rem;
-    color: blue;
+    color: var(--blue-color);
     cursor: pointer;
 }
 
@@ -73,8 +73,8 @@ i {
 }
 
 .badge-Card .card .badge-on-Card {
-    background-color: red;
-    color: white;
+    background-color: var(--red-color);
+    color: var(--white-color);
     position: absolute;
     top: 0.5rem;
     left: 0.4rem;
@@ -91,7 +91,7 @@ i {
 }
 
 .dismiss-Card .card .dismiss-icon {
-    color: white;
+    color: var(--white-color);
     position: absolute;
     top: 0.5rem;
     left: 24.5rem;
@@ -120,7 +120,7 @@ i {
 }
 
 .heading-On-Top {
-    color: white;
+    color: var(--white-color);
     position: absolute;
     top: 48%;
 }
@@ -163,7 +163,7 @@ i {
         margin: auto;
     }
 
-    section {
+    .card-section {
         min-width: 100vw;
     }
 
@@ -175,59 +175,4 @@ i {
         height: 13vh;
         width: 48vw;
     }
-}
-
-
-/* common */
-
-.wrap {
-    flex-wrap: wrap;
-}
-
-.h-4 {
-    font-size: 4rem;
-}
-
-.h-2 {
-    font-size: 2rem;
-}
-
-.h-1h {
-    font-size: 1.5rem;
-}
-
-.b-2 {
-    border: 2px solid gray;
-}
-
-.m-a {
-    margin: auto;
-}
-
-.mt2-mb6 {
-    margin: 3vh 0 6vh 0;
-}
-
-.mv-4 {
-    margin: 4vh 0;
-}
-
-.m-4 {
-    margin: 4vh;
-}
-
-.p-1 {
-    padding: 1rem;
-}
-
-.br-5 {
-    border-radius: 5px;
-}
-
-.fw-1 {
-    font-weight: bolder;
-}
-
-.gray {
-    color: gray;
 }

@@ -14,6 +14,8 @@
 
 .btn-container {
     height: 20vh;
+    margin: 4vh 0;
+    border-radius: 5px;
 }
 
 .snackbar-button {
@@ -22,11 +24,11 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    border: 2px solid gray;
+    border: 2px solid var(--darkGray-color);
 }
   
 .snackbar-button:hover {
-    background: lightgray;
+    background: var(--lightgray-color);
 }
 
 /* Snackbar */
@@ -34,18 +36,18 @@
 .snackbar {
     max-width: 33vw;
     min-height: 6vh;
-    background: #000;
-    color: lightgray;
+    background: var(--black-color);
+    color: var(--lightgray-color);
     margin: 8vh 0;
     flex-wrap: wrap;
-    box-shadow: 2px 2px rgb(65, 63, 63);
+    box-shadow: 2px 2px var(--superdarkGray-color);
     position: absolute;
     z-index: 2;
     left: 2%;
   }
 
   .snackbar-button:hover {
-    background: lightgray;
+    background: var(--lightgray-color);
   }
   
   .space-around {
@@ -55,16 +57,16 @@
   }
   
   .action-button {
-    background: #000;
-    color: blueviolet;
+    background: var(--black-color);
+    color: var(--blueviolet-color);
     border: none;
     cursor: pointer;
     padding: 1rem;
   }
   
   .action-button:hover {
-    background: #000;
-    background: rgb(48, 45, 45);
+    background: var(--black-color);
+    background: var(--superdarkGray-color);
   }
   
   .cancel {
@@ -75,7 +77,7 @@
   
   .cancel:hover {
     padding: 1rem;
-    background: rgb(48, 45, 45);
+    background: var(--superdarkGray-color);
   }
   
   .snackbar-container {
@@ -104,76 +106,13 @@
     top: 250vh;
   }
 
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.row-direction {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-  .drawer {
-    width: 60vw;
-  }
   .snackbar {
     max-width: 80vw;
 }
 }
 
-/* common */
-
-.wrap {
-  flex-wrap: wrap;
-}
-
-.h-4 {
-  font-size: 4rem;
-}
-.h-2 {
-  font-size: 2rem;
-}
-.h-1h {
-  font-size: 1.5rem;
-}
-
-.b-2 {
-  border: 2px solid gray;
-}
-
-.m-a{
-  margin: auto;
-}
-.mt2-mb6 {
-  margin: 3vh 0 6vh 0;
-}
-.mv-4 {
-  margin: 4vh 0;
-}
-.m-4 {
-  margin: 4vh;
-}
-
-.p-1 {
-  padding: 1rem;
-}
-
-.br-5 {
-  border-radius: 5px;
-}
-
-.fw-1 {
-  font-weight:bolder;
-}
-
-.gray {
-  color: gray;
-}
 

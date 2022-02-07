@@ -1,14 +1,15 @@
 .drawer {
     width: 18vw;
-    overflow: scroll;
     min-height: 100vh;
     position: fixed;
     background: white;
     visibility: hidden;
-    overflow: scroll;
+    background-color: var(--background-color);
+    overflow-y: scroll;
     z-index: 8;
+    border: 2px solid gray;
   }
-  
+
   .title {
     height: 8vh;
     background: #000;

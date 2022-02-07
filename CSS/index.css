@@ -16,7 +16,6 @@
     width: 100vw;
     background-image: url('/images/bg9.jpg');
     background-repeat: no-repeat;
-    image-orientation: 0grad;
     opacity: 0.95;
   }
 
@@ -45,26 +44,26 @@
   .start--heading{
     font-size: 5vh;
     font-weight: 500;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px var(--black-color);
   }
 
   .start--paragraph{
     font-size: 1.8rem;
-    color: rgb(112, 103, 103);
+    color: var(--redishGray-color);
     margin: 3vh 0;
   }
 
   .start--btn{
     padding: 8px;
     font-size: 1.1rem;
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 5px;
     border: 3px solid var(--primary-color);
   }
 
   .start--btn:hover {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
   }
 
   /********* features *********/
@@ -87,8 +86,8 @@
   }
 
   .feature-items {
-      background-color: rgb(247, 255, 254);
-      box-shadow: 8px 8px black;
+      background-color: var(--seagreenishWhite);
+      box-shadow: 8px 8px var(--black-color);
       width: 18vw;
       margin: 4vh 2vw;
       border-radius: 4px;
@@ -105,7 +104,7 @@
     margin: 2vh;
     padding: 1.5rem;
     height: 18vh;
-    background-color: rgb(225, 228, 226);
+    background-color: var(--greenishWhite);
   }
 
   /****** footer *****/
@@ -113,8 +112,8 @@
   .contact {
       height: 8vh;
       width: 100vw;
-      color: white;
-      background-color: black;
+      color: var(--white-color);
+      background-color: var(--black-color);
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -123,7 +122,7 @@
   }
 
   .footer--icons i {
-    color: white;
+    color: var(--white-color);
     padding: 2px;
     margin: 3px 0;
   }

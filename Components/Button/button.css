@@ -15,76 +15,120 @@
     width: 55vw;
     display: flex;
     align-items: center;
+    margin: 8vh;
+}
+
+.btn__solid, .btn__outline, .btn__icon, .btn__link, .btn__float {
+    font-size: 2rem;
+    padding: 2rem 4rem;
+    border-radius: 5px;
+    margin: 2vh 0;
 }
 
 /* solid button */
 
 .btn__solid {
-    color: white;
+    color: var(--white-color);
     border: none;
 }
 
 .btn__solid--primary {
-    background: orange;
+    background: var(--orange-color);
 }
 
 .btn__solid--secondary {
-    background: lightgreen;
+    background: var(--lightgreen-color);
 }
 
 .btn__solid--danger {
-    background: red;
+    background: var(--red-color);
+}
+
+.btn__solid--primary:hover {
+    background: var(--darkOrange-color);
+}
+.btn__solid--secondary:hover {
+    background: var(--green-color);
+}
+.btn__solid--danger:hover {
+    background: var(--darkRed-color);
 }
 
 /* outlined buttons */
 
 .btn__outline {
-    background-color: white;
+    background-color: var(--white-color);
 }
 
 .btn__outline--primary {
-    color: orange;
-    border: 1px solid orange;
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
 }
 
 .btn__outline--secondary {
-    color: lightgreen;
-    border: 1px solid lightgreen;
+    color: var(--lightgreen-color);
+    border: 1px solid var(--lightgreen-color);
 }
 
 .btn__outline--danger {
-    color: red;
-    border: 1px solid red;
+    color: var(--red-color);
+    border: 1px solid var(--red-color);
 }
 
+.btn__outline--primary:hover {
+    background-color: var(--lightorange-color);
+    border: 1px solid var(--orange-color);
+}
+.btn__outline--secondary:hover {
+    background-color: var(--superlightgreen-color);
+    border: 1px solid var(--lightgreen-color);
+}
+.btn__outline--danger:hover {
+    background-color: var(--lightred-color);
+    border: 1px solid var(--red-color);
+}
 
 /* icon button */
 
 .btn__icon {
-    color: white;
+    color: var(--white-color);
     border: none;
 }
 
 .btn__icon--primary {
-    background: orange;
+    background: var(--orange-color);
 }
 
 .btn__icon--secondary {
-    background: lightgreen;
+    background: var(--lightgreen-color);
 }
 
 .btn__icon--danger {
-    background: red;
+    background: var(--red-color);
 }
 
+.btn__icon--primary:hover {
+    background: var(--darkOrange-color);
+}
+.btn__icon--secondary:hover {
+    background: var(--green-color);
+}
+.btn__icon--danger:hover {
+    background: var(--darkRed-color);
+}
+
+.button--icon i {
+    margin-right: 1rem;
+}
 
 /* link button */
 
 .btn__link {
     border: none;
-    background-color: red;
+    background-color: var(--red-color);
 }
 .btn__link:hover {
+    background-color: var(--lightred-color);
     text-decoration: underline;
 }
 
@@ -93,106 +137,19 @@
 
 .btn__float {
     border: none;
-    background-color: blue;
+    background-color: var(--blue-color);
     border-radius: 50%;
     height: 13vh;
-    color: white;
-    box-shadow:  0 6px 6px 0 gray;
+    color: var(--white-color);
+    box-shadow:  0 6px 6px 0 var(--darkGray-color);
 }
 .btn__float:hover {
-    text-decoration: underline;
+    background-color: var(--darkBlue-color);
 }
 
-/* footer */
-
-.nav_btn {
-    background: whitesmoke;
-    border: none;
-    cursor: pointer;
-}
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 500px) {
-    .drawer {
-        width: 60vw;
-    }
-}
-
-/* common */
-
-.center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.wrap {
-    flex-wrap: wrap;
-}
-
-.h-4 {
-    font-size: 4rem;
-}
-
-.h-2 {
-    font-size: 2rem;
-}
-
-.h-1h {
-    font-size: 1.5rem;
-}
-
-.b-2 {
-    border: 2px solid gray;
-}
-
-.m-a {
-    margin: auto;
-}
-
-.mr-1 {
-    margin-right: 1rem;
-
-}
-.mv-2 {
-    margin: 2vh 0;
-}
-
-.mt2-mb6 {
-    margin: 3vh 0 6vh 0;
-}
-
-.mv-4 {
-    margin: 4vh 0;
-}
-.mv-6 {
-    margin: 6vh 0;
-}
-.mv-8 {
-    margin: 8vh;
-}
-
-.m-4 {
-    margin: 4vh;
-}
-
-.p-1 {
-    padding: 1rem;
-}
-.p24 {
-    padding: 2rem 4rem;
-}
-
-.br-5 {
-    border-radius: 5px;
-}
-
-.fw-1 {
-    font-weight: bolder;
-}
-
-.gray {
-    color: gray;
+ 
 }
