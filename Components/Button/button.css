@@ -151,6 +151,8 @@
 
 /****** mobile version  *****/
 
-@media only screen and (max-width: 500px) {
- 
+@media only screen and (max-width: 800px) {
+        .button__box {
+        margin: 4vh 3vh;
+}
 }

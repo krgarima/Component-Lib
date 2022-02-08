@@ -25,10 +25,6 @@
     box-shadow: 10px 10px 5px var(--boxShadow-color);
 }
 
-.alert--container button {
-    box-shadow: 4px 4px 2px var(--boxShadow-color);
-}
-
 .bold {
     padding: 1rem;
 }
@@ -38,28 +34,28 @@
 .btn__simple--primary,  .btn__outlined--primary{
     padding: 1rem;
     background-color: var(--blue-color);
-    color: white;
+    color: var(--white-color);
     border-radius: 5px;
 }
 
 .btn__simple--error, .btn__outlined--error {
     padding: 1rem;
     background-color: var(--red-color);
-    color: white;
+    color: var(--white-color);
     border-radius: 5px;
 }
 
 .btn__simple--success, .btn__outlined--success {
     padding: 1rem;
     background-color: var(--lightgreen-color);
-    color: white;
+    color: var(--white-color);
     border-radius: 5px;
 }
 
 .btn__simple--warning, .btn__outlined--warning {
     padding: 1rem;
     background-color: var(--orange-color);
-    color: white;
+    color: var(--white-color);
     border-radius: 5px;
 }
 
@@ -78,7 +74,7 @@
 }
 
 .simple--alerts {
-    color: white;
+    color: var(--white-color);
     position: relative;
 }
 
@@ -138,7 +134,7 @@
 }
 
 .outlined--success {
-    color: lightgreen;
+    color: var(--lightgreen-color);
     background-color: var(--white-color);
     border: 1px solid var(--darkGreen-color);
     position: absolute;
@@ -147,7 +143,7 @@
 }
 
 .outlined--warning {
-    color: orange;
+    color: var(--orange-color);
     background-color: var(--white-color);
     border: 1px solid var(--darkOrange-color);
     position: absolute;
@@ -194,31 +190,39 @@ cursor: pointer;
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-    
+
+.alert--container {
+    margin: 10vh 7vh;
+}
+
 .simple--primary {
-    top: 12rem;
+    top: 15rem;
 }
 .simple--error {
-    top: 12rem;
+    top: 15rem;
 }
 .simple--success {
-    top: 12rem;
+    top: 15rem;
 }
 .simple--warning {
-    top: 12rem;
+    top: 15rem;
 }
 
 .outlined--primary {
-    top: 12rem;
+    top: 15rem;
 }
 .outlined--error {
-    top: 12rem;
+    top: 15rem;
 }
 .outlined--success {
-    top: 12rem;
+    top: 15rem;
 }
 .outlined--warning {
-    top: 12rem;
+    top: 15rem;
+}
+
+.action {
+    width: 70vw;
 }
 
 }

@@ -82,9 +82,8 @@
 
 /****** mobile version  *****/
 
-@media only screen and (max-width: 500px) {
-
+@media only screen and (max-width: 800px) {
+  .alert--container {
+    margin: 10vh 10vh;
 }
-
-
-
+}
