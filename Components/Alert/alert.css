@@ -189,3 +189,36 @@ cursor: pointer;
 .reOpen-Btn:hover {
     color: var(--black-color);
 }
+
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 800px) {
+    
+.simple--primary {
+    top: 12rem;
+}
+.simple--error {
+    top: 12rem;
+}
+.simple--success {
+    top: 12rem;
+}
+.simple--warning {
+    top: 12rem;
+}
+
+.outlined--primary {
+    top: 12rem;
+}
+.outlined--error {
+    top: 12rem;
+}
+.outlined--success {
+    top: 12rem;
+}
+.outlined--warning {
+    top: 12rem;
+}
+
+}
