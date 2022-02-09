@@ -2,12 +2,13 @@
     height: 8vh;
     width: 100vw;
     background: var(--secondary-color);
-    color: white;
+    color: var(--white-color);
     display: flex;
     align-items: center;
     position: fixed;
     font-size: 1.3rem;
     z-index: 10;
+    box-shadow: 4px 4px 4px var(--boxShadow-color);
   }
   
   .fa-bars {
@@ -16,15 +17,10 @@
   }
   
   .fa-bars:hover {
-    background: gray;
+    background-color: var(--darkGray-color);
   }
   
   h3 a{
     text-decoration: none;
-    color:white;
+    color:var(--white-color);
   }
-  
-  h3 a:hover{
-    color: var(--primary-color);
-  }
-  

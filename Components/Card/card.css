@@ -25,10 +25,10 @@
     min-height: 20vh;
     width: 16vw;
     border: 4px solid var(--black-color);
-    background: white;
-    border-radius: 10px;
+    background: var(--white-color);
+    border-radius: 8px;
     margin: auto;
-    box-shadow: 10px 10px 5px var(--boxShadow-color);
+    box-shadow: 0px 0px 0.625rem var(--darkGray-color);;
     margin: 10rem;
     font-size: 1.2rem;
     object-fit: cover;
@@ -170,6 +170,275 @@ color: var(--white-color);
     display: none;
 }
 
+/******** Vertical Card *******/
+
+.vertical-Card {
+    position: relative;
+}
+
+.vertical-Card .wish-icon {
+    background-color: var(--darkGray-color);
+    position: absolute;
+    top: 0.9rem;
+    left: 15vw;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 0.5rem;
+    height: 3rem;
+}
+
+.card1 {
+    min-height: 40vh;
+    width: 18vw;
+    border: 4px solid var(--white-color);
+    background: var(--white-color);
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+    margin: 10rem;
+    font-size: 1.2rem;
+    object-fit: cover;
+}
+
+.card-title{
+    padding: 0.5rem;
+    background-color: floralwhite;font-size: 1.3rem;
+}
+
+.card-img1 {
+    width: 17.1vw;
+    height: 27vh;
+    margin: 0.4rem;
+}
+
+.description1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.description:hover {
+    background-color: var(--description-onhoverColor);
+}
+
+.item-price {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+.item-ageGroup {
+    margin-top: 1rem;
+}
+
+.verticalCard-footer {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addItem-btn {
+    padding: 0.5rem;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    cursor: pointer;
+    display: flex;
+    border-radius: 3px;
+    width: 17vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.addItem-btn:hover {
+background-color: var(--darkRed-color);
+}
+
+
+/******** Horizontal Card *******/
+
+.horizontal-Card {
+}
+
+.card2 {
+    min-height: 26vh;
+    width: 26vw;
+    border: 4px solid var(--white-color);
+    background: var(--white-color);
+    margin: auto;
+    box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+    margin: 10rem;
+    font-size: 1.2rem;
+    object-fit: cover;
+}
+
+.float-cardLeft {
+float: left;
+}
+
+.card-img2 {
+    width: 11.5vw;
+    min-height: 27.2vh;
+    margin: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.float-cardRight {
+float: right;
+}
+
+.card-title2{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.description1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-price {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+.itemQuantity {
+    width: 5rem;
+}
+
+.horizontalCard-footer {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal-btn {
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    border-radius: 3px;
+    width: 13vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+
+.removeItem-btn {
+    color: var(--white-color);
+    background-color: var(--darkGray-color);
+    border: none;
+}
+
+.moveItem-btn {
+    border: 2px solid  var(--darkGray-color);
+    background-color: var(--white-color)
+}
+
+.removeItem-btn:hover {
+    background-color: var(--black-color);
+}
+
+.moveItem-btn:hover {
+background-color: var(--black-color);
+color: var(--white-color);
+}
+
+
+/******** Text Card *******/
+
+.text-Card {
+}
+
+.card3 {
+    height: 30vh;
+    width: 18vw;
+    border: 4px solid var(--white-color);
+    background: var(--white-color);
+    margin: auto;
+    box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+    margin: 10rem;
+    font-size: 1.3rem;
+    object-fit: cover;
+}
+
+.card3-title{
+    padding: 0.3rem;
+    font-size: 1.6rem;
+}
+
+.card-details {
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+.description3 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+    justify-content: space-evenly;
+}
+
+.total-price {
+    font-weight: 600;
+    margin: 0.6rem 0;
+    font-size: 1.5rem;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtCard-footer {
+    margin: 0rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.order-btn {
+    padding: 0.5rem;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    cursor: pointer;
+    display: flex;
+    border-radius: 3px;
+    width: 17vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.order-btn:hover {
+background-color: var(--darkBlue-color);
+}
+
+
+/******** Disabled Card *******/
+
+.disabled-Card {
+    position: relative;
+    opacity: 0.5;
+}
+
+.msg-outOfStock {
+    position: absolute;
+    z-index: 1;
+    top: 8rem;
+    left: 9vh;
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 1;
+}
+
+.disabled-Card .addItem-btn:hover {
+background-color: var(--red-color);
+cursor: not-allowed;
+}
+
 /************  desktop ******************/
 
 @media only screen and (max-width: 700px) {
@@ -179,7 +448,7 @@ color: var(--white-color);
         margin: auto;
     }
 
-    .card {
+    .card, .card1, .card2, .card3 {
         width: 78vw;
     }
 
@@ -187,8 +456,24 @@ color: var(--white-color);
         width: 77vw;
     }
 
+    .card-img1, .card-img2, .card-img3 {
+        width: 74vw;
+    }
+
+    .vertical-Card .wish-icon {
+    left: 65vw;
+    }
+
     .dismiss-Card .dismiss-icon {
         left: 72vw;
+    }
+
+    .order-btn {
+        width: 40vw;
+    }
+
+    .addItem-btn, .horizontal-btn {
+        width: 73vw;
     }
 
     .side-Image {

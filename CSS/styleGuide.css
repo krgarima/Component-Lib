@@ -26,7 +26,7 @@ html {
 
 :root {
   --primary-color: rgb(0, 212, 202);
-  --secondary-color: black;
+  --secondary-color: #13131f;
   --background-color: rgb(240 240 240);
   --white-color: white;
   --greenishWhite: rgb(225, 228, 226);
@@ -41,6 +41,7 @@ html {
   --superlightBlue-color: rgb(200, 209, 236);
   --lightblue-color: skyblue;
   --deepBlue-color: #2196F3;
+  --kDeepBlue-color:#0981e2;
   --darkBlue-color: darkblue;
   --blue-color: blue;
   --yellowgreen-color: #aaf321;

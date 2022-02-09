@@ -2,7 +2,7 @@
 
 /******** Main body **************/
 
-/******** Navigation *******/
+/******** Navigation **************/
 
 .nav--container {
     margin: 10vh;
@@ -10,7 +10,6 @@
     margin-top: 15vh;
 }
 
-/********************************************* NAVIGATION *******************************/
 
 /*****  container *******/
 
@@ -18,7 +17,7 @@
     height: 50vh;
     width: 80%;
     display: flex;
-    border: 3px solid var(--black-color);
+    border: 1.5px solid var(--gray-color);
     margin: auto;
     margin-top: 8vh;
 }
@@ -37,14 +36,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1rem;
-    margin-bottom: 0.6rem;
+    font-size: 1.2rem;
 }
 
-.mail__add,
 .drawer__heading {
     margin: auto;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .textDrawer1 {
@@ -60,6 +58,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--white-color);
+    font-size: 1.3rem;
 }
 
 .sidebar__item:hover {
@@ -77,6 +76,7 @@
 
 .navIcons i {
     color: var(--white-color);
+    margin: 0 0.6rem;
 }
 
 .body__heading {
@@ -85,6 +85,8 @@
     color: var(--white-color);
     display: flex;
     align-items: center;
+    box-shadow: 4px 4px 4px var(--boxShadow-color);
+    margin-bottom: 6px;
 }
 
 .mainBody {
@@ -94,7 +96,7 @@
 }
 
 .drawerDescription {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 h3 {
@@ -119,6 +121,10 @@ h3 {
     top: 0;
 }
 
+.permanent--Drawer .drawer__title {
+    background-color: var(--purple-color);
+}
+
 
 /********  Dismissible drawer ********/
 
@@ -139,6 +145,10 @@ h3 {
     background: var(--seagreen-color);
 }
 
+.drawer__Container--Dismissible .drawer__title {
+    background-color: var(--seagreen-color);
+}
+
 /********  Modal drawer ***********/
 
 .drawer__Container--Modal {
@@ -147,36 +157,50 @@ h3 {
 
 .modalDrawer1 {
     position: absolute;
-    height: inherit;
-    background: var(--background-color);
+    height: 49vh;
+    background-color: var(--background-color);
     visibility: hidden;
-    width: 18vw;
+    width: 14vw;
 }
 
 .modal__body .body__heading {
-    background-color: var(--coral-color);
+    background-color: var(--deepBlue-color);
 }
 
 .modal__body .fa-bars:hover {
-    background: var(--darkCoral-color);
+    background-color: var(--kDeepBlue-color);
 }
 
-/**** icons  ****/
-/* 
-span {
-    margin: 0 2rem 0 0;
-} */
-
-span i {
-    margin: 0 2rem 0 0;
-    cursor: pointer;
+.modalDrawer1 .drawer__title {
+background-color: var(--deepBlue-color);
 }
+
+.log {
+    background-color: var(--white-color);
+    margin-right: 1rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+}
+
+.log:hover {
+    border: 3px solid var(--kDeepBlue-color);
+}
+
+
+/* e-com */
+
+
+
 
 /**************************** end of nav *****************************************************/
 
 /* mobile mode */
 
 @media only screen and (max-width: 800px) {
+    .dismissibleDrawer {
+        width: 40vw;
+    }
+    
     .drawer__menu {
         width: 40vw;
         border: 1px solid var(--darkGray-color);

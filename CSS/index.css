@@ -1,8 +1,8 @@
 @import url('/CSS/styleGuide.css');
 @import url('/CSS/sideBar.css');
-@import url('/CSS/home.css');
 @import url('/CSS/reset.css');
 @import url('/CSS/navbar.css');
+@import url('/CSS/home.css');
 
 .logo{
     /* font-size: 2.7vh; */
