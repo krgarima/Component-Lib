@@ -4,10 +4,13 @@
 @import url('/CSS/navbar.css');
 @import url('/CSS/home.css');
 
-.logo{
-    /* font-size: 2.7vh; */
+.logo {
     margin-left: 1.5rem;
-    -webkit-text-stroke: 1px var(--primary-color);
+}
+
+.logo a{
+  -webkit-text-stroke: 1px var(--primary-color);
+
 }
 
   .bg-image {
