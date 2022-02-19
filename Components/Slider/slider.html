@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG">
+    <link rel="stylesheet" href="/Components/Avatar/avatar.css">
+    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+
+    <title>Aesthetic | Slider</title>
+</head>
+
+<body>
+    <div class="Container parentContainer" id="modalDrawerMainBody">
+
+        <header>
+            <div class="navBar space-between">
+                <div class="nav-left space-evenly">
+                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+                    <h3 class="third-heading logo"><a href="/index.html">Aesthetic-UI</a></h3>
+                </div>
+                <div class="nav-right space-evenly">
+                    <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
+                    <h3 class="third-heading"><a href="/home.html">Docs</a></h3>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="drawer" id="modalDrawer">
+                <div class="title">
+                    <h2 class="drawerHeading">Menu</h2>
+                    <i class="fas fa-times close" id="close"></i>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Alert/alert.html">Alert</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Avatar/avatar.html">Avatar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Badge/badge.html">Badge</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Button/button.html">Button</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Card/card.html">Card</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Grid/grid.html">Grids</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Image/image.html">Images</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Input/input.html">Input</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Lists/lists.html">Lists</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Modal/modal.html">Modal</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Navigation/navigation.html">Navigation</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Rating/rating.html">Rating</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Slider/slider.html">Slider</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+                </div>
+                <div class="sideBar">
+                    <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
+                </div>
+            </div>
+
+
+            <div class="slider--container ">
+                <h1 class="first-heading">Slider</h1>
+                <p class="first-para">Sliders are used to decide range for something like sound in videos, price in shopping sites, etc.</p>
+
+                <h2 class="second-heading">1) Slider with icon</h2>
+                <div class="slider-container center wrap">
+                    <i class="fas fa-volume-up"></i><input type="range" min="300" max="1000" value="100" class="slider"
+                        id="filterRange">
+                </div>
+
+                <div class="slider__frame center">
+                    <iframe class="iFrame"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=169%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2520center%2520wrap%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-volume-up%2522%253E%253C%252Fi%253E%250A%253Cinput%2520type%253D%2522range%2522%2520min%253D%2522300%2522%2520max%253D%25221000%2522%2520value%253D%2522100%2522%2520class%253D%2522slider%2522%250Aid%253D%2522filterRange%2522%253E"
+                        style="width: 626px; height: 154px; border:0; transform: scale(1); overflow:scroll;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+                <h2 class="second-heading">2) Disabled slider</h2>
+                <div class="slider-container center wrap">
+                    <i class="fas fa-volume-up volume-disabled"></i><input type="range" min="300" max="1000" value="100"
+                        class="slider" id="filterRange" disabled>
+                </div>
+
+                <div class="slider__frame center">
+                    <iframe class="iFrame"
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=169%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2520center%2520wrap%2522%253E%250A%253Ci%2520class%253D%2522fas%2520fa-volume-up%2520volume-disabled%2522%253E%253C%252Fi%253E%250A%253Cinput%2520type%253D%2522range%2522%2520min%253D%2522300%2522%2520max%253D%25221000%2522%2520value%253D%2522100%2522%2520class%253D%2522slider%2522%2520id%253D%2522filterRange%2522%2520disabled%253E%250A%253C%252Fdiv%253E"
+                    style="width: 870px; height: 154px; border:0; transform: scale(1); overflow:scroll;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+
+    <footer class="space-between">
+        <button class="nav_btn prev_page"><a href="/Components/Rating/rating.html">&lt; Rating</a></button>
+        <button class="nav_btn next_page"><a href="/Components/Snackbar/snackbar.html">Snackbar &gt;</a></button>
+    </footer>
+    <script src="/script/home.js"></script>
+</body>
+
+</html>
