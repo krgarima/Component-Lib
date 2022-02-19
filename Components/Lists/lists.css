@@ -1,0 +1,71 @@
+@import url('/CSS/components.css');
+
+/******** Main body **************/
+
+/******** List *******/
+
+.list--container {
+  margin: 10vh;
+  width: 70vw;
+}
+
+.unordered-List, .ordered-List, .no-Bullet-List, .inline-List, .stacked-List {
+  font-size: 2rem;
+  background-color: var(--white-color);
+  min-height: 20vh;
+  margin-bottom: 8vh;
+}
+
+/* unordered list */
+
+.styled-list-circle li {
+    list-style-type: circle;
+}
+
+.list-style-square li {
+    list-style-type: square;
+}
+
+/* ordered list */
+
+.styled-list-number {
+list-style-type:decimal;
+}
+
+.styled-list-roman {
+    list-style-type: lower-roman;
+}    
+
+.styled-list-letter {
+    list-style-type: lower-alpha;
+}
+
+/* inline list */
+
+.inline-List ul{
+    display: flex; 
+}
+
+.inline-List ul li{
+    margin-right: 1.5rem;
+}
+
+.stacked-List ul {
+    padding: 2px;
+    background-color: var(--gray-color);
+}
+
+.stacked-List ul li{
+    background-color: var(--white-color);
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 800px) {
+  .alert--container {
+    margin: 10vh 10vh;
+}
+}
