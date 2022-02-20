@@ -55,5 +55,9 @@
     .input--container {
         margin: 10vh 7vh;
     }
+    .input {
+        border: none;
+        background-color: var(--background-color);
+    }
 }
 

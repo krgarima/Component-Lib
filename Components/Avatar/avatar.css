@@ -83,7 +83,7 @@
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-  .alert--container {
+  .avatar--container {
     margin: 10vh 7vh;
 }
 }
