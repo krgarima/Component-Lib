@@ -239,7 +239,7 @@ color: var(--white-color);
 
 .addItem-btn {
     padding: 0.5rem;
-    background-color: var(--red-color);
+    background-color: var(--blue-color);
     color: var(--white-color);
     cursor: pointer;
     display: flex;
@@ -251,14 +251,11 @@ color: var(--white-color);
 }
 
 .addItem-btn:hover {
-background-color: var(--darkRed-color);
+background-color: var(--darkBlue-color);
 }
 
 
 /******** Horizontal Card *******/
-
-.horizontal-Card {
-}
 
 .card2 {
     min-height: 26vh;
@@ -347,9 +344,6 @@ color: var(--white-color);
 
 
 /******** Text Card *******/
-
-.text-Card {
-}
 
 .card3 {
     height: 30vh;

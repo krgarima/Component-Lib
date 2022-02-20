@@ -55,17 +55,24 @@ body {
 .first-para {
   font-size: 2rem;
   margin: 2vh 0;
-  color: var(--darkGray-color);
+  color: var(--text-color);
 }
 
 .second-para {
   font-size: 1.8rem;
   margin: 1vh 0;
-  color: var(--darkGray-color);
+  color: var(--text-color);
 }
 
 .iFrame {
   margin: 3vh 0 6vh 0;
+}
+
+.iFrame {
+  width: 942px;
+  border:0;  
+  /* min-height: 25vh; */
+  /* height: 489px;  */
 }
 
 /* footer */

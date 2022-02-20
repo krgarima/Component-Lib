@@ -41,21 +41,21 @@
 .btn__simple--error, .btn__outlined--error {
     padding: 1rem;
     background-color: var(--red-color);
-    color: var(--white-color);
+    color: var(--black-color);
     border-radius: 5px;
 }
 
 .btn__simple--success, .btn__outlined--success {
     padding: 1rem;
     background-color: var(--lightgreen-color);
-    color: var(--white-color);
+    color: var(--black-color);
     border-radius: 5px;
 }
 
 .btn__simple--warning, .btn__outlined--warning {
     padding: 1rem;
     background-color: var(--orange-color);
-    color: var(--white-color);
+    color: var(--black-color);
     border-radius: 5px;
 }
 
@@ -65,9 +65,11 @@
 }
 .btn__simple--error:hover, .btn__outlined--error:hover {
     background: var(--darkRed-color);
+    color: var(--white-color);
 }
 .btn__simple--success:hover, .btn__outlined--success:hover {
     background: var(--green-color);
+    color: var(--white-color);
 }
 .btn__simple--warning:hover, .btn__outlined--warning:hover {
     background: var(--darkOrange-color);
@@ -90,6 +92,7 @@
     top: 5rem;
     visibility: hidden;
     background: var(--red-color);
+    color: var(--black-color);
 }
 
 .simple--success {
@@ -97,6 +100,7 @@
     position: absolute;
     visibility: hidden;
     background: var(--lightgreen-color);
+    color: var(--black-color);
 }
 
 .simple--warning {
@@ -104,6 +108,7 @@
     position: absolute;
     visibility: hidden;
     background: var(--orange-color);
+    color: var(--black-color);
 }
 
 
@@ -117,7 +122,7 @@
 
 .outlined--primary {
     color: var(--blue-color);
-    border: 1px solid var(--gray-color);
+    border: 1px solid var(--blue-color);
     background-color: var(--white-color);
     position: absolute;
     top: 5rem;
@@ -125,7 +130,7 @@
 }
 
 .outlined--error {
-    color: var(--red-color);
+    color: var(--darkRed-color);
     background-color: var(--white-color);
     border: 1px solid var(--red-color);
     position: absolute;
@@ -134,7 +139,7 @@
 }
 
 .outlined--success {
-    color: var(--lightgreen-color);
+    color: var(--darkGreen-color);
     background-color: var(--white-color);
     border: 1px solid var(--darkGreen-color);
     position: absolute;
@@ -143,7 +148,7 @@
 }
 
 .outlined--warning {
-    color: var(--orange-color);
+    color: var(--darkOrange-color);
     background-color: var(--white-color);
     border: 1px solid var(--darkOrange-color);
     position: absolute;

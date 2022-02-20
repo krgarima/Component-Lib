@@ -28,6 +28,7 @@ html {
   --primary-color: rgb(0, 212, 202);
   --secondary-color: #13131f;
   --background-color: rgb(240 240 240);
+  --text-color: #353434;
   --white-color: white;
   --greenishWhite: rgb(225, 228, 226);
   --black-color: black;
@@ -52,7 +53,7 @@ html {
   --lightseagreen-color: lightseagreen;
   --seagreen-color: rgb(7, 151, 144);
   --lightorange-color: rgb(255, 224, 185);
-  --darkOrange-color: rgb(243, 134, 0);
+  --darkOrange-color: rgb(190, 109, 9);
   --orange-color: orange;
   --gray-color:rgb(187, 187, 214);
   --lightgray-color:lightgray;

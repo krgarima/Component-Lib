@@ -53,19 +53,19 @@
   height: 5rem;
   width: 5rem;
   font-size: 4.5rem;
-  background-color: var(--lightblue-color);
+  background-color: var(--blue-color);
 }
 .avatar__ltr--md{
   height: 7.5rem;
   width: 7.5rem;
   font-size: 7rem;
-  background-color: var(--lightgreen-color);
+  background-color: var(--red-color);
 }
 .avatar__ltr--lg{
   height: 10rem;
   width: 10rem;
   font-size: 9rem;
-  background-color: var(--red-color);
+  background-color: var(--purple-color);
 }
 
 .center {

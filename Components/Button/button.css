@@ -34,11 +34,11 @@
 }
 
 .btn__solid--primary {
-    background: var(--orange-color);
+    background: var(--blue-color);
 }
 
 .btn__solid--secondary {
-    background: var(--lightgreen-color);
+    background: var(--green-color);
 }
 
 .btn__solid--danger {
@@ -46,10 +46,10 @@
 }
 
 .btn__solid--primary:hover {
-    background: var(--darkOrange-color);
+    background: var(--darkBlue-color);
 }
 .btn__solid--secondary:hover {
-    background: var(--green-color);
+    background: var(--darkGreen-color);
 }
 .btn__solid--danger:hover {
     background: var(--darkRed-color);
@@ -62,13 +62,13 @@
 }
 
 .btn__outline--primary {
-    color: var(--orange-color);
-    border: 1px solid var(--orange-color);
+    color: var(--blue-color);
+    border: 1px solid var(--blue-color);
 }
 
 .btn__outline--secondary {
-    color: var(--lightgreen-color);
-    border: 1px solid var(--lightgreen-color);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
 }
 
 .btn__outline--danger {
@@ -77,16 +77,17 @@
 }
 
 .btn__outline--primary:hover {
-    background-color: var(--lightorange-color);
-    border: 1px solid var(--orange-color);
+    background-color: var(--lightblue-color);
+    border: 1px solid var(--blue-color);
 }
 .btn__outline--secondary:hover {
     background-color: var(--superlightgreen-color);
-    border: 1px solid var(--lightgreen-color);
+    border: 1px solid var(--green-color);
 }
 .btn__outline--danger:hover {
     background-color: var(--lightred-color);
     border: 1px solid var(--red-color);
+    color: var(--white-color);
 }
 
 /* icon button */
@@ -97,11 +98,11 @@
 }
 
 .btn__icon--primary {
-    background: var(--orange-color);
+    background: var(--blue-color);
 }
 
 .btn__icon--secondary {
-    background: var(--lightgreen-color);
+    background: var(--green-color);
 }
 
 .btn__icon--danger {
@@ -109,10 +110,10 @@
 }
 
 .btn__icon--primary:hover {
-    background: var(--darkOrange-color);
+    background: var(--darkBlue-color);
 }
 .btn__icon--secondary:hover {
-    background: var(--green-color);
+    background: var(--darkGreen-color);
 }
 .btn__icon--danger:hover {
     background: var(--darkRed-color);
@@ -129,8 +130,9 @@
     background-color: var(--red-color);
 }
 .btn__link:hover {
-    background-color: var(--lightred-color);
     text-decoration: underline;
+    border: 2px solid var(--red-color);
+    font-weight: 500;
 }
 
 
