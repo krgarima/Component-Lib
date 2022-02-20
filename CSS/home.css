@@ -75,6 +75,13 @@ body {
   /* height: 489px;  */
 }
 
+.iFrame-Card {
+  width: 942px;
+  border:0;
+  max-width: 100%;
+  margin: 10vh;
+}
+
 /* footer */
 
 .nav_btn {
@@ -103,5 +110,8 @@ body {
 @media only screen and (max-width: 800px) {
   .drawer {
     width: 60vw;
+  }
+  html {
+  font-size: 0.5rem;
   }
 }

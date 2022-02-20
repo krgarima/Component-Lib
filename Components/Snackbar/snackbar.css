@@ -114,6 +114,10 @@
   .snackbar {
     max-width: 80vw;
 }
+
+.snackbar--container {
+  margin: 10vh 7vh;
+}
 }
 
 

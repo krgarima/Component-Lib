@@ -108,6 +108,9 @@
 
 @media only screen and (max-width: 500px) {
 
+  .badge--container {
+    margin: 10vh 7vh;
+  }
 } 
 
 

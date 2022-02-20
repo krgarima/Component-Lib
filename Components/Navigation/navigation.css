@@ -216,4 +216,8 @@ background-color: var(--deepBlue-color);
     .navIcons {
         display: none;
     }
+    
+    .nav--container {
+    margin: 10vh 7vh;
+}
 }

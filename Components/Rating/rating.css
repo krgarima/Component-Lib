@@ -53,5 +53,9 @@
   .snackbar {
     max-width: 80vw;
 }
+
+.rating--container {
+    margin: 10vh 7vh;
+}
 }
 

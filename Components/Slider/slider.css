@@ -27,7 +27,8 @@
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-  .alert--container {
-    margin: 10vh 10vh;
+  .slider--container {
+    margin: 10vh 7vh;
 }
+
 }

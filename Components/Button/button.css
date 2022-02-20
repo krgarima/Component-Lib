@@ -157,4 +157,9 @@
         .button__box {
         margin: 4vh 3vh;
 }
+
+.button__container {
+    margin: 10vh 7vh;
+}
+
 }
