@@ -1,0 +1,33 @@
+@import url('/CSS/components.css');
+
+/******** Main body **************/
+
+/******** List *******/
+
+.slider--container {
+  margin: 10vh;
+  width: 70vw;
+}
+
+.slider-container {
+  font-size: 2rem;
+  background-color: var(--white-color);
+  min-height: 20vh;
+}
+
+.slider-container i {
+    margin-right: 10px;
+}
+
+.volume-disabled {
+    color:gray
+}
+
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 800px) {
+  .alert--container {
+    margin: 10vh 10vh;
+}
+}
