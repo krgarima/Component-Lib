@@ -25,28 +25,52 @@ const actionAlert = document.querySelector('#actionAlert');
 
 const openAlertSimplePrimary = () => {
     (alertSimplePrimary.style.visibility === "visible") ? (alertSimplePrimary.style.visibility = "hidden") : (alertSimplePrimary.style.visibility = "visible");
+    setTimeout(() => {
+        alertSimplePrimary.style.visibility = "hidden";
+    }, 800);
 }
 const openAlertSimpleError = () => {
     (alertSimpleError.style.visibility === "visible") ? (alertSimpleError.style.visibility = "hidden") : (alertSimpleError.style.visibility = "visible");
+    setTimeout(() => {
+    alertSimpleError.style.visibility = "hidden";
+    }, 800);
 }
 const openAlertSimpleSuccess = () => {
     (alertSimpleSuccess.style.visibility === "visible") ? (alertSimpleSuccess.style.visibility = "hidden") : (alertSimpleSuccess.style.visibility = "visible");
+    setTimeout(() => {
+        alertSimpleSuccess.style.visibility = "hidden";
+    }, 800);
 }
 const openAlertSimpleWarning = () => {
     (alertSimpleWarning.style.visibility === "visible") ? (alertSimpleWarning.style.visibility = "hidden") : (alertSimpleWarning.style.visibility = "visible");
+    setTimeout(() => {
+        alertSimpleWarning.style.visibility = "hidden";
+    }, 800);
 }
 
 const openAlertOutlinedPrimary = () => {
     (alertOutlinedPrimary.style.visibility === "visible") ? (alertOutlinedPrimary.style.visibility = "hidden") : (alertOutlinedPrimary.style.visibility = "visible");
+    setTimeout(() => {
+        alertOutlinedPrimary.style.visibility = "hidden";
+    }, 800);
 }
 const openAlertOutlinedError = () => {
     (alertOutlinedError.style.visibility === "visible") ? (alertOutlinedError.style.visibility = "hidden") : (alertOutlinedError.style.visibility = "visible");
+    setTimeout(() => {
+        alertOutlinedError.style.visibility = "hidden";
+    }, 800);
 }
 const openAlertOutlinedSuccess = () => {
     (alertOutlinedSuccess.style.visibility === "visible") ? (alertOutlinedSuccess.style.visibility = "hidden") : (alertOutlinedSuccess.style.visibility = "visible");
+    setTimeout(() => {
+        alertOutlinedSuccess.style.visibility = "hidden";
+    }, 800);
 }
 const openAlertOutlinedWarning = () => {
     (alertOutlinedWarning.style.visibility === "visible") ? (alertOutlinedWarning.style.visibility = "hidden") : (alertOutlinedWarning.style.visibility = "visible");
+    setTimeout(() => {
+        alertOutlinedWarning.style.visibility = "hidden";
+    }, 800);
 }
 
 const closeActionAlert = () => {
