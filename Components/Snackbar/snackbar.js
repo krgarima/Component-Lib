@@ -14,12 +14,15 @@ const cancelStackedSnackbar = document.querySelector(
 
 const snackBarBaseline = () => {
   baselineSnackbar.style.visibility = "visible";
+  setTimeout(() => {closeBaselineSnackbar()}, 3000);
 }
 const snackBarLoading = () => {
   loadingSnackbar.style.visibility = "visible";
+  setTimeout(() => {closeLoadingSnackbar()}, 3000);
 }
 const snackBarStacked = () => {
   stackedSnackbar.style.visibility = "visible";
+  setTimeout(() => {closeStackedSnackbar()}, 3000);
 }
 
 const closeBaselineSnackbar = () => {

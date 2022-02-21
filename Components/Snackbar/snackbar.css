@@ -66,19 +66,18 @@
   }
   
   .action-button:hover {
-    background: var(--black-color);
-    background: var(--superdarkGray-color);
+    font-weight: 600;
   }
   
   .cancel {
     border-radius: 50%;
     cursor: pointer;
-    padding: 0.2rem;
+    padding: 1rem;
   }
   
   .cancel:hover {
-    padding: 1rem;
-    background: var(--superdarkGray-color);
+    font-weight: 600;
+    font-size: larger;
   }
   
   .snackbar-container {
@@ -97,14 +96,14 @@
   
   .loading-snackbar {
     visibility: hidden;
-    top: 165vh;
+    top: 155vh;
   }
   
   /*********  Stacked snackbar *********/
   
   .stacked-snackbar {
     visibility: hidden;
-    top: 250vh;
+    top: 220vh;
   }
 
 
