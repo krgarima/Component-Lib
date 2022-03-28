@@ -95,40 +95,32 @@
 
 .text-upperCase {
   text-transform: uppercase;
-  font-size: 2rem;
 }
 .text-lowerCase {
   text-transform: lowercase;
-  font-size: 2rem;
 }
 .text-capitalCase {
   text-transform: capitalize;
-  font-size: 2rem;
-}
-
-.text-normal {
-  font-size: 2rem;
 }
 
 .text-bold {
   font-weight: 700;
-  font-size: 2rem;
 }
 .text-italic {
   font-style: italic;
-  font-size: 2rem;
 }
 
 .text-underline {
   text-decoration: underline;
-  font-size: 2rem;
 }
 .text-line-through {
   text-decoration: line-through;
-  font-size: 2rem;
 }
 .text-overline {
   text-decoration: overline;
+}
+
+.fs-2 {
   font-size: 2rem;
 }
 
