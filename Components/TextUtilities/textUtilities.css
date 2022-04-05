@@ -5,8 +5,8 @@
 /******** Text Utilties *******/
 
 .textUtilty--container {
-  margin: 10vh;
   width: 70vw;
+  margin: 10rem 0 0 22rem;
   min-height: 100vh;
 }
 
