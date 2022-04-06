@@ -1,151 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Garima">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Component Library, grid, components, aesthetic, ui, react, angular, vue">
-    <meta name="description" content="Aesthetic UI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop applications faster.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG">
-    <link rel="stylesheet" href="/Components/Grid/grid.css">
-    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Garima" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Component Library, grid, components, aesthetic, ui, react, angular, vue"
+    />
+    <meta
+      name="description"
+      content="Aesthetic UI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop applications faster."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG" />
+    <link rel="stylesheet" href="/Components/Grid/grid.css" />
+    <script
+      src="https://kit.fontawesome.com/d53bb09bcf.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Aesthetic | Grid page</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="Container parentContainer" id="modalDrawerMainBody">
+      <header>
+        <div class="navBar space-between">
+          <div class="nav-left space-evenly">
+            <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+            <h3 class="third-heading logo">
+              <a href="/index.html">Aesthetic-UI</a>
+            </h3>
+          </div>
+          <div class="nav-right space-evenly">
+            <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
+            <h3 class="third-heading"><a href="/home.html">Docs</a></h3>
+          </div>
+        </div>
+      </header>
 
-        <header>
-            <div class="navBar space-between">
-                <div class="nav-left space-evenly">
-                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
-                    <h3 class="third-heading logo"><a href="/index.html">Aesthetic-UI</a></h3>
-                </div>
-                <div class="nav-right space-evenly">
-                    <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
-                    <h3 class="third-heading"><a href="/home.html">Docs</a></h3>
-                </div>
-            </div>
-        </header>
+      <main>
+        <div class="drawer" id="modalDrawer">
+          <div class="title">
+            <h2 class="drawerHeading">Menu</h2>
+            <i class="fas fa-times close" id="close"></i>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Alert/alert.html">Alert</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Avatar/avatar.html">Avatar</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Badge/badge.html">Badge</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Button/button.html">Button</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Card/card.html">Card</a>
+          </div>
+          <div class="sideBar selectedSidebar">
+            <a href="/Components/Grid/grid.html">Grids</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Image/image.html">Images</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Input/input.html">Input</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Lists/lists.html">Lists</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Modal/modal.html">Modal</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Navigation/navigation.html">Navigation</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Rating/rating.html">Rating</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Slider/slider.html">Slider</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+          </div>
+          <div class="sideBar">
+            <a
+              href="/Components/TextUtilities/textutilities.html"
+              target="_blank"
+              >Text Utilities</a
+            >
+          </div>
+        </div>
 
-        <main>
-            <div class="drawer" id="modalDrawer">
-                <div class="title">
-                    <h2 class="drawerHeading">Menu</h2>
-                    <i class="fas fa-times close" id="close"></i>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Alert/alert.html">Alert</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Avatar/avatar.html">Avatar</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Badge/badge.html">Badge</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Button/button.html">Button</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Card/card.html">Card</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Grid/grid.html">Grids</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Image/image.html">Images</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Input/input.html">Input</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Lists/lists.html">Lists</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Modal/modal.html">Modal</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Navigation/navigation.html">Navigation</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Rating/rating.html">Rating</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Slider/slider.html">Slider</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/TextUtilities/textutilities.html" target="_blank" >Text Utilities</a>
-                </div>
-            </div>
+        <div class="grid--container">
+          <h1 class="first-heading">Simplified Grid</h1>
+          <p class="first-para">
+            The CSS Grid Layout Module offers a grid-based layout system, with
+            rows and columns, making it easier to design web pages without
+            having to use floats and positioning.
+          </p>
 
-            <div class="grid--container ">
-                <h1 class="first-heading">Simplified Grid</h1>
-                <p class="first-para">The CSS Grid Layout Module offers a grid-based layout system, with rows and
-                    columns, making it easier to design web pages without having to use floats and positioning. </p>
+          <h2 class="second-heading">1) Grid with two items</h2>
+          <div class="grid-twoItems">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+          </div>
 
-                <h2 class="second-heading">1) Grid with two items</h2>
-                <div class="grid-twoItems">
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">2</div>
-                </div>
+          <div class="grid__frame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522grid-item%2522%253E2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
 
-                <div class="grid__frame center">
-                <iframe class="iFrame"
-                src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%253C%252Fdiv%253E%250A%2509%253Cdiv%2520class%253D%2522grid-item%2522%253E2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                </div>
-              
-                <h2 class="second-heading">2) Grid with three items</h2>
-                <div class="grid-threeItems">
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">2</div>
-                    <div class="grid-item">3</div>
-                </div>
+          <h2 class="second-heading">2) Grid with three items</h2>
+          <div class="grid-threeItems">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+          </div>
 
-                <div class="grid__frame center">
-                <iframe class="iFrame"
-                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-three%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E3%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                </div>
+          <div class="grid__frame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-three%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E3%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
 
-                <h2 class="second-heading">3) Grid with multiple items</h2>
-                <div class="grid-multipleItems">
-                    <div class="grid-item">1</div>
-                    <div class="grid-item">2</div>
-                    <div class="grid-item">3</div>  
-                    <div class="grid-item">4</div>
-                    <div class="grid-item">5</div>
-                    <div class="grid-item">6</div>  
-                    <div class="grid-item">7</div>
-                    <div class="grid-item">8</div>
-                    <div class="grid-item">9</div>  
-                  </div>
+          <h2 class="second-heading">3) Grid with multiple items</h2>
+          <div class="grid-multipleItems">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+          </div>
 
-                <div class="grid__frame center">
-                  <iframe class="iFrame"
-                  src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-multiple%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E3%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E6%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E7%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E9%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
-                  sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                </div>
-
-            </div>
-        </main>
-
+          <div class="grid__frame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-container-multiple%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E3%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E4%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E5%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E6%253C%252Fdiv%253E%2520%2520%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E7%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E8%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253E9%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
     </div>
 
     <footer class="space-between">
-        <button class="nav_btn prev_page"><a href="/Components/Card/card.html">&lt; Card</a></button>
-        <button class="nav_btn next_page"><a href="/Components/Image/image.html">Image &gt;</a></button>
+      <button class="nav_btn prev_page">
+        <a href="/Components/Card/card.html">&lt; Card</a>
+      </button>
+      <button class="nav_btn next_page">
+        <a href="/Components/Image/image.html">Image &gt;</a>
+      </button>
     </footer>
     <script src="/script/home.js"></script>
-</body>
-
+  </body>
 </html>

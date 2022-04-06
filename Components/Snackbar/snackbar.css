@@ -1,122 +1,118 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 /******** Snackbar *******/
 
 .snackbar--container {
-  margin: 10vh;
   width: 70vw;
-  min-height: 100vh;
+  margin: 10rem 0 0 32rem;
 }
 
 /* Snackbar btn*/
 
 .btn-container {
-    height: 20vh;
-    margin: 4vh 0;
-    border-radius: 10px;
-    background-color: var(--superlightGray-color);
+  height: 20vh;
+  margin: 4vh 0;
+  border-radius: 1rem;
+  background-color: var(--superlightGray-color);
 }
 
 .snackbar-button {
-    height: 6vh;
-    width: 22rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    border: 2px solid var(--darkGray-color);
+  height: 6vh;
+  width: 22rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 2px solid var(--darkGray-color);
 }
-  
+
 .snackbar-button:hover {
-    background-color: var(--superdarkGray-color);
+  background-color: var(--superdarkGray-color);
 }
 
 /* Snackbar */
 
 .snackbar {
-    max-width: 33vw;
-    min-height: 6vh;
-    background: var(--black-color);
-    color: var(--lightgray-color);
-    margin: 8vh 0;
-    flex-wrap: wrap;
-    box-shadow: 2px 2px var(--superdarkGray-color);
-    position: absolute;
-    z-index: 2;
-    left: 2%;
-  }
+  max-width: 33vw;
+  min-height: 6vh;
+  background: var(--black-color);
+  color: var(--lightgray-color);
+  margin: 8vh 0;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px var(--superdarkGray-color);
+  position: fixed;
+  z-index: 2;
+  right: 2%;
+  padding: 5px 8px;
+}
 
-  .snackbar-button:hover {
-    background: var(--lightgray-color);
-  }
-  
-  .space-around {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .action-button {
-    background-color: var(--black-color);
-    color: var(--blueviolet-color);
-    border: none;
-    cursor: pointer;
-    padding: 1rem;
-  }
-  
-  .action-button:hover {
-    font-weight: 600;
-  }
-  
-  .cancel {
-    border-radius: 50%;
-    cursor: pointer;
-    padding: 1rem;
-  }
-  
-  .cancel:hover {
-    font-weight: 600;
-    font-size: larger;
-  }
-  
-  .snackbar-container {
-    width: 100%;
-  }
+.snackbar-button:hover {
+  background: var(--lightgray-color);
+}
 
+.space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-button {
+  background-color: var(--black-color);
+  color: var(--blueviolet-color);
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.action-button:hover {
+  font-weight: 600;
+}
+
+.cancel {
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.cancel:hover {
+  font-weight: 600;
+  font-size: larger;
+}
+
+.snackbar-container {
+  width: 100%;
+}
 
 /*********  Baseline snackbar *********/
 
 .baseline-snackbar {
-    visibility: hidden;
-    top: 80vh;
-  }
-  
-  /*********  Loading snackbar *********/
-  
-  .loading-snackbar {
-    visibility: hidden;
-    top: 155vh;
-  }
-  
-  /*********  Stacked snackbar *********/
-  
-  .stacked-snackbar {
-    visibility: hidden;
-    top: 220vh;
-  }
+  visibility: hidden;
+  top: 80vh;
+}
 
+/*********  Loading snackbar *********/
+
+.loading-snackbar {
+  visibility: hidden;
+  top: 80vh;
+}
+
+/*********  Stacked snackbar *********/
+
+.stacked-snackbar {
+  visibility: hidden;
+  top: 80vh;
+}
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
   .snackbar {
     max-width: 80vw;
-}
+  }
 
-.snackbar--container {
-  margin: 10vh 7vh;
+  .snackbar--container {
+    margin: 10rem 0 0 7rem;
+  }
 }
-}
-
-

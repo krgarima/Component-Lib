@@ -73,7 +73,7 @@
                 <div class="sideBar">
                     <a href="/Components/Rating/rating.html">Rating</a>
                 </div>
-                <div class="sideBar">
+                <div class="sideBar selectedSidebar">
                     <a href="/Components/Slider/slider.html">Slider</a>
                 </div>
                 <div class="sideBar">
@@ -116,6 +116,19 @@
                 </iframe>
                 </div>
 
+                <h2 class="second-heading">3) Range slider</h2>
+                <div class="slider-container center wrap">
+                    <div id="rangeValue">0</div>
+                    <input class="range" type="range" value="0" min="0" max="1000" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></input>
+                </div>
+
+              <div class="slider__frame center">
+                <iframe class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=169%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2520center%2520wrap%2522%253E%250A%253Cdiv%2520id%253D%2522rangeValue%2522%253E0%253C%252Fdiv%253E%250A%253Cinput%2520class%253D%2522range%2522%2520type%253D%2522range%2522%2520value%253D%25220%2522%2520min%253D%25220%2522%2520max%253D%25221000%2522%2520onChange%253D%2522rangeSlide%28this.value%29%2522%2520onmousemove%253D%2522rangeSlide%28this.value%29%2522%253E%253C%252Finput%253E%250A%253C%252Fdiv%253E"            
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </div>
+
             </div>
         </main>
 
@@ -126,6 +139,7 @@
         <button class="nav_btn next_page"><a href="/Components/Snackbar/snackbar.html">Snackbar &gt;</a></button>
     </footer>
     <script src="/script/home.js"></script>
+    <script src="/Components/Slider/slider.js"></script>
 </body>
 
 </html>

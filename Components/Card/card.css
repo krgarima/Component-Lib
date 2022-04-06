@@ -1,477 +1,478 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /********* card ********/
 
 .card--container {
-    margin: 10vh;
-    width: 70vw;
-    justify-content: center;
+  width: 70vw;
+  margin: 10rem 0 0 32rem;
+  justify-content: center;
 }
-
 
 /* each card */
 
 .card-section {
-    min-width: 20vw;
-    min-height: 19vh;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3vh;
-    border-radius: 10px;
-    background-color: var(--superlightGray-color);
+  min-width: 20vw;
+  min-height: 19vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  background-color: var(--superlightGray-color);
 }
 
 .card {
-    min-height: 20vh;
-    width: 16vw;
-    border: 4px solid var(--black-color);
-    background: var(--white-color);
-    border-radius: 8px;
-    margin: auto;
-    box-shadow: 0px 0px 0.625rem var(--darkGray-color);;
-    margin: 10rem;
-    font-size: 1.2rem;
-    object-fit: cover;
+  min-height: 20vh;
+  width: 16vw;
+  border: 4px solid var(--black-color);
+  background: var(--white-color);
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+  margin: 10rem;
+  font-size: 1.2rem;
+  object-fit: cover;
 }
 
 .heading {
-    margin: 0.5rem;
+  margin: 0.5rem;
 }
 
 .card-img {
-    width: 15.48vw;
-    height: 20vh;
+  width: 15.48vw;
+  height: 20vh;
 }
 
 .description {
-    padding: 1rem;
-    background-color: var(--description-backgroundColor);
-    display: flex;
-    flex-wrap: wrap;
+  padding: 1rem;
+  background-color: var(--description-backgroundColor);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .description:hover {
-    background-color: var(--description-onhoverColor);
+  background-color: var(--description-onhoverColor);
 }
 
 .card-footer {
-    margin: 0.5rem 0.5rem;
-    display: flex;
-    justify-content: space-between;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-btns {
-    padding: 0.5rem 0.3rem;
-    color: var(--blue-color);
-    cursor: pointer;
-    display: flex;
+  padding: 5px 3px;
+  color: var(--blue-color);
+  cursor: pointer;
+  display: flex;
 }
 
 .card-icons {
-    display: flex;
+  display: flex;
 }
 
 .footer-btns:hover {
-background-color: var(--blue-color);
-color: var(--white-color);
+  background-color: var(--blue-color);
+  color: var(--white-color);
 }
 
 .card-icons i {
-    padding: 0 0.8rem;
-    cursor: pointer;
+  padding: 0 8px;
+  cursor: pointer;
 }
 
 /******** Badge Card *******/
 
 .badge-Card .card {
-    position: relative;
+  position: relative;
 }
 
 .badge-Card .card .badge-on-Card {
-    background-color: var(--red-color);
-    color: var(--white-color);
-    position: absolute;
-    top: 0.5rem;
-    left: 0.4rem;
-    font-size: 1.5rem;
-    border-radius: 0 1rem 1rem 0;
-    padding: 2px 6px;
+  background-color: var(--red-color);
+  color: var(--white-color);
+  position: absolute;
+  top: 5px;
+  left: 0rem;
+  font-size: 1.5rem;
+  border-radius: 0 1rem 1rem 0;
+  padding: 2px 6px;
 }
-
 
 /******** Dismiss Card *******/
 
 .dismiss-Card {
-    position: relative;
+  position: relative;
 }
 
 .dismiss-Card .dismiss-icon {
-    color: var(--white-color);
-    position: absolute;
-    top: 0.5rem;
-    left: 14.2vw;
-    cursor: pointer;
+  color: var(--white-color);
+  position: absolute;
+  top: 5px;
+  left: 14vw;
+  cursor: pointer;
 }
 
 /********  Text only Card *******/
 
-
 .text-only-Card .card {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .text-only-Card .background-Image {
-    display: none;
+  display: none;
 }
 
 .text-only-Card .footer {
-    display: none;
+  display: none;
 }
-
 
 /***********  Text Over Media Card ***********/
 
 .text-Over-Media-Card {
-    position: relative;
+  position: relative;
 }
 
 .heading-On-Top {
-    color: var(--white-color);
-    position: absolute;
-    top: 48%;
+  color: var(--white-color);
+  position: absolute;
+  top: 48%;
 }
 
 /*********  onlyButtonsCard ********/
 
 .only-Buttons {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*********  only Icons Card ********/
 
 .only-Icons {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*  Horizontal Image Text Card */
 
 .side-Image {
-    height: 14vh;
-    width: 11vw;
-    border-bottom-right-radius: 0.8rem;
+  height: 14vh;
+  width: 11vw;
+  border-bottom-right-radius: 0.8rem;
 }
 
 .horizontal-Image-Text-Description {
-    display: none;
+  display: none;
 }
 
 /******** Vertical Card *******/
 
 .vertical-Card {
-    position: relative;
+  position: relative;
 }
 
 .vertical-Card .wish-icon {
-    background-color: var(--darkGray-color);
-    position: absolute;
-    top: 0.9rem;
-    left: 15vw;
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 0.5rem;
-    height: 3rem;
+  background-color: var(--darkGray-color);
+  position: absolute;
+  top: 0.9rem;
+  left: 15vw;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.5rem;
+  height: 3rem;
 }
 
 .card1 {
-    min-height: 40vh;
-    width: 18vw;
-    border: 4px solid var(--white-color);
-    background: var(--white-color);
-    border-radius: 8px;
-    margin: auto;
-    box-shadow: 0px 0px 0.625rem var(--darkGray-color);
-    margin: 10rem;
-    font-size: 1.2rem;
-    object-fit: cover;
+  min-height: 40vh;
+  width: 18vw;
+  border: 4px solid var(--white-color);
+  background: var(--white-color);
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+  margin: 10rem;
+  font-size: 1.2rem;
+  object-fit: cover;
 }
 
-.card-title{
-    padding: 0.5rem;
-    background-color: floralwhite;font-size: 1.3rem;
+.card-title {
+  padding: 0.5rem;
+  background-color: var(--white2-color);
+  font-size: 1.3rem;
 }
 
 .card-img1 {
-    width: 17.1vw;
-    height: 27vh;
-    margin: 0.4rem;
+  width: 17.1vw;
+  height: 27vh;
+  margin: 0.4rem;
 }
 
 .description1 {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .description:hover {
-    background-color: var(--description-onhoverColor);
+  background-color: var(--description-onhoverColor);
 }
 
 .item-price {
-    font-weight: 600;
-    margin-bottom: 1rem;
-    font-size: larger;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: larger;
 }
 
 .item-ageGroup {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .verticalCard-footer {
-    margin: 0rem 0.5rem 0.5rem 0.5rem;
-    display: flex;
-    justify-content: space-between;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .addItem-btn {
-    padding: 0.5rem;
-    background-color: var(--blue-color);
-    color: var(--white-color);
-    cursor: pointer;
-    display: flex;
-    border-radius: 3px;
-    width: 17vw;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
+  padding: 0.5rem;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+  display: flex;
+  border-radius: 3px;
+  width: 17vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 
 .addItem-btn:hover {
-background-color: var(--darkBlue-color);
+  background-color: var(--darkBlue-color);
 }
-
 
 /******** Horizontal Card *******/
 
 .card2 {
-    min-height: 26vh;
-    width: 26vw;
-    border: 4px solid var(--white-color);
-    background: var(--white-color);
-    margin: auto;
-    box-shadow: 0px 0px 0.625rem var(--darkGray-color);
-    margin: 10rem;
-    font-size: 1.2rem;
-    object-fit: cover;
+  min-height: 26vh;
+  width: 26vw;
+  border: 4px solid var(--white-color);
+  background: var(--white-color);
+  margin: auto;
+  box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+  margin: 10rem;
+  font-size: 1.2rem;
+  object-fit: cover;
 }
 
 .float-cardLeft {
-float: left;
+  float: left;
 }
 
 .card-img2 {
-    width: 11.5vw;
-    min-height: 27.2vh;
-    margin: 0.5rem 1rem 0.5rem 0.5rem;
+  width: 11.5vw;
+  min-height: 27.2vh;
+  margin: 0.5rem 1rem 0.5rem 0.5rem;
 }
 
 .float-cardRight {
-float: right;
+  float: right;
 }
 
-.card-title2{
-    padding: 0.5rem;
-    font-size: 1.3rem;
+.card-title2 {
+  padding: 0.5rem;
+  font-size: 1.3rem;
 }
 
 .description1 {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-price {
-    font-weight: 600;
-    margin-bottom: 1rem;
-    font-size: larger;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: larger;
 }
 
 .itemQuantity {
-    width: 5rem;
+  width: 5rem;
 }
 
 .horizontalCard-footer {
-    margin: 0rem 0.5rem 0.5rem 0.5rem;
-    display: flex;
-    flex-direction: column;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .horizontal-btn {
-    padding: 0.5rem;
-    cursor: pointer;
-    display: flex;
-    border-radius: 3px;
-    width: 13vw;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin-top: 0.4rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  border-radius: 3px;
+  width: 13vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.4rem;
 }
 
 .removeItem-btn {
-    color: var(--white-color);
-    background-color: var(--darkGray-color);
-    border: none;
+  color: var(--white-color);
+  background-color: var(--darkGray-color);
+  border: none;
 }
 
 .moveItem-btn {
-    border: 2px solid  var(--darkGray-color);
-    background-color: var(--white-color)
+  border: 2px solid var(--darkGray-color);
+  background-color: var(--white-color);
 }
 
 .removeItem-btn:hover {
-    background-color: var(--black-color);
+  background-color: var(--black-color);
 }
 
 .moveItem-btn:hover {
-background-color: var(--black-color);
-color: var(--white-color);
+  background-color: var(--black-color);
+  color: var(--white-color);
 }
-
 
 /******** Text Card *******/
 
 .card3 {
-    height: 30vh;
-    width: 18vw;
-    border: 4px solid var(--white-color);
-    background: var(--white-color);
-    margin: auto;
-    box-shadow: 0px 0px 0.625rem var(--darkGray-color);
-    margin: 10rem;
-    font-size: 1.3rem;
-    object-fit: cover;
+  height: 30vh;
+  width: 18vw;
+  border: 4px solid var(--white-color);
+  background: var(--white-color);
+  margin: auto;
+  box-shadow: 0px 0px 0.625rem var(--darkGray-color);
+  margin: 10rem;
+  font-size: 1.3rem;
+  object-fit: cover;
 }
 
-.card3-title{
-    padding: 0.3rem;
-    font-size: 1.6rem;
+.card3-title {
+  padding: 0.3rem;
+  font-size: 1.6rem;
 }
 
 .card-details {
-    padding: 1rem 0;
-    font-weight: 600;
+  padding: 1rem 0;
+  font-weight: 600;
 }
 
 .description3 {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    height: 18vh;
-    justify-content: space-evenly;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 18vh;
+  justify-content: space-evenly;
 }
 
 .total-price {
-    font-weight: 600;
-    margin: 0.6rem 0;
-    font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.6rem 0;
+  font-size: 1.5rem;
 }
 
 .space {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .txtCard-footer {
-    margin: 0rem 0.5rem 0.5rem 0.5rem;
-    display: flex;
-    justify-content: center;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .order-btn {
-    padding: 0.5rem;
-    background-color: var(--blue-color);
-    color: var(--white-color);
-    cursor: pointer;
-    display: flex;
-    border-radius: 3px;
-    width: 17vw;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
+  padding: 5px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+  display: flex;
+  border-radius: 3px;
+  width: 17vw;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 
 .order-btn:hover {
-background-color: var(--darkBlue-color);
+  background-color: var(--darkBlue-color);
 }
-
 
 /******** Disabled Card *******/
 
 .disabled-Card {
-    position: relative;
-    opacity: 0.5;
+  position: relative;
+  opacity: 0.5;
 }
 
 .msg-outOfStock {
-    position: absolute;
-    z-index: 1;
-    top: 8rem;
-    left: 9vh;
-    color: var(--white-color);
-    font-weight: 600;
-    font-size: 3rem;
-    opacity: 1;
+  position: absolute;
+  z-index: 1;
+  top: 8rem;
+  left: 9vh;
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 1;
 }
 
 .disabled-Card .addItem-btn:hover {
-background-color: var(--red-color);
-cursor: not-allowed;
+  background-color: var(--red-color);
+  cursor: not-allowed;
 }
 
 /************  desktop ******************/
 
 @media only screen and (max-width: 800px) {
-    .card--container {
-        width: 100vw;
-        display: flex;
-        margin: auto;
-    }
+  .card--container {
+    width: 100vw;
+    display: flex;
+    margin: auto;
+  }
 
-    .card, .card1, .card2, .card3 {
-        width: 78vw;
-    }
+  .card,
+  .card1,
+  .card2,
+  .card3 {
+    width: 78vw;
+  }
 
-    .card-img {
-        width: 77vw;
-    }
+  .card-img {
+    width: 77vw;
+  }
 
-    .card-img1, .card-img2, .card-img3 {
-        width: 74vw;
-    }
+  .card-img1,
+  .card-img2,
+  .card-img3 {
+    width: 74vw;
+  }
 
-    .vertical-Card .wish-icon {
+  .vertical-Card .wish-icon {
     left: 65vw;
-    }
+  }
 
-    .dismiss-Card .dismiss-icon {
-        left: 72vw;
-    }
+  .dismiss-Card .dismiss-icon {
+    left: 72vw;
+  }
 
-    .order-btn {
-        width: 40vw;
-    }
+  .order-btn {
+    width: 40vw;
+  }
 
-    .addItem-btn, .horizontal-btn {
-        width: 73vw;
-    }
+  .addItem-btn,
+  .horizontal-btn {
+    width: 73vw;
+  }
 
-    .side-Image {
-        height: 13vh;
-        width: 48vw;
-    }
+  .side-Image {
+    height: 13vh;
+    width: 48vw;
+  }
 }

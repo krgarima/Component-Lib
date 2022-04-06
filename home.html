@@ -1,142 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Garima">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Component Library, components, aesthetic, ui, installation, home, react, angular, vue">
-    <meta name="description" content="Aesthetic UI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop applications faster.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/home.css">
-    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG">
-    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Garima" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Component Library, components, aesthetic, ui, installation, home, react, angular, vue"
+    />
+    <meta
+      name="description"
+      content="Aesthetic UI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop applications faster."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG" />
+    <script
+      src="https://kit.fontawesome.com/d53bb09bcf.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Aesthetic | Home</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="Container parentContainer" id="modalDrawerMainBody">
+      <header>
+        <div class="navBar space-between">
+          <div class="nav-left space-evenly">
+            <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+            <h3 class="third-heading logo">
+              <a href="/index.html">Aesthetic-UI</a>
+            </h3>
+          </div>
+          <div class="nav-right space-evenly">
+            <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
+            <h3 class="third-heading">
+              <a href="/home.html">Docs</a>
+            </h3>
+          </div>
+        </div>
+      </header>
 
-        <header>
-            <div class="navBar space-between">
-                <div class="nav-left space-evenly">
-                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
-                    <h3 class="third-heading logo"><a href="/index.html">Aesthetic-UI</a></h3>
-                </div>
-                <div class="nav-right space-evenly">
-                    <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
-                    <h3 class="third-heading"><a href="/home.html">Docs</a></h3>
-                </div>
-            </div>
-        </header>
+      <main>
+        <div class="drawer" id="modalDrawer">
+          <div class="title">
+            <h2 class="drawerHeading">Menu</h2>
+            <i class="fas fa-times close" id="close"></i>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Alert/alert.html">Alert</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Avatar/avatar.html">Avatar</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Badge/badge.html">Badge</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Button/button.html">Button</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Card/card.html">Card</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Grid/grid.html">Grids</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Image/image.html">Images</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Input/input.html">Input</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Lists/lists.html">Lists</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Modal/modal.html">Modal</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Navigation/navigation.html">Navigation</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Rating/rating.html">Rating</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Slider/slider.html">Slider</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/TextUtilities/textutilities.html"
+              >Text Utilities</a
+            >
+          </div>
+        </div>
 
-        <main>
+        <div class="home--container">
+          <h1 class="first-heading">Introduction</h1>
+          <p class="first-para">
+            AUI provides a robust, customizable, and accessible library of
+            foundational and advanced components, enabling you to build your own
+            design system and develop applications faster.
+          </p>
 
-            <div class="drawer" id="modalDrawer">
-                <div class="title">
-                    <h2 class="drawerHeading">Menu</h2>
-                    <i class="fas fa-times close" id="close"></i>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Alert/alert.html">Alert</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Avatar/avatar.html">Avatar</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Badge/badge.html">Badge</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Button/button.html">Button</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Card/card.html">Card</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Grid/grid.html">Grids</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Image/image.html">Images</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Input/input.html">Input</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Lists/lists.html">Lists</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Modal/modal.html">Modal</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Navigation/navigation.html">Navigation</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Rating/rating.html">Rating</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Slider/slider.html">Slider</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/TextUtilities/textutilities.html">Text Utilities</a>
-                </div>
-            </div>
+          <h2 class="second-heading">CSS</h2>
+          <p class="second-para">
+            <span>Copy-paste the stylesheet </span
+            ><span class="highlight">link </span><span>into your </span
+            ><span class="highlight">head </span
+            ><span>before all other stylesheets to load our CSS.</span>
+          </p>
 
-            <div class="home--container ">
-                <h1 class="first-heading">Introduction</h1>
-                <p class="first-para">AUI provides a robust, customizable, and accessible library of foundational and
-                    advanced components, enabling you to build your own design system and develop applications faster.
-                </p>
+          <div class="CSS__frame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FCSS%252Fcomponents.css%2522%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
 
-                <h2 class="second-heading"> CSS</h2>
-                    <p class="second-para"><span>Copy-paste the stylesheet </span><span class="highlight">link </span><span>into your </span><span  class="highlight">head </span><span>before all other stylesheets to load our CSS.</span>
-                    </p>
+          <h2 class="second-heading">JavaScript</h2>
 
-                <div class="CSS__frame center">
-                    <iframe class="iFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FCSS%252Fcomponents.css%2522%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
+          <p class="second-para">
+            <span>Copy-paste this </span><span class="highlight">script </span
+            ><span>file after the </span><span class="highlight">head </span
+            ><span> tag to implement JS functionality.</span>
+          </p>
 
-                <h2 class="second-heading"> JavaScript</h2>
+          <div class="JS__frame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FAlert%252FAlert.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FBadge%252FBadge.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FCard%252FCard.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FModal%252Fmodal.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FNavigation%252Fnavigation.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FSnackbar%252Fsnackbar.js%2522%253E%253C%252Fscript%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
 
-                <p class="second-para"><span>Copy-paste this </span><span class="highlight">script </span><span>file after the </span><span  class="highlight">head </span><span> tag to implement JS functionality.</span>
-                </p>
+          <h2 class="second-heading">Icons</h2>
 
-                <div class="JS__frame center">
-                    <iframe class="iFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FAlert%252FAlert.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FBadge%252FBadge.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FCard%252FCard.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FModal%252Fmodal.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FNavigation%252Fnavigation.js%2522%253E%253C%252Fscript%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Faesthetic-ui.netlify.app%252FComponents%252FSnackbar%252Fsnackbar.js%2522%253E%253C%252Fscript%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
+          <p class="second-para">
+            <span
+              >To use the Icons, you need to add Font Awesome Icons. Copy-paste
+              the stylesheet </span
+            ><span class="highlight">link </span><span>into your </span
+            ><span class="highlight">head </span
+            ><span>tag for icons to appear on your screen.</span>
+          </p>
 
-                <h2 class="second-heading"> Icons</h2>
-
-                    <p class="second-para"><span>To use the Icons, you need to add Font Awesome Icons. Copy-paste the stylesheet </span><span class="highlight">link </span><span>into your </span><span  class="highlight">head </span><span>tag for icons to appear on your screen.</span>
-                    </p>
-
-                    <div class="fontAwesome__frame center">
-                    <iframe class="iFrame"
-                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fkit.fontawesome.com%252Fd53bb09bcf.js%2522%2520crossorigin%253D%2522anonymous%2522%253E%253C%252Fscript%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                  </iframe>
-                    </div>
-
-            </div>
-        </main>
+          <div class="fontAwesome__frame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cscript%2520src%253D%2522https%253A%252F%252Fkit.fontawesome.com%252Fd53bb09bcf.js%2522%2520crossorigin%253D%2522anonymous%2522%253E%253C%252Fscript%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
     </div>
 
     <footer class="space-between">
-        <button class="nav_btn prev_page"><a href="/index.html">&lt; Get started</a></button>
-        <button class="nav_btn next_page"><a href="/Components/Alert/alert.html">Alert
-                &gt;</a></button>
+      <button class="nav_btn prev_page">
+        <a href="/index.html">&lt; Get started</a>
+      </button>
+      <button class="nav_btn next_page">
+        <a href="/Components/Alert/alert.html">Alert &gt;</a>
+      </button>
     </footer>
 
     <script src="script/home.js"></script>
     <footer></footer>
-</body>
-
+  </body>
 </html>

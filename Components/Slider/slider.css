@@ -1,12 +1,12 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 /******** List *******/
 
 .slider--container {
-  margin: 10vh;
   width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
 
 .slider-container {
@@ -16,19 +16,40 @@
 }
 
 .slider-container i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .volume-disabled {
-    color:gray
+  color: var(--darkGray-color);
 }
 
+/***** Range slider ******/
+
+.range {
+  width: 15rem;
+  height: 1.5rem;
+  -webkit-appearance: none;
+  background-color: var(--white-color);
+  outline: none;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px var(--black-color);
+  margin: 1rem 0;
+}
+
+.range[type="range"]::-moz-range-thumb {
+  height: 1.5rem;
+  width: 3px;
+  background-color: var(--primary-color);
+  margin-top: -5px;
+  border: 5px solid var(--black-color);
+  padding: 1rem;
+}
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
   .slider--container {
-    margin: 10vh 7vh;
-}
-
+    margin: 10rem 0 0 7rem;
+  }
 }

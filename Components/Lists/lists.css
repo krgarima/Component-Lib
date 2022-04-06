@@ -1,15 +1,19 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 /******** List *******/
 
 .list--container {
-  margin: 10vh;
   width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
 
-.unordered-List, .ordered-List, .no-Bullet-List, .inline-List, .stacked-List {
+.unordered-List,
+.ordered-List,
+.no-Bullet-List,
+.inline-List,
+.stacked-List {
   font-size: 2rem;
   background-color: var(--white-color);
   min-height: 20vh;
@@ -19,53 +23,57 @@
 /* unordered list */
 
 .styled-list-circle li {
-    list-style-type: circle;
+  list-style-type: circle;
 }
 
 .list-style-square li {
-    list-style-type: square;
+  list-style-type: square;
+}
+
+.unordered-List li {
+  margin: 1rem;
 }
 
 /* ordered list */
 
 .styled-list-number {
-list-style-type:decimal;
+  list-style-type: decimal;
 }
 
 .styled-list-roman {
-    list-style-type: lower-roman;
-}    
+  list-style-type: lower-roman;
+}
 
 .styled-list-letter {
-    list-style-type: lower-alpha;
+  list-style-type: lower-alpha;
+}
+
+.ordered-List ol {
+  margin: 1rem;
 }
 
 /* inline list */
 
-.inline-List ul{
-    display: flex; 
-}
-
-.inline-List ul li{
-    margin-right: 1.5rem;
-}
-
 .stacked-List ul {
-    padding: 2px;
-    background-color: var(--gray-color);
+  padding: 2px;
+  background-color: var(--gray-color);
 }
 
-.stacked-List ul li{
-    background-color: var(--white-color);
-    margin: 5px;
-    padding: 5px 10px;
-    border-radius: 5px;
+.stacked-List ul li {
+  background-color: var(--white-color);
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.inline-List li {
+  margin: 1rem;
 }
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
   .list--container {
-    margin: 10vh 7vh;
-}
+    margin: 10rem 0 0 6rem;
+  }
 }
