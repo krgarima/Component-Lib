@@ -1,39 +1,36 @@
-@import url('/CSS/components.css');
-
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 .badge--container {
-    margin: 10vh;
-    width: 70vw;
+  width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
 
 .each__badge {
-    min-height: 18vh;
-    margin-top: 5rem;
-    font-size: 3rem;
-    background-color: var(--white-color);
-    border: 2px solid var(--darkGray-color);
-    border-radius: 5px;
-    margin: 4vh 0;
+  min-height: 18vh;
+  margin-top: 5rem;
+  font-size: 3rem;
+  background-color: var(--white-color);
+  border-radius: 5px;
+  margin: 4rem 0;
 }
 
 .badge {
-    left: 6.5rem;
-    top: -1.5rem;
-    border-radius: 50%;
-    background: var(--red-color);
-    color: var(--white-color);
-    padding: 0.2rem 0.8rem;
-    font-size: 2rem;
-    z-index: 0;
+  left: 6.5rem;
+  top: -1.5rem;
+  border-radius: 50%;
+  background: var(--red-color);
+  color: var(--white-color);
+  padding: 4px 8px;
+  font-size: 2rem;
+  z-index: 0;
 }
-
 
 /*  small text badge  */
 
-.small-text-Badge{
-    position: relative;
+.small-text-Badge {
+  position: relative;
 }
 
 .navBar {
@@ -46,43 +43,45 @@
 /*  plain button badge  */
 
 .plain-button-Badge {
-    position: relative;
+  position: relative;
 }
 
 .plain__btn {
-    font-size: 3rem;
-    padding: 0.5rem;
-    background-color: var(--gold-color);
-    border-radius: 5px;
+  font-size: 3rem;
+  padding: 0.5rem;
+  background-color: var(--gold-color);
+  border-radius: 5px;
+  border: none;
 }
 
-.btn-badge {
-    position: absolute;
+.plain-button-Badge .btn-badge {
+  position: absolute;
   z-index: 0;
-
+  left: 6.8rem;
 }
 
 /*  toggle button badge  */
 
-.toggle-button-Badge  {
-    position: relative;
+.toggle-button-Badge {
+  position: relative;
 }
 
 .toggle__Button {
-    font-size: 3rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color:var(--crimson-color);
+  font-size: 3rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--crimson-color);
+  border: none;
 }
 
 .hideBadge {
-    position: absolute;
+  position: absolute;
 }
 
 /* icon badge */
 
 .icon-Badge {
-    position: relative;
+  position: relative;
 }
 
 .btn-badge {
@@ -100,17 +99,19 @@
   height: 2.6rem;
   width: 2.5rem;
   position: absolute;
-  top: 22rem;
-  left: 14.2rem
+  top: 20.5rem;
+  left: 13.8rem;
+  border: 3px solid var(--white-color);
+}
+
+.avatar-badge {
+  background-color: var(--lightgreen-color);
 }
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 500px) {
-
   .badge--container {
-    margin: 10vh 7vh;
+    margin: 10rem 0 0 7rem;
   }
-} 
-
-
+}

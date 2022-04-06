@@ -1,233 +1,241 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /*********** alert ************/
 
 .alert--container {
-    margin: 10vh;
-    width: 70vw;
-    margin-top: 15vh;
+  width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
 
 .alerts {
-    margin: 6vh 0 11vh 0;
+  margin: 3rem 0 5rem 0;
 }
 
 /* alerts */
 
 .alert {
-    height: 8vh;
-    width: 55vw;
-    font-size: 1.5rem;
-    margin: 2vh 0;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    box-shadow: 10px 10px 5px var(--boxShadow-color);
+  height: 8vh;
+  width: 40vw;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 10px 10px 5px var(--boxShadow-color);
 }
 
-.bold {
-    padding: 1rem;
+.bold-txt {
+  padding: 1rem;
 }
 
 /* simple alert */
 
-.btn__simple--primary,  .btn__outlined--primary{
-    padding: 1rem;
-    background-color: var(--blue-color);
-    color: var(--white-color);
-    border-radius: 5px;
+.btn__simple--primary,
+.btn__outlined--primary {
+  padding: 1rem;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  border-radius: 5px;
 }
 
-.btn__simple--error, .btn__outlined--error {
-    padding: 1rem;
-    background-color: var(--red-color);
-    color: var(--black-color);
-    border-radius: 5px;
+.btn__simple--error,
+.btn__outlined--error {
+  padding: 1rem;
+  background-color: var(--red-color);
+  color: var(--black-color);
+  border-radius: 5px;
 }
 
-.btn__simple--success, .btn__outlined--success {
-    padding: 1rem;
-    background-color: var(--lightgreen-color);
-    color: var(--black-color);
-    border-radius: 5px;
+.btn__simple--success,
+.btn__outlined--success {
+  padding: 1rem;
+  background-color: var(--lightgreen-color);
+  color: var(--black-color);
+  border-radius: 5px;
 }
 
-.btn__simple--warning, .btn__outlined--warning {
-    padding: 1rem;
-    background-color: var(--orange-color);
-    color: var(--black-color);
-    border-radius: 5px;
+.btn__simple--warning,
+.btn__outlined--warning {
+  padding: 1rem;
+  background-color: var(--orange-color);
+  color: var(--black-color);
+  border-radius: 5px;
 }
 
-
-.btn__simple--primary:hover, .btn__outlined--primary:hover {
-    background: var(--darkBlue-color);
+.btn__simple--primary:hover,
+.btn__outlined--primary:hover {
+  background: var(--darkBlue-color);
 }
-.btn__simple--error:hover, .btn__outlined--error:hover {
-    background: var(--darkRed-color);
-    color: var(--white-color);
+.btn__simple--error:hover,
+.btn__outlined--error:hover {
+  background: var(--darkRed-color);
+  color: var(--white-color);
 }
-.btn__simple--success:hover, .btn__outlined--success:hover {
-    background: var(--green-color);
-    color: var(--white-color);
+.btn__simple--success:hover,
+.btn__outlined--success:hover {
+  background: var(--green-color);
+  color: var(--white-color);
 }
-.btn__simple--warning:hover, .btn__outlined--warning:hover {
-    background: var(--darkOrange-color);
+.btn__simple--warning:hover,
+.btn__outlined--warning:hover {
+  background: var(--darkOrange-color);
 }
 
 .simple--alerts {
-    color: var(--white-color);
-    position: relative;
+  color: var(--white-color);
+  position: relative;
 }
 
 .simple--primary {
-    background: var(--blue-color);
-    position: absolute;
-    top: 5rem;
-    visibility: hidden;
+  background: var(--blue-color);
+  position: absolute;
+  top: 5rem;
+  visibility: hidden;
 }
 
 .simple--error {
-    position: absolute;
-    top: 5rem;
-    visibility: hidden;
-    background: var(--red-color);
-    color: var(--black-color);
+  position: absolute;
+  top: 5rem;
+  visibility: hidden;
+  background: var(--red-color);
+  color: var(--black-color);
 }
 
 .simple--success {
-    top: 5rem;
-    position: absolute;
-    visibility: hidden;
-    background: var(--lightgreen-color);
-    color: var(--black-color);
+  top: 5rem;
+  position: absolute;
+  visibility: hidden;
+  background: var(--lightgreen-color);
+  color: var(--black-color);
 }
 
 .simple--warning {
-    top: 5rem;
-    position: absolute;
-    visibility: hidden;
-    background: var(--orange-color);
-    color: var(--black-color);
+  top: 5rem;
+  position: absolute;
+  visibility: hidden;
+  background: var(--orange-color);
+  color: var(--black-color);
 }
-
-
 
 /* outlined alert */
 
 .outlined--alerts {
-    color: var(--white-color);
-    position: relative;
+  color: var(--white-color);
+  position: relative;
 }
 
 .outlined--primary {
-    color: var(--blue-color);
-    border: 1px solid var(--blue-color);
-    background-color: var(--white-color);
-    position: absolute;
-    top: 5rem;
-    visibility: hidden;
+  color: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  background-color: var(--white-color);
+  position: absolute;
+  top: 5rem;
+  visibility: hidden;
 }
 
 .outlined--error {
-    color: var(--darkRed-color);
-    background-color: var(--white-color);
-    border: 1px solid var(--red-color);
-    position: absolute;
-    top: 5rem;
-    visibility: hidden;
+  color: var(--darkRed-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--red-color);
+  position: absolute;
+  top: 5rem;
+  visibility: hidden;
 }
 
 .outlined--success {
-    color: var(--darkGreen-color);
-    background-color: var(--white-color);
-    border: 1px solid var(--darkGreen-color);
-    position: absolute;
-    top: 5rem;
-    visibility: hidden;
+  color: var(--darkGreen-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--darkGreen-color);
+  position: absolute;
+  top: 5rem;
+  visibility: hidden;
 }
 
 .outlined--warning {
-    color: var(--darkOrange-color);
-    background-color: var(--white-color);
-    border: 1px solid var(--darkOrange-color);
-    position: absolute;
-    top: 5rem;
-    visibility: hidden;
+  color: var(--darkOrange-color);
+  background-color: var(--white-color);
+  border: 1px solid var(--darkOrange-color);
+  position: absolute;
+  top: 5rem;
+  visibility: hidden;
 }
 
 /* action alerts */
 
 .action {
-    border: 1px solid var(--black-color);
-    background-color: var(--superlightgreen-color);
+  border: 1px solid var(--black-color);
+  background-color: var(--superlightgreen-color);
 }
 .undo {
-    border: none;
-    background-color: var(--superlightgreen-color);
+  border: none;
+  background-color: var(--superlightgreen-color);
 }
 .undo:hover {
-    background-color: var(--lightgreen-color);
+  font-weight: 600;
 }
 
-.alert .fa-times{
-cursor: pointer;
+.alert .fa-times {
+  cursor: pointer;
 }
 
 .undo {
-    margin-right: 1rem;
+  margin-right: 1rem;
+}
+
+.action--alerts,
+.transition--alerts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* transition */
 
 .reOpen-Btn {
-    background-color: var(--white-color);
-    color: var(--darkGray-color);
-    border-radius: 5px;
-    padding: 1rem;
-    cursor: pointer;
+  background-color: var(--white-color);
+  color: var(--darkGray-color);
+  border-radius: 5px;
+  padding: 1rem;
+  cursor: pointer;
 }
 .reOpen-Btn:hover {
-    color: var(--black-color);
+  color: var(--black-color);
 }
-
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
+  .alert--container {
+    margin: 10rem 0 0 6rem;
+  }
 
-.alert--container {
-    margin: 10vh 7vh;
-}
+  .simple--primary {
+    top: 15rem;
+  }
+  .simple--error {
+    top: 15rem;
+  }
+  .simple--success {
+    top: 15rem;
+  }
+  .simple--warning {
+    top: 15rem;
+  }
 
-.simple--primary {
+  .outlined--primary {
     top: 15rem;
-}
-.simple--error {
+  }
+  .outlined--error {
     top: 15rem;
-}
-.simple--success {
+  }
+  .outlined--success {
     top: 15rem;
-}
-.simple--warning {
+  }
+  .outlined--warning {
     top: 15rem;
-}
+  }
 
-.outlined--primary {
-    top: 15rem;
-}
-.outlined--error {
-    top: 15rem;
-}
-.outlined--success {
-    top: 15rem;
-}
-.outlined--warning {
-    top: 15rem;
-}
-
-.action {
+  .action {
     width: 70vw;
-}
-
+  }
 }

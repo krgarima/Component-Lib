@@ -1,63 +1,57 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /*********** input ************/
 
 .input--container {
-    margin: 10vh;
-    width: 70vw;
-    margin-top: 15vh;
+  width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
 
 .input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(247, 245, 245);
-    border: 2px solid black;
-    height: 19vh;
-    margin: 8vh;
-    font-size: 1.5rem;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--white-color);
+  height: 19vh;
+  margin: 8vh;
+  font-size: 1.5rem;
+  border-radius: 1rem;
 }
 
 .input--group {
-    font-size: 1.5rem;
-    margin: 2vh 0;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
 }
 
 .error {
-    color: var(--red-color);
+  color: var(--red-color);
 }
 .error input {
-    border: 1px solid var(--red-color);
+  border: 1px solid var(--red-color);
 }
 .error--msg {
-    font-size: 1rem;
-    margin: 1rem 0;
+  font-size: 1rem;
+  margin: 1.5rem 0;
 }
 
-.radio--inputs .radio, .checkbox--inputs .checkbox {
-    font-size: 1.8rem;
-    margin: 0.5rem 0;
+.radio--inputs .radio,
+.checkbox--inputs .checkbox {
+  font-size: 1.8rem;
+  margin: 5px 0;
 }
-
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-    .drawer {
-        width: 60vw;
-    }
-    html {
-        font-size: 0.5rem;
-    }
-    .input--container {
-        margin: 10vh 7vh;
-    }
-    .input {
-        border: none;
-        background-color: var(--background-color);
-    }
+  .drawer {
+    width: 60vw;
+  }
+  .input--container {
+    margin: 10rem 0 0 7rem;
+  }
+  .input {
+    border: none;
+    background-color: var(--background-color);
+  }
 }
-

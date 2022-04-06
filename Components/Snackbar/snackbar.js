@@ -4,7 +4,9 @@ const stackedButton = document.querySelector(".stacked-button");
 const baselineSnackbar = document.querySelector(".baseline-snackbar");
 const loadingSnackbar = document.querySelector(".loading-snackbar");
 const stackedSnackbar = document.querySelector(".stacked-snackbar");
-const cancelBaselineSnackbar = document.querySelector(".cancel-baseline-snackbar");
+const cancelBaselineSnackbar = document.querySelector(
+  ".cancel-baseline-snackbar"
+);
 const cancelLoadingSnackbar = document.querySelector(
   ".cancel-loading-snackbar"
 );
@@ -14,26 +16,32 @@ const cancelStackedSnackbar = document.querySelector(
 
 const snackBarBaseline = () => {
   baselineSnackbar.style.visibility = "visible";
-  setTimeout(() => {closeBaselineSnackbar()}, 3000);
-}
+  setTimeout(() => {
+    closeBaselineSnackbar();
+  }, 5000);
+};
 const snackBarLoading = () => {
   loadingSnackbar.style.visibility = "visible";
-  setTimeout(() => {closeLoadingSnackbar()}, 3000);
-}
+  setTimeout(() => {
+    closeLoadingSnackbar();
+  }, 5000);
+};
 const snackBarStacked = () => {
   stackedSnackbar.style.visibility = "visible";
-  setTimeout(() => {closeStackedSnackbar()}, 3000);
-}
+  setTimeout(() => {
+    closeStackedSnackbar();
+  }, 5000);
+};
 
 const closeBaselineSnackbar = () => {
   baselineSnackbar.style.visibility = "hidden";
-}
+};
 const closeLoadingSnackbar = () => {
   loadingSnackbar.style.visibility = "hidden";
-}
+};
 const closeStackedSnackbar = () => {
   stackedSnackbar.style.visibility = "hidden";
-}
+};
 
 baselineButton.addEventListener("click", snackBarBaseline);
 loadingButton.addEventListener("click", snackBarLoading);

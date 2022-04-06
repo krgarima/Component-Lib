@@ -1,204 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Garima">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Component Library, input, components, aesthetic, ui, react, angular, vue">
-    <meta name="description" content="Aesthetic UI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop applications faster.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG">
-    <link rel="stylesheet" href="/Components/Input/input.css">
-    <script src="https://kit.fontawesome.com/d53bb09bcf.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Garima" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Component Library, input, components, aesthetic, ui, react, angular, vue"
+    />
+    <meta
+      name="description"
+      content="Aesthetic UI provides a robust, customizable, and accessible library of foundational and advanced components, enabling you to build your own design system and develop applications faster."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/AUIFav.JPG" />
+    <link rel="stylesheet" href="/Components/Input/input.css" />
+    <script
+      src="https://kit.fontawesome.com/d53bb09bcf.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Aesthetic | Input page</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="Container parentContainer" id="modalDrawerMainBody">
+      <header>
+        <div class="navBar space-between">
+          <div class="nav-left space-evenly">
+            <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
+            <h3 class="third-heading logo">
+              <a href="/index.html">Aesthetic-UI</a>
+            </h3>
+          </div>
+          <div class="nav-right space-evenly">
+            <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
+            <h3 class="third-heading"><a href="/home.html">Docs</a></h3>
+          </div>
+        </div>
+      </header>
 
-        <header>
-            <div class="navBar space-between">
-                <div class="nav-left space-evenly">
-                    <i class="fas fa-bars hamburgerMenu" id="hamburgerMenuModal"></i>
-                    <h3 class="third-heading logo"><a href="/index.html">Aesthetic-UI</a></h3>
-                </div>
-                <div class="nav-right space-evenly">
-                    <h3 class="third-heading"><a href="/index.html">Get Started</a></h3>
-                    <h3 class="third-heading"><a href="/home.html">Docs</a></h3>
-                </div>
+      <main>
+        <div class="drawer" id="modalDrawer">
+          <div class="title">
+            <h2 class="drawerHeading">Menu</h2>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Alert/alert.html">Alert</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Avatar/avatar.html">Avatar</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Badge/badge.html">Badge</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Button/button.html">Button</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Card/card.html">Card</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Grid/grid.html">Grids</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Image/image.html">Images</a>
+          </div>
+          <div class="sideBar selectedSidebar">
+            <a href="/Components/Input/input.html">Input</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Lists/lists.html">Lists</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Modal/modal.html">Modal</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Navigation/navigation.html">Navigation</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Rating/rating.html">Rating</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Slider/slider.html">Slider</a>
+          </div>
+          <div class="sideBar">
+            <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
+          </div>
+          <div class="sideBar">
+            <a
+              href="/Components/TextUtilities/textutilities.html"
+              target="_blank"
+              >Text Utilities</a
+            >
+          </div>
+        </div>
+
+        <div class="input--container">
+          <h1 class="first-heading">Input</h1>
+          <p class="first-para">
+            Inputs are necessary for user interaction with the website. Inputs
+            are used to take information from the user, and then save the data
+            to the server, accordingly.
+          </p>
+
+          <h2 class="second-heading">1)Label Inputs</h2>
+          <p class="second-para">
+            Label Input has a label present at the top of the input field. They
+            can be customized to show error error-message, and change color
+            accordingly.
+          </p>
+
+          <div class="input label--inputs">
+            <div class="input--group">
+              <label for="input__username">Username : </label>
+              <input type="text" id="input__username" />
             </div>
-        </header>
 
+            <div class="input--group error">
+              <label for="input__password">Password : </label>
+              <input type="password" id="input__password" />
+              <div class="error--msg">Wrong Password. Please, try again!</div>
+            </div>
+          </div>
 
-        <main>
-            <div class="drawer" id="modalDrawer">
-                <div class="title">
-                    <h2 class="drawerHeading">Menu</h2>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Alert/alert.html">Alert</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Avatar/avatar.html">Avatar</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Badge/badge.html">Badge</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Button/button.html">Button</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Card/card.html">Card</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Grid/grid.html">Grids</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Image/image.html">Images</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Input/input.html">Input</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Lists/lists.html">Lists</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Modal/modal.html">Modal</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Navigation/navigation.html">Navigation</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Rating/rating.html">Rating</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Slider/slider.html">Slider</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/Snackbar/snackbar.html">Snackbar</a>
-                </div>
-                <div class="sideBar">
-                    <a href="/Components/TextUtilities/textutilities.html" target="_blank" >Text Utilities</a>
-                </div>
+          <div class="input__iFrame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520label--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input--group%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522input__username%2522%253E*Username%2520%253A%2520%253C%252Flabel%253E%250A%2509%2509%2509%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522input__username%2522%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input--group%2520error%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522input__password%2522%253E*Password%2520%253A%2520%253C%252Flabel%253E%250A%2509%2509%2509%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522input__password%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522error--msg%2522%253E%250A%2509%2509%2509%2509%2509Wrong%2520Password.%2520Try%2520again%21%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="second-heading">2) Radio</h2>
+          <p class="second-para">
+            Radio buttons allow the user to select one option from a set.
+          </p>
+
+          <div class="input radio--inputs">
+            <div class="radio">
+              <label for="radio-1">
+                <input id="radio-1" name="radio" type="radio" checked />
+                Checked
+              </label>
             </div>
 
-            <div class="input--container">
-
-                <h1 class="first-heading">Input</h1>
-                <p class="first-para">Inputs are necessary for user interaction with the website. Inputs are used to
-                    take
-                    information from the user, and then save the data to the server, accordingly. </p>
-
-                <h2 class="second-heading">1)Label Inputs </h2>
-                <p class="second-para">Label Input has a label present at the top of the input field. They can be
-                    customized to show error error-message, and change color accordingly. </p>
-
-                <div class="input label--inputs">
-                    <div class="input--group">
-                        <label for="input__username">*Username : </label>
-                        <input type="text" id="input__username">
-                    </div>
-
-                    <div class="input--group error">
-                        <label for="input__password">*Password : </label>
-                        <input type="password" id="input__password">
-                        <div class="error--msg">
-                            Wrong Password. Try again!
-                        </div>
-                    </div>
-                </div>
-
-                <div class="input__iFrame center">
-                    <iframe class="iFrame"
-                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520label--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522input--group%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522input__username%2522%253E*Username%2520%253A%2520%253C%252Flabel%253E%250A%2509%2509%2509%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522input__username%2522%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522input--group%2520error%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522input__password%2522%253E*Password%2520%253A%2520%253C%252Flabel%253E%250A%2509%2509%2509%253Cinput%2520type%253D%2522password%2522%2520id%253D%2522input__password%2522%253E%250A%2509%2509%2509%253Cdiv%2520class%253D%2522error--msg%2522%253E%250A%2509%2509%2509%2509%2509Wrong%2520Password.%2520Try%2520again%21%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-
-                <h2 class="second-heading">2) Radio </h2>
-                <p class="second-para">Radio buttons allow the user to select one option from a set. </p>
-
-                <div class="input radio--inputs">
-                    <div class="radio">
-                        <label for="radio-1">
-                            <input id="radio-1" name="radio" type="radio" checked>
-                            Checked
-                        </label>
-                    </div>
-
-                    <div class="radio">
-                        <label for="radio-2">
-                            <input id="radio-2" name="radio" type="radio">
-                            Unchecked
-                        </label>
-                    </div>
-
-                    <div class="radio disabled">
-                        <label for="radio-3">
-                            <input id="radio-3" name="radio" type="radio" disabled>
-                            Disabled
-                        </label>
-                    </div>
-                </div>
-
-
-                <div class="input__iFrame center">
-                    <iframe class="iFrame"
-                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520radio--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%253E%250A%2509%2509%2509%2509%2509Checked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522radio-2%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522radio-2%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%253E%250A%2509%2509%2509%2509%2509Unchecked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522radio%2520disabled%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522radio-3%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522radio-3%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520disabled%253E%250A%2509%2509%2509%2509%2509Disabled%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
-
-
-                <h2 class="second-heading">3) Checkbox</h2>
-                <p class="second-para">Checkboxes allow the user to select one or more items from a set. Checkboxes can
-                    be
-                    used to turn an option on or off. </p>
-
-                <div class="input checkbox--inputs">
-                    <div class="checkbox">
-                        <label for="checkbox-1">
-                            <input id="checkbox-1" name="checkbox" type="checkbox" checked>
-                            Checked
-                        </label>
-                    </div>
-
-                    <div class="checkbox">
-                        <label for="checkbox-2">
-                            <input id="checkbox-2" name="checkbox" type="checkbox">
-                            Unchecked
-                        </label>
-                    </div>
-
-                    <div class="checkbox disabled">
-                        <label for="checkbox-3">
-                            <input id="checkbox-3" name="checkbox" type="checkbox" disabled>
-                            Disabled
-                        </label>
-                    </div>
-                </div>
-
-                <div class="input__iFrame center">
-                    <iframe class="iFrame"
-                    src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520checkbox--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522checkbox-1%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-1%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2509%2509%2509%2509%2509Checked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522checkbox-2%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%253E%250A%2509%2509%2509%2509%2509Unchecked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522checkbox%2520disabled%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522checkbox-3%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-3%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2509%2509%2509%2509%2509Disabled%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-
+            <div class="radio">
+              <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio" />
+                Unchecked
+              </label>
             </div>
-        </main>
+
+            <div class="radio disabled">
+              <label for="radio-3">
+                <input id="radio-3" name="radio" type="radio" disabled />
+                Disabled
+              </label>
+            </div>
+          </div>
+
+          <div class="input__iFrame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520radio--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%253E%250A%2509%2509%2509%2509%2509Checked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522radio%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522radio-2%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522radio-2%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%253E%250A%2509%2509%2509%2509%2509Unchecked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522radio%2520disabled%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522radio-3%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522radio-3%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520disabled%253E%250A%2509%2509%2509%2509%2509Disabled%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <h2 class="second-heading">3) Checkbox</h2>
+          <p class="second-para">
+            Checkboxes allow the user to select one or more items from a set.
+            Checkboxes can be used to turn an option on or off.
+          </p>
+
+          <div class="input checkbox--inputs">
+            <div class="checkbox">
+              <label for="checkbox-1">
+                <input
+                  id="checkbox-1"
+                  name="checkbox"
+                  type="checkbox"
+                  checked
+                />
+                Checked
+              </label>
+            </div>
+
+            <div class="checkbox">
+              <label for="checkbox-2">
+                <input id="checkbox-2" name="checkbox" type="checkbox" />
+                Unchecked
+              </label>
+            </div>
+
+            <div class="checkbox disabled">
+              <label for="checkbox-3">
+                <input
+                  id="checkbox-3"
+                  name="checkbox"
+                  type="checkbox"
+                  disabled
+                />
+                Disabled
+              </label>
+            </div>
+          </div>
+
+          <div class="input__iFrame center">
+            <iframe
+              class="iFrame"
+              src="https://carbon.now.sh/embed?bg=rgba%2880%2C227%2C194%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input%2520checkbox--inputs%2522%253E%250A%2509%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522checkbox-1%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-1%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520checked%253E%250A%2509%2509%2509%2509%2509Checked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522checkbox%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522checkbox-2%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-2%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%253E%250A%2509%2509%2509%2509%2509Unchecked%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%250A%2509%253Cdiv%2520class%253D%2522checkbox%2520disabled%2522%253E%250A%2509%2509%2509%253Clabel%2520for%253D%2522checkbox-3%2522%253E%250A%2509%2509%2509%2509%2509%253Cinput%2520id%253D%2522checkbox-3%2522%2520name%253D%2522checkbox%2522%2520type%253D%2522checkbox%2522%2520disabled%253E%250A%2509%2509%2509%2509%2509Disabled%250A%2509%2509%2509%253C%252Flabel%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </main>
     </div>
 
     <footer class="space-between">
-        <button class="nav_btn prev_page"><a href="/Components/Image/image.html">&lt; Image</a></button>
-        <button class="nav_btn next_page"><a href="/Components/Modal/modal.html">Modal &gt;</a></button>
+      <button class="nav_btn prev_page">
+        <a href="/Components/Image/image.html">&lt; Image</a>
+      </button>
+      <button class="nav_btn next_page">
+        <a href="/Components/Modal/modal.html">Modal &gt;</a>
+      </button>
     </footer>
     <script src="/script/home.js"></script>
-</body>
-
+  </body>
 </html>

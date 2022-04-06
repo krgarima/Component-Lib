@@ -1,61 +1,57 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 /******** Rating *******/
 
 .rating--container {
-  margin: 10vh;
   width: 70vw;
-  min-height: 100vh;
+  margin: 10rem 0 0 32rem;
 }
 
 .rating {
-    height: 20vh;
-    flex-direction: column;
-    background-color: var(--white-color);
-    border: 2px solid var(--darkGray-color);
-    margin: 10vh 0;
-    border-radius: 10px;
+  height: 20vh;
+  flex-direction: column;
+  background-color: var(--white-color);
+  border: 2px solid var(--darkGray-color);
+  margin: 10vh 0;
+  border-radius: 1rem;
 }
 
 .heart__ratings {
-    color: var(--red-color);
-    cursor: pointer;
+  color: var(--red-color);
+  cursor: pointer;
 }
 .star__ratings {
-    color: var(--gold-color);
-    cursor: pointer;
+  color: var(--gold-color);
+  cursor: pointer;
 }
 .star__ratings--black {
-    color: var(--black-color);
-    cursor: pointer;
+  color: var(--black-color);
+  cursor: pointer;
 }
 .rating__stars--none {
-    color: var(--darkGray-color);
-    cursor: pointer;
+  color: var(--darkGray-color);
+  cursor: pointer;
 }
 
 .star--effect:hover {
-    padding: 105%;
+  padding: 105%;
 }
 
 .rating__number {
-    color: var(--black-color);
-    margin: 0 0 0 1vw;
+  color: var(--black-color);
+  margin: 0 0 0 1rem;
 }
-
 
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-
   .snackbar {
     max-width: 80vw;
-}
+  }
 
-.rating--container {
-    margin: 10vh 7vh;
+  .rating--container {
+    margin: 10rem 0 0 7rem;
+  }
 }
-}
-

@@ -12,11 +12,7 @@ html {
   font-size: 62.5%;
 }
 
-/* h2 {
-  font-size: 1.6rem;
-} */
-
-.logo{
+.logo {
   font-size: 2.7vh;
   margin-left: 1.5rem;
   -webkit-text-stroke: 1px var(--primary-color);
@@ -30,6 +26,7 @@ html {
   --background-color: rgb(240 240 240);
   --text-color: #353434;
   --white-color: white;
+  --white2-color: floralwhite;
   --greenishWhite: rgb(225, 228, 226);
   --black-color: black;
   --gold-color: gold;
@@ -41,9 +38,10 @@ html {
   --crimson-color: crimson;
   --superlightBlue-color: rgb(200, 209, 236);
   --lightblue-color: skyblue;
-  --deepBlue-color: #2196F3;
-  --kDeepBlue-color:#0981e2;
+  --deepBlue-color: #2196f3;
+  --kDeepBlue-color: #0981e2;
   --darkBlue-color: darkblue;
+  --darkBlue2-color: rgb(13, 13, 112);
   --blue-color: blue;
   --yellowgreen-color: #aaf321;
   --lightgreen-color: lightgreen;
@@ -55,15 +53,15 @@ html {
   --lightorange-color: rgb(255, 224, 185);
   --darkOrange-color: rgb(190, 109, 9);
   --orange-color: orange;
-  --gray-color:rgb(187, 187, 214);
-  --lightgray-color:lightgray;
-  --superlightGray-color:rgb(223, 219, 219);
-  --darkGray-color:gray;
-  --superdarkGray-color:gray;
+  --gray-color: rgb(187, 187, 214);
+  --lightgray-color: lightgray;
+  --superlightGray-color: rgb(223, 219, 219);
+  --darkGray-color: gray;
+  --superdarkGray-color: gray;
   --redishGray-color: rgb(112, 103, 103);
   --purple-color: purple;
   --blueviolet-color: blueviolet;
-  --seagreenishWhite:rgb(247, 255, 254);
+  --seagreenishWhite: rgb(247, 255, 254);
   --boxShadow-color: #aaaaaa;
   --description-backgroundColor: rgb(252, 246, 246);
   --description-onhoverColor: rgb(252, 246, 246);
@@ -78,7 +76,6 @@ html {
   width: 100%;
   display: flex;
 }
-
 
 .center {
   display: flex;
@@ -117,7 +114,6 @@ html {
   margin: 2.4rem 2rem 0 0;
 }
 
-
 /* common */
 
 button {
@@ -141,8 +137,7 @@ button {
   border-radius: 5px;
 }
 
-
-.m-a{
+.m-a {
   margin: auto;
 }
 .mt2-mb6 {
@@ -180,19 +175,16 @@ button {
   padding: 2rem 4rem;
 }
 
-
 .fw-1 {
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 .gray {
-  color: gray;
+  color: var(--darkGray-color);
 }
 .sp-12 {
   margin: 12vh 0 20vh 0;
 }
-
-
 
 /****** mobile version  *****/
 
