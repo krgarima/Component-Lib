@@ -1,11 +1,10 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /*********** Modal ************/
 
 .modal--container {
-  margin: 10vh;
   width: 70vw;
-  margin-top: 15vh;
+  margin: 10rem 0 0 32rem;
 }
 
 .modal {
@@ -29,7 +28,7 @@
   z-index: 2;
   cursor: pointer;
   border-radius: 5px;
-  color: var(--white-color)
+  color: var(--white-color);
 }
 .open-alert-box-btn:hover {
   background-color: var(--black-color);
@@ -58,7 +57,7 @@
   min-height: 12vh;
   margin: 4px;
   width: 97%;
-  margin: 0.5rem;
+  margin: 5px;
   font-size: 1.2rem;
 }
 
@@ -83,7 +82,7 @@
 
 .btn-Y,
 .btn-N {
-  color: var(--black-color);
+  color: var(--white-color);
   padding: 8px 12px;
   border-radius: 4px;
   margin: 2px 4px 2px 2px;
@@ -91,7 +90,7 @@
 }
 
 .btn-Y {
-  background-color: var(--primary-color);
+  background-color: var(--seagreen-color);
 }
 
 .btn-N {
@@ -103,18 +102,11 @@
   cursor: pointer;
 }
 
-
-
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-
-  html {
-    font-size: 0.8rem;
-  }
-
   .modal--container {
-    margin: 10vh 7vh;
+    margin: 10rem 0 0 7rem;
   }
 
   .modal {
@@ -122,8 +114,12 @@
   }
 
   .modal {
-  background-color: var(--background-color);
-  border: none;
+    background-color: var(--background-color);
+    border: none;
   }
 
+  .modal__iFrame {
+    display: flex;
+    justify-content: center;
+  }
 }

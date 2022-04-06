@@ -1,223 +1,212 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 /******** Navigation **************/
 
 .nav--container {
-    margin: 10vh;
-    width: 70vw;
-    margin-top: 15vh;
+  width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
-
 
 /*****  container *******/
 
 .drawer__Container {
-    height: 50vh;
-    width: 80%;
-    display: flex;
-    border: 1.5px solid var(--gray-color);
-    margin: auto;
-    margin-top: 8vh;
+  height: 50vh;
+  width: 80%;
+  display: flex;
+  border: 1.5px solid var(--gray-color);
+  margin: auto;
+  margin-top: 8vh;
 }
 
 /*****  drawer *******/
 
 .drawer__menu {
-    width: 18vw;
-    overflow-y: scroll;
+  width: 18vw;
+  overflow-y: scroll;
 }
 
 .drawer__title {
-    height: 8.5vh;
-    background: var(--black-color);
-    color: var( --white-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.2rem;
+  height: 8.5vh;
+  background: var(--black-color);
+  color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
 .drawer__heading {
-    margin: auto;
-    cursor: pointer;
-    font-size: 1.5rem;
+  margin: auto;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
 
 .textDrawer1 {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .sidebar__item {
-    height: 5.4vh;
-    border: 1px solid var(--white-color);
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--white-color);
-    font-size: 1.3rem;
+  height: 5.4vh;
+  border: 1px solid var(--white-color);
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+  font-size: 1.3rem;
 }
 
 .sidebar__item:hover {
-    background: var(--superlightBlue-color);
+  background: var(--superlightBlue-color);
 }
 
 .sidebar__item a {
-    position: absolute;
-    color: rgb(13, 13, 112);
+  position: absolute;
+  color: var(--darkBlue2-color);
 }
-
-
 
 /******  main body ************/
 
 .navIcons i {
-    color: var(--white-color);
-    margin: 0 0.6rem;
+  color: var(--white-color);
+  margin: 0 0.6rem;
 }
 
 .body__heading {
-    height: 8.5vh;
-    background: var(--purple-color);
-    color: var(--white-color);
-    display: flex;
-    align-items: center;
-    box-shadow: 4px 4px 4px var(--boxShadow-color);
-    margin-bottom: 6px;
+  height: 8.5vh;
+  background: var(--purple-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px 4px var(--boxShadow-color);
+  margin-bottom: 6px;
 }
 
 .mainBody {
-    width: 100%;
-    overflow: scroll;
-    background-color: var(--white-color);
+  width: 100%;
+  overflow: scroll;
+  background-color: var(--white-color);
 }
 
 .drawerDescription {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 h3 {
-    margin: 0 1.5rem;
+  margin: 0 1.5rem;
 }
 
 .fa-bars {
-    margin: 0 2rem;
-    padding: 1rem;
+  margin: 0 2rem;
+  padding: 1rem;
 }
 
 .fa-bars:hover {
-    background: var(--primary-color);
+  background: var(--primary-color);
 }
-
-
 
 /******** Permanent drawer ********/
 
 .permanent__body .body__heading {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 
 .permanent--Drawer .drawer__title {
-    background-color: var(--purple-color);
+  background-color: var(--purple-color);
 }
-
 
 /********  Dismissible drawer ********/
 
 .dismissibleDrawer {
-    width: 0.0001rem;
+  width: 18vw;
 }
 
 .left {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .dismissible__body .body__heading {
-    background-color: var(--lightseagreen-color);
+  background-color: var(--lightseagreen-color);
 }
 
 .dismissible__body .fa-bars:hover {
-    background: var(--seagreen-color);
+  background: var(--seagreen-color);
 }
 
 .drawer__Container--Dismissible .drawer__title {
-    background-color: var(--seagreen-color);
+  background-color: var(--seagreen-color);
 }
 
 /********  Modal drawer ***********/
 
 .drawer__Container--Modal {
-    position: relative;
+  position: relative;
 }
 
 .modalDrawer1 {
-    position: absolute;
-    height: 49vh;
-    background-color: var(--background-color);
-    visibility: hidden;
-    width: 14vw;
+  position: absolute;
+  height: 49vh;
+  background-color: var(--background-color);
+  visibility: hidden;
+  width: 14vw;
 }
 
 .modal__body .body__heading {
-    background-color: var(--deepBlue-color);
+  background-color: var(--deepBlue-color);
 }
 
 .modal__body .fa-bars:hover {
-    background-color: var(--kDeepBlue-color);
+  background-color: var(--kDeepBlue-color);
 }
 
 .modalDrawer1 .drawer__title {
-background-color: var(--deepBlue-color);
+  background-color: var(--deepBlue-color);
 }
 
 .log {
-    background-color: var(--white-color);
-    margin-right: 1rem;
-    padding: 0.5rem 0.8rem;
-    border: none;
+  background-color: var(--white-color);
+  margin-right: 1rem;
+  padding: 0.5rem 0.8rem;
+  border: none;
 }
 
 .log:hover {
-    border: 3px solid var(--kDeepBlue-color);
+  border: 3px solid var(--kDeepBlue-color);
 }
 
-
 /* e-com */
-
-
-
 
 /**************************** end of nav *****************************************************/
 
 /* mobile mode */
 
 @media only screen and (max-width: 800px) {
-    .dismissibleDrawer {
-        width: 40vw;
-    }
-    
-    .drawer__menu {
-        width: 40vw;
-        border: 1px solid var(--darkGray-color);
-    }
+  .dismissibleDrawer {
+    width: 0px;
+  }
 
-    html {
-        font-size: 0.5rem;
-    }
+  .drawer__menu {
+    width: 40vw;
+    border: 1px solid var(--darkGray-color);
+  }
 
-    .drawer--container {
-        margin: 10vh 7vh;
-    }
-    .navIcons {
-        display: none;
-    }
-    
-    .nav--container {
-    margin: 10vh 7vh;
-}
+  html {
+    font-size: 0.5rem;
+  }
+
+  .drawer--container {
+    margin: 10rem 0 0 7rem;
+  }
+  .navIcons {
+    display: none;
+  }
+
+  .nav--container {
+    margin: 10rem 0 0 6rem;
+  }
 }

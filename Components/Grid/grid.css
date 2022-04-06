@@ -1,50 +1,50 @@
-@import url('/CSS/components.css');
+@import url("/CSS/components.css");
 
 /******** Main body **************/
 
 /******** Avatar *******/
 
 .grid--container {
-  margin: 10vh;
   width: 70vw;
+  margin: 10rem 0 0 32rem;
 }
 
 .grid-twoItems {
-    display: grid;
-    grid-column-gap: 30px;
-    grid-template-columns: auto auto;
-    background-color: var(--deepBlue-color);
-    padding: 20px;
-  }
-  
-  .grid-threeItems {
-    display: grid;
-    grid-column-gap: 30px;
-    grid-template-columns: auto auto auto;
-    background-color: var(--yellowgreen-color);
-    padding: 20px;
-    height: 18vh;
-  }
+  display: grid;
+  grid-column-gap: 3rem;
+  grid-template-columns: auto auto;
+  background-color: var(--deepBlue-color);
+  padding: 2rem;
+}
 
-  .grid-multipleItems {
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: auto auto auto;
-    background-color: var(--lightred-color);
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: var(--white-color);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+.grid-threeItems {
+  display: grid;
+  grid-column-gap: 3rem;
+  grid-template-columns: auto auto auto;
+  background-color: var(--yellowgreen-color);
+  padding: 2rem;
+  height: 18vh;
+}
 
-  .grid__frame {
-      margin: 8vh 20vw;
-  }
+.grid-multipleItems {
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: auto auto auto;
+  background-color: var(--lightred-color);
+  padding: 1rem;
+}
+
+.grid-item {
+  background-color: var(--white-color);
+  border: 1px solid var(--black-color);
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.grid__frame {
+  margin: 8vh 20vw;
+}
 
 .center {
   display: flex;
@@ -58,15 +58,10 @@
   align-items: center;
 }
 
-
 /****** mobile version  *****/
 
 @media only screen and (max-width: 800px) {
-
   .grid--container {
-    margin: 10vh 7vh;
+    margin: 10rem 0 0 7rem;
+  }
 }
-}
-
-
-
