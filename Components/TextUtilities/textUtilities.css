@@ -6,8 +6,7 @@
 
 .textUtilty--container {
   width: 70vw;
-  margin: 10rem 0 0 22rem;
-  min-height: 100vh;
+  margin: 10rem 0 0 32rem;
 }
 
 .txt-container {
@@ -128,7 +127,7 @@
 
 @media only screen and (max-width: 800px) {
   .textUtilty--container {
-    margin: 10vh 7vh;
+    margin: 10rem 0 0 7rem;
   }
   .heading1,
   .heading2,
