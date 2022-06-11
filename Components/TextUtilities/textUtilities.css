@@ -1,0 +1,139 @@
+@import url("/CSS/components.css");
+
+/******** Main body **************/
+
+/******** Text Utilties *******/
+
+.textUtilty--container {
+  width: 70vw;
+  margin: 10rem 0 0 32rem;
+}
+
+.txt-container {
+  min-height: 20vh;
+  margin: 5vh 0;
+  padding: 1rem 0;
+  border-radius: 10px;
+  background-color: var(--superlightGray-color);
+}
+
+/********* Text Utilities *********/
+
+.heading1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+.heading2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.heading3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+.heading4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.heading5 {
+  font-size: 8px;
+  line-height: 16px;
+}
+
+.text-fs1 {
+  font-size: 48px;
+  line-height: 64px;
+  margin: 2rem;
+}
+.text-fs2 {
+  font-size: 32px;
+  line-height: 40px;
+  margin: 2rem;
+}
+.text-fs3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 2rem;
+}
+.text-fs4 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 2rem;
+}
+.text-fs5 {
+  font-size: 8px;
+  line-height: 16px;
+  margin: 2rem;
+}
+
+.flex-m1 {
+  display: flex;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.text-left {
+  justify-content: left;
+}
+.text-center {
+  justify-content: center;
+}
+.text-right {
+  justify-content: right;
+}
+
+.text-container {
+  width: 10rem;
+  background-color: var(--darkGray-color);
+}
+
+.overflow {
+  white-space: nowrap;
+  margin: 0 4rem;
+}
+
+.text-upperCase {
+  text-transform: uppercase;
+}
+.text-lowerCase {
+  text-transform: lowercase;
+}
+.text-capitalCase {
+  text-transform: capitalize;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+.text-line-through {
+  text-decoration: line-through;
+}
+.text-overline {
+  text-decoration: overline;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+/****** mobile version  *****/
+
+@media only screen and (max-width: 800px) {
+  .textUtilty--container {
+    margin: 10rem 0 0 7rem;
+  }
+  .heading1,
+  .heading2,
+  .heading3,
+  .heading4,
+  .heading5 {
+    margin: 1.5rem 6rem;
+  }
+}
