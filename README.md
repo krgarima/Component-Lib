@@ -32,6 +32,7 @@ AUI provides a robust, customizable, and accessible library of foundational and 
 - Navigation
 - Rating
 - Snackbar
+- Text Utilities
 ## Installation
 
  ### CSS
